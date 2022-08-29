@@ -22,7 +22,7 @@ In this task, we will explore the options available in Teams, learn how to creat
 
 1. When prompted, use the credentials provided in the **Environment Details** page to log in to the admin center.
 
-1. From the top right corner click on **App launcher**.
+1. From the top left corner click on **App launcher**.
 
 1. Under **Apps** select **Teams** and from **Open context menu** click on **Open in new tab**. This will redirect you to the Teams web app page. On the Teams page click on **Use the web app instead**.
 
