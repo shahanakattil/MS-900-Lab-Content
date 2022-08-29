@@ -54,7 +54,9 @@ In this task, you will learn how to create and manage users from Microsoft Admin
 
    - **First name:** Odl.
 
-   - **Display Name:** Odl_User-DeploymentId.
+   - **Display Name:** Odl_User-DeploymentID.
+
+    > **Note**: Replace DeploymentID with your unique id, which can be found under the environment details page.
 
    - **Username:** Odl.
 
