@@ -395,7 +395,7 @@ Microsoft SharePoint helps organizations share and manage content, knowledge, an
 
 1. To learn more about SharePoint refer to https://docs.microsoft.com/en-us/sharepoint/introduction.
 
-### Task 6: Explore List
+### Task 6: Explore Lists
 
 List helps to track information and organize your work. With a list, one can track issues, assets, routines, contacts, inventory and more using customizable views and smart rules and alerts to keep everyone in sync.
 
