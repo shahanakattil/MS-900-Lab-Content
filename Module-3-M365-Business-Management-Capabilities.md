@@ -63,9 +63,9 @@
 
 1. In the admin center, select the name of the group that you want to add members to. Refresh the page if you are not able to see the newly created group.
 
-1. To add members to the group, navigate to the **Members tab** and select **View all and manage members**.
+1. To add members to the group, navigate to the **Members tab** and select **Add member and Owners**.
 
-   ![](Images/img59.png)
+   ![](Images/img059.png)
    
 1. Click on **Add members**, select the users you want to add, and then click on **Save**.
 
@@ -213,9 +213,9 @@ In this task, you will learn how to customize the theme of your newly created fo
 
    ![](Images/img75.png)
 
-1. From the top navigation menu click on **Share**. From here based on your requirement you can either use a link, QR code, Embed, or Email option to share your form.
+1. From the top navigation menu click on **Collect Responses**. From here based on your requirement you can either use a link, QR code, Embed, or Email option to share your form.
 
-   ![](Images/img76.png)
+   ![](Images/img076.png)
    
 1. To know more about forms refer to https://support.microsoft.com/en-us/forms.
 
