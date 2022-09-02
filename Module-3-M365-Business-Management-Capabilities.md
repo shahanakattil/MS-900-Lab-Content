@@ -292,33 +292,35 @@ In this exercise, you will explore various available options in Microsoft EndPoi
 
 Before we explore the Microsoft EndPoint Manager, we need to activate the **Enterprise Mobility + Security e5** license in order to view the **Endpoint Manager**.
 
-1. Open a new browser window and log in to the admin center at https://admin.microsoft.com.
+1. Open a new browser window and log in to the admin center at [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-1. When prompted, use the credentials provided in the Environment Details page to log in to the admin center.
+1. When prompted, use the credentials provided in the **Environment Details** page to login to the admin center.
 
 1. From the navigation menu scroll down to Admin centers and select Azure Active Directory, the Azure Active Directory overview page will appear.
 
    ![](Images/img116.png)
 
-1. On the left side of the page scroll down to the **Security**.
+1. On the left side of the page scroll down to the **Licenses**, select **All Products** and then click on **+ Try/Buy**
 
-   ![](Images/img127.png)
+   ![](Images/licenses-try.png)
 
-1. In the **Security** page select **Conditional access**.
+1. Select the **Enterprise Mobility + Security E5** license and click on the **Free Trial** and select **Activate**.    
 
-   ![](Images/security.png)
-   
-1. If you see **Create your own policies and target specific conditions like Cloud apps, Sign-in risk, and Device Platforms with Azure AD Premium.**, then select it. else ignore **7&8**.
-
-   ![](Images/p5license.png)
-   
-1. Select the **Enterprise Mobility + Security e5** license and click on the **Free Trial** and select **Activate**. 
-
-   ![](Images/p5activate.png)
+   ![](Images/licenses-E5.png)
 
 1. Refresh your browser window once you see a notification that you have **Successfully activated Enterprise Mobility + Security e5**
 
    ![](Images/p5activated.png)
+
+1. Select the **Enterprise Mobility + Security E5** license and click on **+ Assign**.
+
+1. On the **Assign license** page, select **+ add users and groups** and select your user account, you can find the details in the environment details tab and click on select
+
+   ![](Images/add-user-license-1.png)
+
+1. Now select **Review and assign** followed by **Assign**.
+
+1. Open a new browser window and navigate back to the admin center at [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339)
 
 1. Switch back to **Admin Center** portal. Refresh your browser window. Now from the navigation menu scroll down to Admin centers, and select **Endpoint Manager**. This will redirect you to the Endpoint Manager admin center.
 
@@ -350,7 +352,9 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
    ![](Images/img199.png)
 
-1. From the Devices Overview pane, select **Conditional Access**, and select **New Policy** to create policy. Conditional Access refers to ways you can control the devices and apps that are allowed to connect to your email and company resources.
+1. From the Devices Overview pane, select **Conditional Access**, and select **New Policy** to see all the options available. Now select **X** to exit out of **New -Conditional Access policy** pop up.
+
+   Conditional Access refers to ways you can control the devices and apps that are allowed to connect to your email and company resources.
 
    ![](Images/img200.png)
 
@@ -364,9 +368,13 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
    ![](Images/img202.png)
   
+>**Note:** You will not see any devices present here. 
+
 1. From the navigation pane select **Apps**. On the apps page select **All apps** this displays a list of apps that have been added to Intune. You can add a variety of different app types based on the platform to Intune. Once an app has been added, you can assign it to groups of users.
 
    ![](Images/img203.png)
+
+>**Note:** You will not see any apps present here. 
 
 1. From the navigation pane, select **Users** to display details about the users that you have included in Intune.
 
