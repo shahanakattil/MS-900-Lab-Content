@@ -370,13 +370,13 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
    ![](Images/img202.png)
   
->**Note:** You will not see any devices present here. 
+>**Note:** You will not see any devices present in your lab environment. 
 
 1. From the navigation pane select **Apps**. On the apps page select **All apps** this displays a list of apps that have been added to Intune. You can add a variety of different app types based on the platform to Intune. Once an app has been added, you can assign it to groups of users.
 
    ![](Images/img203.png)
 
->**Note:** You will not see any apps present here. 
+>**Note:** You will not see any apps present in your lab environment. 
 
 1. From the navigation pane, select **Users** to display details about the users that you have included in Intune.
 
