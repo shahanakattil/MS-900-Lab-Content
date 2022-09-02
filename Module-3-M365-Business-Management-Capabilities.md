@@ -252,6 +252,8 @@ In this task, you will import sample financial data to PowerBI.
 
 In this task, you will visualize the data which you had imported in the previous task by using various visualization options available in PowerBI.
 
+1. Go to  setting in power Bi, from right icon(...), click on Admin Portal, further search for map and enable the **Use Azure Maps visual** and **Map and Filled map visuals** and Apply for both.
+
 1. Click on **Financial Sample** dataset. From the dropdown of **+Create a report**, click on **From scratch**.
 
    ![](Images/image11.png)
