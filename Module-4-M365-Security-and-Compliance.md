@@ -355,11 +355,11 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
 
 1. On the **Labels** page, select **Turn on** under **Extend labeling to assests in Azure Purview**.
 
-   ![](Images/img-turn-on.png)
+   ![](Images/img-t1.png)
 
-1. On **Turn on labeling for Azure Purview** Select **yes**.
+1. On **Turn on labeling for Microsoft Purview Data Map** Select **yes**.
 
-   ![](Images/img-turn-on-2.png)
+   ![](Images/img-t2.png)
 
 1. Now on the **Labels** page, select **+ Create a label** to start the New sensitivity, label wizard.
 
