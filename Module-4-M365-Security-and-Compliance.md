@@ -195,9 +195,9 @@ In this task, you will learn about Microsoft Secure Score.
     
    ![](Images/img113.png)
     
-1. Now select **Improvement actions** tab, this lists the security recommendations that address possible attack surfaces. It also includes their status (to address, planned, risk accepted, resolved through the third party, resolved through alternate mitigation, and completed).
+1. Now select **Recommended actions** tab, this lists the security recommendations that address possible attack surfaces. It also includes their status (to address, planned, risk accepted, resolved through the third party, resolved through alternate mitigation, and completed).
 
-   ![](Images/img114.png)
+   ![](Images/ms-900secure.png)
 
 1. When you select a specific improvement action, a full-page flyout appears.
 
