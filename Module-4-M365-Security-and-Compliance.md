@@ -167,7 +167,7 @@ In this task, you will explore Microsoft Threat Protection Portal.
 
 1. Select **Secure Score** this page provides an all-up summary of the different security features and capabilities you've enabled and includes recommendations for areas to improve.
 
-   ![](Images/img112.png)
+   ![](Images/Ms-900secure2.png)
    
 1. To learn more about Threat Protection refer to https://docs.microsoft.com/en-us/microsoft-365/security/mtp.
 
@@ -183,7 +183,7 @@ In this task, you will learn about Microsoft Secure Score.
 
 1. Select **Secure Score** from the left-hand menu. On the **Overview** page your score will be shown as a percentage, along with the number of points you've achieved out of total possible points.
 
-   ![](Images/img112.png)
+   ![](Images/Ms-900secure2.png)
 
 1. Additionally, if you select the Include button next to your score, you can choose different views of your score.
 
