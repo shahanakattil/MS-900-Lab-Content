@@ -136,8 +136,10 @@ In this task, you will learn how to access other admin centers from Microsoft Ad
    
     ![](Images/M1E1T3Step201.png)
    
-1. In the admin center page select **Exchange**. This will redirect you to the Exchange admin center page. 
-
+1. In the admin center page select **Exchange**. This will redirect you to the Exchange admin center page. click on **Clasic Exchange admin Center**.
+      
+      ![](Images/ms900-lab1-img21.png)
+      
 1. If below image page occur, click on **New Exchange admin center**. This will redirect you to the new Exchange admin center page.
   
     ![](Images/image06.png)
