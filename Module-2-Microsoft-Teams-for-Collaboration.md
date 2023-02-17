@@ -22,6 +22,33 @@ In this task, we will explore the options available in Teams, learn how to creat
 
 1. When prompted, use the credentials provided in the **Environment Details** page to log in to the admin center.
 
+1. From the navigation menu, click on the **Users** icon and click on **Active users**. This will display the list of active users.
+
+    ![](Images/img1.png)
+
+3. Now to create a new user, from the navigation menu click on **Users icon** and click on **Active users**, and then select **Add a user** icon.
+
+    ![](Images/img3.png)
+
+1. In the **Set up the basics pane**, fill the following details, and then select **Next**.
+
+   - **First name:** Odl.
+
+   - **Display Name:** Odl_User-DeploymentID.
+
+    > **Note**: Replace DeploymentID with your unique id, which can be found under the environment details page.
+
+   - **Username:** Odl.
+
+    ![](Images/img4.png)
+     
+   - **Automatically create a password**: unselected.
+
+   - **Password**: Enter a strong password.
+
+
+
+
 1. From the top left corner click on **App launcher**.
 
 1. Under **Apps** select **Teams** and from **Open context menu** click on **Open in new tab**. This will redirect you to the Teams web app page. On the Teams page click on **Use the web app instead**.
