@@ -2,7 +2,7 @@
 
 # Module 2: Microsoft Teams for Collaboration  
 
-  Microsoft Teams is a collaboration app that helps your team stay organized and have conversations—all in one place. With Microsoft Teams on your PC, Mac, or mobile device, you can :
+  Microsoft Teams is a collaboration app that helps your team stay organized and have conversations — all in one place. With Microsoft Teams on your PC, Mac, or mobile device, you can :
   
    * Pull together a team.
    * Use chat instead of email.
