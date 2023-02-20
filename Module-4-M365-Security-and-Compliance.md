@@ -1,5 +1,3 @@
-# MS-900
-
 # Module 4 : M365 Security and Compliance 
 
   This module helps you to understand various features that contribute to overall organization security.
@@ -52,7 +50,7 @@ In this task, you will enable MFA in Azure Active Directory using Conditional Ac
 
    ![](Images/img139.png)
    
- **Note :** You may see the error that default secutiy need to disabled, then follow the below steps :
+    **Note :** You may see the error that default secutiy need to disabled, then follow the below steps :
 
 1. Select the **Azure Active Directory** from the dashboard Select **Properties** then Click on **Manage Security Default** and Disabled it by selecting **My Organization is Using Conditional Access** and click on **save**.
    
