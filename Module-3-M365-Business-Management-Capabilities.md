@@ -23,16 +23,16 @@
 
 1. Open a new browser window and log in to the admin center at https://admin.microsoft.com.
 
-1. When prompted, use the credentials provided in the **Environment Details** page to login to the admin center.
-1. From the navigation menu, click on the **Users** icon and click on **Active users**. This will display the list of active users.
+2. When prompted, use the credentials provided in the **Environment Details** page to login to the admin center.
+3. From the navigation menu, click on the **Users** icon and click on **Active users**. This will display the list of active users.
 
-    ![](Images/img1.png)
+    ![](Images/ms900-lab1-3-img1.png)
 
-3. Now to create a new user, from the navigation menu click on **Users icon** and click on **Active users**, and then select **Add a user** icon.
+4. Now to create a new user, from the navigation menu click on **Users icon** and click on **Active users**, and then select **Add a user** icon.
 
-    ![](Images/img3.png)
+    ![](Images/ms900-lab1-3-img3.png)
 
-1. In the **Set up the basics pane**, fill the following details, and then select **Next**.
+5. In the **Set up the basics pane**, fill the following details, and then select **Next**.
 
    - **First name:** Odl.
 
@@ -42,25 +42,39 @@
 
    - **Username:** Odl.
 
-    ![](Images/img4.png)
+    ![](Images/ms-900-lab1-img2.png)
      
    - **Automatically create a password**: unselected.
 
    - **Password**: Enter a strong password.
+   
+6 . In the  **Assign product licenses**  pane, choose your location from the **select location** dropdown. In the licenses section, choose **Assign user a product license** and select **office 365 E5** license. Click **Next**.
 
-1. From the navigation menu click on the **Teams & Groups** icon and click on **Active teams & groups**, now select **Add a group** icon.
+   ![](Images/img6.png)
 
-   ![](Images/image02.png)
+7. In the **Optional settings**  pane, leave everything as default and click on **Next**.
+
+    ![](Images/ms900-lab1-img6.png)
+
+8. In the **Review and Finish** pane, review the new user&#39;s settings and click on **Finish adding**, then **Close**.
+
+    ![](Images/ms900-lab1-img7.png)
+   
+9. Verify that the user has been created successfully. In the Microsoft 365 admin center, in the left navigation pane, select **Users** and select **Active users**. The new user should be listed, along with their assigned license.
+
+10. From the navigation menu click on the **Teams & Groups** icon and click on **Active teams & groups**, now select **Add a group** icon.
+
+   ![](Images/ms-900-lab1-img02.png)
     
-1. On the Choose a group type page, select **Microsoft 365**, and click on **Next**.
+11. On the Choose a group type page, select **Microsoft 365**, and click on **Next**.
 
    ![](Images/M3E2T1Step401.png)
 
-1. On the Basics page, type a name for the group as **Sales-demo** and a description(optional). Click **Next**.
+12. On the Basics page, type a name for the group as **Sales-demo** and a description(optional). Click **Next**.
 
    ![](Images/M3E2T1Step501.png)   
 
-1. On the **Owners** page, choose the name of one or more people who will be designated to manage the group. Anyone who is a group owner can add or remove members and have unique permissions like the ability to delete conversations from the shared inbox or change different settings about the group. Click **Next**.
+13. On the **Owners** page, choose the name of one or more people who will be designated to manage the group. Anyone who is a group owner can add or remove members and have unique permissions like the ability to delete conversations from the shared inbox or change different settings about the group. Click **Next**.
  
    ![](Images/M3E2T1Step601.png) 
   
@@ -68,7 +82,7 @@
   
    ![](Images/M3E2T1Step6.201.png)
    
-1. Now in the **Members** page,Add existing and newly created user , and then click **Next**. (**Note:** you can join 20 member including owner)
+14. Now in the **Members** page,Add existing and newly created user , and then click **Next**. (**Note:** you can join 20 member including owner)
 
    ![](Images/M3E2T1Step701.png) 
    
@@ -76,25 +90,25 @@
    
    ![](Images/M3E2T1Step7.201.png)
 
-1. Now in the **Settings** page, type a unique email address for the group, choose a privacy option based on your requirement, and whether you want to add Microsoft Teams for the group, and then click **Next**.
+15. Now in the **Settings** page, type a unique email address for the group, choose a privacy option based on your requirement, and whether you want to add Microsoft Teams for the group, and then click **Next**.
 
    ![](Images/M3E2T1Step801.png)
 
-1. Review your settings and make any changes if needed, select **Create group**, and then **close**.
+16. Review your settings and make any changes if needed, select **Create group**, and then **close**.
 
    ![](Images/M3E2T1Step901.png)
 
-1. In the admin center, select the name of the group that you want to add members to. Refresh the page if you are not able to see the newly created group.
+17. In the admin center, select the name of the group that you want to add members to. Refresh the page if you are not able to see the newly created group.
 
-1. To add members to the group, navigate to the **Membership tab** and select **+ Owners**.
+18. To add members to the group, navigate to the **Membership tab** and select **+ Owners**.
 
    ![](Images/img059.png)
    
-1. Click on **Add members**, select the users you want to add, and then click on **Save**.
+19. Click on **Add members**, select the users you want to add, and then click on **Save**.
 
    ![](Images/img60.png)
    
-1. To learn more about groups refer to https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups.
+20. To learn more about groups refer to https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups.
 
 # Exercise 2: Explore Microsoft Planner 
 
