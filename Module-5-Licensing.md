@@ -1,6 +1,3 @@
-
-# MS-900
-
 # Module 5: Licensing 
 
   In this module, you will browse through the licensing center and learn how to assign licenses to users from Microsoft 365 Admin center.
