@@ -24,11 +24,11 @@ In this task, we will explore the options available in Teams, learn how to creat
 
 1. From the navigation menu, click on the **Users** icon and click on **Active users**. This will display the list of active users.
 
-    ![](Images/img1.png)
+    ![](Images/ms900-lab1-3-img1.png)
 
 3. Now to create a new user, from the navigation menu click on **Users icon** and click on **Active users**, and then select **Add a user** icon.
 
-    ![](Images/img3.png)
+    ![](Images/ms900-lab1-3-img3.png)
 
 1. In the **Set up the basics pane**, fill the following details, and then select **Next**.
 
@@ -40,7 +40,7 @@ In this task, we will explore the options available in Teams, learn how to creat
 
    - **Username:** Odl.
 
-    ![](Images/img4.png)
+    ![](Images/ms-900-lab1-img2.png)
      
    - **Automatically create a password**: unselected.
 
