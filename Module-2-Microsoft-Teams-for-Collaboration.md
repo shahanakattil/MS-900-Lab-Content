@@ -2,7 +2,7 @@
 
 # Module 2: Microsoft Teams for Collaboration  
 
-  Microsoft Teams is a collaboration app that helps your team stay organized and have conversations—all in one place. With Microsoft Teams on your PC, Mac, or mobile device, you can :
+  Microsoft Teams is a collaboration app that helps your team stay organized and have conversations — all in one place. With Microsoft Teams on your PC, Mac, or mobile device, you can :
   
    * Pull together a team.
    * Use chat instead of email.
@@ -21,6 +21,48 @@ In this task, we will explore the options available in Teams, learn how to creat
 1. Open a new browser window and log in to the admin center at https://admin.microsoft.com.
 
 1. When prompted, use the credentials provided in the **Environment Details** page to log in to the admin center.
+
+1. From the navigation menu, click on the **Users** icon and click on **Active users**. This will display the list of active users.
+
+    ![](Images/ms900-lab1-3-img1.png)
+
+3. Now to create a new user, from the navigation menu click on **Users icon** and click on **Active users**, and then select **Add a user** icon.
+
+    ![](Images/ms900-lab1-3-img3.png)
+
+1. In the **Set up the basics pane**, fill the following details, and then select **Next**.
+
+   - **First name:** Odl.
+
+   - **Display Name:** Odl_User-DeploymentID.
+
+    > **Note**: Replace DeploymentID with your unique id, which can be found under the environment details page.
+
+   - **Username:** Odl.
+
+    ![](Images/ms-900-lab1-img2.png)
+     
+   - **Automatically create a password**: unselected.
+
+   - **Password**: Enter a strong password.
+    - **Require this user to change their password when they first sign in** : unselected
+
+    ![](Images/ms-900-lab1-img2.png)
+
+1. In the  **Assign product licenses**  pane, choose your location from the **select location** dropdown. In the licenses section, choose **Assign user a product license** and select **office 365 E5** license. Click **Next**.
+
+    ![](Images/img6.png)
+
+1. In the **Optional settings**  pane, leave everything as default and click on **Next**.
+
+    ![](Images/ms900-lab1-img6.png)
+
+1. In the **Review and Finish** pane, review the new user&#39;s settings and click on **Finish adding**, then **Close**.
+
+    ![](Images/ms900-lab1-img7.png)
+   
+1. Verify that the user has been created successfully. In the Microsoft 365 admin center, in the left navigation pane, select **Users** and select **Active users**. The new user should be listed, along with their assigned license.
+
 
 1. From the top left corner click on **App launcher**.
 

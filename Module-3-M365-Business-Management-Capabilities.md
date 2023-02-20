@@ -2,7 +2,7 @@
 
  In this module, you will learn to work with M365 groups, Microsoft Planner, Forms, Power BI. You will also explore through Microsoft Endpoint Manager.
 
-# Exercise 1: Types of Groups in M365 
+#  Types of Groups in M365 
 
 1. In the Groups section of the Microsoft 365 admin center, you can create and manage different types of groups:
 
@@ -15,7 +15,7 @@
    
    - **Security groups**: They can be used for granting access to resources such as SharePoint sites. They can make administration easier because you need to only administer the group rather than adding users to each resource individually.
    
-# Exercise 2: Create M365 Groups
+# Exercise 1: Create M365 Groups
 
   In this exercise, you will learn how to create groups and add members to it from the admin center.
 
@@ -23,21 +23,58 @@
 
 1. Open a new browser window and log in to the admin center at https://admin.microsoft.com.
 
-1. When prompted, use the credentials provided in the **Environment Details** page to login to the admin center.
+2. When prompted, use the credentials provided in the **Environment Details** page to login to the admin center.
+3. From the navigation menu, click on the **Users** icon and click on **Active users**. This will display the list of active users.
 
-1. From the navigation menu click on the **Teams & Groups** icon and click on **Active teams & groups**, now select **Add a group** icon.
+    ![](Images/ms900-lab1-3-img1.png)
 
-   ![](Images/image02.png)
+4. Now to create a new user, from the navigation menu click on **Users icon** and click on **Active users**, and then select **Add a user** icon.
+
+    ![](Images/ms900-lab1-3-img3.png)
+
+5. In the **Set up the basics pane**, fill the following details, and then select **Next**.
+
+   - **First name:** Odl.
+
+   - **Display Name:** Odl_User-DeploymentID.
+
+    > **Note**: Replace DeploymentID with your unique id, which can be found under the environment details page.
+
+   - **Username:** Odl.
+
+    ![](Images/ms-900-lab1-img2.png)
+     
+   - **Automatically create a password**: unselected.
+
+   - **Password**: Enter a strong password.
+   
+6 . In the  **Assign product licenses**  pane, choose your location from the **select location** dropdown. In the licenses section, choose **Assign user a product license** and select **office 365 E5** license. Click **Next**.
+
+   ![](Images/img6.png)
+
+7. In the **Optional settings**  pane, leave everything as default and click on **Next**.
+
+    ![](Images/ms900-lab1-img6.png)
+
+8. In the **Review and Finish** pane, review the new user&#39;s settings and click on **Finish adding**, then **Close**.
+
+    ![](Images/ms900-lab1-img7.png)
+   
+9. Verify that the user has been created successfully. In the Microsoft 365 admin center, in the left navigation pane, select **Users** and select **Active users**. The new user should be listed, along with their assigned license.
+
+10. From the navigation menu click on the **Teams & Groups** icon and click on **Active teams & groups**, now select **Add a group** icon.
+
+   ![](Images/ms-900-lab1-img02.png)
     
-1. On the Choose a group type page, select **Microsoft 365**, and click on **Next**.
+11. On the Choose a group type page, select **Microsoft 365**, and click on **Next**.
 
    ![](Images/M3E2T1Step401.png)
 
-1. On the Basics page, type a name for the group as **Sales-demo** and a description(optional). Click **Next**.
+12. On the Basics page, type a name for the group as **Sales-demo** and a description(optional). Click **Next**.
 
    ![](Images/M3E2T1Step501.png)   
 
-1. On the **Owners** page, choose the name of one or more people who will be designated to manage the group. Anyone who is a group owner can add or remove members and have unique permissions like the ability to delete conversations from the shared inbox or change different settings about the group. Click **Next**.
+13. On the **Owners** page, choose the name of one or more people who will be designated to manage the group. Anyone who is a group owner can add or remove members and have unique permissions like the ability to delete conversations from the shared inbox or change different settings about the group. Click **Next**.
  
    ![](Images/M3E2T1Step601.png) 
   
@@ -45,7 +82,7 @@
   
    ![](Images/M3E2T1Step6.201.png)
    
-1. Now in the **Members** page, you can join 20 member including owner, and then click **Next**.
+14. Now in the **Members** page,Add existing and newly created user , and then click **Next**. (**Note:** you can join 20 member including owner)
 
    ![](Images/M3E2T1Step701.png) 
    
@@ -53,27 +90,27 @@
    
    ![](Images/M3E2T1Step7.201.png)
 
-1. Now in the **Settings** page, type a unique email address for the group, choose a privacy option based on your requirement, and whether you want to add Microsoft Teams for the group, and then click **Next**.
+15. Now in the **Settings** page, type a unique email address for the group, choose a privacy option based on your requirement, and whether you want to add Microsoft Teams for the group, and then click **Next**.
 
    ![](Images/M3E2T1Step801.png)
 
-1. Review your settings and make any changes if needed, select **Create group**, and then **close**.
+16. Review your settings and make any changes if needed, select **Create group**, and then **close**.
 
    ![](Images/M3E2T1Step901.png)
 
-1. In the admin center, select the name of the group that you want to add members to. Refresh the page if you are not able to see the newly created group.
+17. In the admin center, select the name of the group that you want to add members to. Refresh the page if you are not able to see the newly created group.
 
-1. To add members to the group, navigate to the **Members tab** and select **Add member and Owners**.
+18. To add members to the group, navigate to the **Membership tab** and select **+ Owners**.
 
    ![](Images/img059.png)
    
-1. Click on **Add members**, select the users you want to add, and then click on **Save**.
+19. Click on **Add members**, select the users you want to add, and then click on **Save**.
 
    ![](Images/img60.png)
    
-1. To learn more about groups refer to https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups.
+20. To learn more about groups refer to https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups.
 
-# Exercise 3: Explore Microsoft Planner 
+# Exercise 2: Explore Microsoft Planner 
 
 Microsoft Planner provides a hub for team members to create plans, organize, and assign tasks to different users, and to check updates on progress through dashboards. It also provides a centralized place where files can be shared and give visibility to the whole team.
 
@@ -119,7 +156,7 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
     
     - Select a due date for the task
     
-    - Click on **Assign** and choose a plan member from the list. If the right person isn't listed, type a name or email address in the search box to add someone new.
+    - Click on **Assign** and choose a plan member from the list. If the right person isn't listed, type a name or email address in the search box to add someone new. click on Add task .
     
    ![](Images/img233.png)
  
@@ -147,7 +184,7 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
 1. To learn more about planner refer to https://support.microsoft.com/en-us/planner.
 
-# Exercise 4 : Setup Microsoft Forms 
+# Exercise 3 : Setup Microsoft Forms 
 
 This exercise explains how to create and work with Microsoft Forms.
  
@@ -201,11 +238,11 @@ In this task, you will learn how to create a Form using Microsoft Forms.
 
    ![](Images/img73.png)
 
-### Task 2 : Change a form theme and Sharing forms
+### Task 2 : Change a form Style and Sharing forms
 
 In this task, you will learn how to customize the theme of your newly created form and the means to share it.
 
-1. Click on the **Theme** at the top right of the design window and pick the color or background you want.
+1. Click on the **Style** at the top right of the design window and pick the color or background you want.
 
    ![](Images/img74.png)
 
@@ -219,7 +256,7 @@ In this task, you will learn how to customize the theme of your newly created fo
    
 1. To know more about forms refer to https://support.microsoft.com/en-us/forms.
 
-# Exercise 5 : Setup Basic PowerBI Report from a sample Excel 
+# Exercise 4 : Setup Basic PowerBI Report from a sample Excel 
 
 In this exercise, you will learn how to create a Power BI report from sample data and visualize it.
 
@@ -254,13 +291,13 @@ In this task, you will visualize the data which you had imported in the previous
 
 1. Go to  setting in power Bi, from right icon(...), click on Admin Portal, further search for map and enable the **Use Azure Maps visual** and **Map and Filled map visuals** and Apply for both.
 
-1. Click on **Financial Sample** dataset. From the dropdown of **+Create a report**, click on **From scratch**.
+1. Click on **Financial Sample** dataset. From the dropdown of **+Create a report**, click on **Start from scratch**.
 
    ![](Images/image11.png)
    
    ![](Images/image12.png)
 
-1. The report opens in the Editing view and displays the blank report canvas. On the right are the **Visualizations**, **Filters**, and **Fields** panes.
+1. The report opens in the Editing view and displays the blank report canvas. On the right are the **Visualizations**, **Filters**, and **Data** panes.
 
    ![](Images/img81.png)
 
@@ -268,7 +305,7 @@ In this task, you will visualize the data which you had imported in the previous
 
    ![](Images/img82.png)
 
-1. From Fields pane, select **Date**. Power BI updates the column chart to show profit by date. 
+1. From Data pane, select **Date**. Power BI updates the column chart to show profit by date. 
 
    ![](Images/img83.png)
 
@@ -286,7 +323,7 @@ In this task, you will visualize the data which you had imported in the previous
 
 1. To learn more about **Power BI** refer to https://docs.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview.
 
-# Exercise 6 : Explore Microsoft EndPoint Manager 
+# Exercise 5 : Explore Microsoft EndPoint Manager 
 
 Microsoft Endpoint Manager helps deliver the modern workplace and modern management to keep your data secure, in the cloud and on-premises. Endpoint Manager includes the services and tools you use to manage and monitor mobile devices, desktop computers, virtual machines, embedded devices, and servers. Endpoint Manager combines services like Microsoft Intune, Configuration Manager, Desktop Analytics, co-management, and Windows Autopilot.
 
@@ -302,7 +339,7 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
    ![](Images/img116.png)
 
-1. On the left side of the page scroll down to the **Licenses**, select **All Products** and then click on **+ Try/Buy**
+1. On the left side of the page scroll down to the **Billing** and then under billing select **Licenses**, select **All Products** and then click on **+ Try/Buy**
 
    ![](Images/licenses-try.png)
 

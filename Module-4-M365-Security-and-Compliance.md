@@ -44,7 +44,7 @@ In this task, you will enable MFA in Azure Active Directory using Conditional Ac
 
    ![](Images/M4E1T1Step901.png)
    
-1. Now under **Access controls** select **Grant**, and then select **Grant access**, check the **Require multi-factor authentication** checkbox, and click on **select**.
+1. Now under **Access controls** select **Grant**, and then select **Grant access**, check the **Require multifactor authentication** checkbox, and click on **select**.
 
    ![](Images/M4E1T1Step1001.png)
    
@@ -201,7 +201,7 @@ In this task, you will learn about Microsoft Secure Score.
 
 1. When you select a specific improvement action, a full-page flyout appears.
 
-   - **Manage**: Select Manage to go to the configuration screen and make the change. You'll then gain the points that the action is worth, visible in the flyout.
+   - **Manage in Microsoft Azure**: Select Manage to go to the configuration screen and make the change. You'll then gain the points that the action is worth, visible in the flyout.
    
    - **Share**: Select Share to copy the direct link to the improvement action. You can also choose the platform to share the link, such as email, Microsoft Teams, Microsoft Planner, or ServiceNow. 
    
@@ -227,7 +227,7 @@ Microsoft Cloud App Security is a multimode Cloud Access Security Broker (CASB).
   
 1. From the left-hand menu select **Dashboard**. In the dashboard you can see details about:
 
-   - **Open alerts**: Shows the number of open alerts, a graph of the alert status distribution, and recent alerts
+   - **Alerts**: Shows the number of open alerts, a graph of the alert status distribution, and recent alerts
 
    - **Discovered apps**: Shows the number of discovered apps, a graph of the app risk distribution, and the top app categories by traffic.
 
@@ -235,7 +235,7 @@ Microsoft Cloud App Security is a multimode Cloud Access Security Broker (CASB).
 
    - **Conditional Access App Control**: Shows the number of apps protected by Conditional Access App Control as well as the number of protected sessions and actions over the last 30 days.
    
-   - **App connectors status**: Shows the number of API connected app instances and their status.
+   - **App connectors**: Shows the number of API connected app instances and their status.
 
    - **Files infected with malware**: Shows the number of files infected with malware.
 
@@ -261,7 +261,7 @@ Microsoft Cloud App Security is a multimode Cloud Access Security Broker (CASB).
 
    ![](Images/image015.png)
   
-1. Under **Report Details** tab, Enter a **Report name** and a **Description**. Select the **source** from which you want to upload the log files. Click **View and verify** then Download sample.
+1. Under **Report Details** tab, Enter a **Report name** and a **Description**. Select the **source** from which you want to upload the log files. Click **View log formate** then Download sample log.
    
    ![](Images/image016.png)
 
@@ -373,7 +373,7 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
 
     **Note**: if the scope for files and emails is not selected, you can't select the options on the next page.
   
-1. In the **File & Emails** page, select **Encrypt files and emails** and **Mark the content of files**, Click **Next**. 
+1. In the **Choose protection settings for labeled items** page, select **Encrypt files and emails** and **Mark the content of files**, Click **Next**. 
 
 1. In the **Encryption** page, choose when you want to assign permissions, whether you want your users access to the content to expire, and whether you want to allow offline access. 
       
@@ -409,7 +409,7 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
    
    ![](Images/002.png)
 
-1. In **Auto-labeling for Files & Emails**, turn on **Auto labeling**. Add a condition, under **Detect content that matches these conditions**, select Add a condition. 
+1. In **Auto-labeling for Files and Emails**, turn on **Auto-labeling for files and emails**. Add a condition, under **Detect content that matches these conditions**, select Add a condition. 
 
    ![](Images/003.png)
    
@@ -417,7 +417,7 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
 
 1. Now select **Groups & Sites** to configure priacy, access control and other settings to protect label, leave the setting as default
 
-1. Under the **Schematized data assests (preview)** check the below option, click on **Next** then review the settings and click **Create**.
+1. Under the **Schematized data assests (preview)** check the below option, click on **Next** then review the settings and click **Create label**.
      2. Select Check sensitive info types to choose the sensitive info types you want to apply to your label.
 
    ![](Images/M4E4T1Step1301.png)
@@ -430,7 +430,7 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
 
    ![](Images/img104.png)
 
-1. On the next page Click  **Choose sensitivity labels to publish**, and select your newly created label and click **ADD**, and then click **Next**.
+1. On the next page Click  **Choose sensitivity labels to publish**, and select your newly created label and click **Choose user and group**, and then click **Next**.
 
    ![](Images/img105.png)
    

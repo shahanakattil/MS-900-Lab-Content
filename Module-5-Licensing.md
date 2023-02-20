@@ -23,7 +23,7 @@
 
    ![](Images/img130.png)
 
-1. In the **Assign licenses to users** pane, type **Odl_User-DeploymentID**, and then choose it from the results to add it to the list. You can add up to 20 users at a time.
+1. In the **Assign licenses to users** pane, Enter **Uername** from **Environment Details**, and then choose it from the results to add it to the list. You can add up to 20 users at a time.
 
 1. Select **Turn apps and services on or off** to assign or remove access to specific items.
    

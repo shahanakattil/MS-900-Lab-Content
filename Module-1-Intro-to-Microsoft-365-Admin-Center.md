@@ -40,15 +40,15 @@ In this task, you will learn how to create and manage users from Microsoft Admin
 
 1. From the navigation menu, click on the **Users** icon and click on **Active users**. This will display the list of active users.
 
-    ![](Images/img1.png)
+    ![](Images/ms900-lab1-3-img1.png)
 
 1. From the navigation menu, click on the **Teams & Groups** icon and click on **Active teams & groups**. This will display a list of all the groups that are created.
 
-    ![](Images/image02.png)
+    ![](Images/ms-900-lab1-img02.png)
 
 1. Now to create a new user, from the navigation menu click on **Users icon** and click on **Active users**, and then select **Add a user** icon.
 
-    ![](Images/img3.png)
+    ![](Images/ms900-lab1-3-img3.png)
 
 1. In the **Set up the basics pane**, fill the following details, and then select **Next**.
 
@@ -59,16 +59,14 @@ In this task, you will learn how to create and manage users from Microsoft Admin
     > **Note**: Replace DeploymentID with your unique id, which can be found under the environment details page.
 
    - **Username:** Odl.
-
-    ![](Images/img4.png)
      
    - **Automatically create a password**: unselected.
 
-   - **Password**: Password.1!!
+   - **Password**: Enter a strong Password.
 
    - **Require this user to change their password when they first sign in** : unselected
 
-    ![](Images/image900.jpg)
+    ![](Images/ms-900-lab1-img2.png)
 
 1. In the  **Assign product licenses**  pane, choose your location from the **select location** dropdown. In the licenses section, choose **Assign user a product license** and select **office 365 E5** license. Click **Next**.
 
@@ -76,11 +74,11 @@ In this task, you will learn how to create and manage users from Microsoft Admin
 
 1. In the **Optional settings**  pane, leave everything as default and click on **Next**.
 
-    ![](Images/img7.png)
+    ![](Images/ms900-lab1-img6.png)
 
 1. In the **Review and Finish** pane, review the new user&#39;s settings and click on **Finish adding**, then **Close**.
 
-    ![](Images/img8.png)
+    ![](Images/ms900-lab1-img7.png)
    
 1. Verify that the user has been created successfully. In the Microsoft 365 admin center, in the left navigation pane, select **Users** and select **Active users**. The new user should be listed, along with their assigned license.
    
@@ -132,16 +130,14 @@ In this task, you will learn how to access other admin centers from Microsoft Ad
 
 1. To access other admin centers, from the navigation pane select **Admin centers** and choose all **All Admin centers**. Opens a page with a full list of Office 365 admin centers, including admin centers for OneDrive, Yammer Enterprise, Dynamics 365, Power Apps, Skype for business, and other services.
 
-    ![](Images/img13.png)
+    ![](Images/lab1-t3-img1.png)
    
-    ![](Images/M1E1T3Step201.png)
+    ![](Images/lab1-t3-img2.png)
    
 1. In the admin center page select **Exchange**. This will redirect you to the Exchange admin center page. 
 
-1. If below image page occur, click on **New Exchange admin center**. This will redirect you to the new Exchange admin center page.
-  
-    ![](Images/image06.png)
-
+      ![](Images/lab1-t3-img04.png)
+      
 1. From here you can manage email settings for your organization. In the left-hand menu explore through the options available
 
      - **Recipients**  - View and manage your mailboxes (both user and shared mailboxes), groups, resource mailboxes, and contacts.
@@ -154,15 +150,15 @@ In this task, you will learn how to access other admin centers from Microsoft Ad
      
      - **Insights**    - 	Use the recommendations to discover trends and/or insights, and take actions to fix issues related to mailbox and mail flow.
      
-       ![](Images/img150.png)
+       ![](Images/lab1-t3-img3.png)
 
 1. Switch back to the admin centers page, select **SharePoint**. This will redirect you to the Sharepoint admin center page.
 
-    ![](Images/img151.png)
+    ![](Images/lab1-t3-img4.png)
 
 1. From here you can manage site collections, list and library permissions, file storage and sharing. Explore through the options available in **SharePoint** admin center.
 
-    ![](Images/img152.png)
+    ![](Images/lab1-t3-img5.png)
 
 1. In the same way you can access and explore through all other admin centers available.
    
@@ -184,21 +180,25 @@ Microsoft Outlook is an application that is used mainly to send and receive emai
 
 1. Under **Apps**, select **Outlook** and from **Open context menu** click on **Open in new tab**. This will redirect you to the outlook mail.
    
-    ![](Images/img9.png)
+    ![](Images/lab1-E2t1-img1.png)
    
-1. On the outlook page, choose **New message**  to send a new mail. Enter a name or email address in the To, Cc, or Bcc field. In Subject, type the subject of the email message.  Place the cursor in the body of the email message, and then start typing.  After typing your message, choose Send.
+1. On the outlook page, choose **New Mail**  to send a new mail. Enter a name or email address in the To, Cc, or Bcc field. In Subject, type the subject of the email message.  Place the cursor in the body of the email message, and then start typing.  After typing your message, choose Send.
 
-    ![](Images/img153.png)
+    ![](Images/lab1-E2t1-img2.png)
+    
+    ![](Images/lab1-E2t1-img3.png)
+    
    
 1. From the left-hand menu select **Calendar**. From here you can create appointments, events, organize meetings and view group schedules.
 
-    ![](Images/M1E2T1Step7.png)
+    ![](Images/lab1-E2t1-img4.png)
+    
    
 1. Now Select **People**, you can use the People page to view, create, edit, find, and delete contacts. You can use your contacts for your reference, and can automatically add them as recipients when you compose an email message.
 
-    ![](Images/M1E2T1Step8.png)
-
-1. From the left-hand menu you can explore all other options available. 
+    ![](Images/lab1-E2t1-img5.png)
+    
+  1. From the left-hand menu you can explore all other options available. 
    
 ### Task 2: Explore OneDrive
 
@@ -206,31 +206,31 @@ OneDrive gives you one place to store, share, and sync your work or school files
 
 1. Switch back to the user account and from  **App launcher** under **Apps**, select **OneDrive**. From **Open context menu** click on **Open in new tab**. This will redirect you to the **OneDrive** page, from here you can manage all your **files**.
    
-    ![](Images/img10.png)
+    ![](Images/lab1-E2t2-img1.png)
    
-    ![](Images/img16.png)
+    ![](Images/lab1-E2t2-img2.png)
 
 1. Now we will try to create a folder and upload files to it. On the OneDrive page click on **New** and select the **Folder** option, when prompted provide a name for your folder and click on **Create**.
   
-    ![](Images/img17.png)
+    ![](Images/lab1-E2t2-img3.png)
    
-    ![](Images/img18.png)
+    ![](Images/lab1-E2t2-img4.png)
    
 1. Now select the newly created folder. From the top navigation bar select, **Upload** and select **Files**, when prompted choose the file(s) that you want to upload.
 
-    ![](Images/img19.png)
+    ![](Images/lab1-E2t2-img5.png)
    
 1. Select the new file that you have uploaded, click on the **Show actions** icon. This will display the list of actions that can be performed.
 
-    ![](Images/img20.png)
+    ![](Images/lab1-E2t2-img6.png)
    
 1. On the **OneDrive** page select the file or folder you want to share by selecting the circle in the upper corner of the item. Select Share at the top of the page.
 
-    ![](Images/img156.png)
+    ![](Images/lab1-E2t2-img7.png)
 
 1. Select **Anyone with the link can edit to customize the link** option. Set the options you want on your link, then select Apply when you're done.
 
-    ![](Images/img157.png)
+    ![](Images/lab1-E2t2-img8.png)
 
       - **Anyone**: Gives access to anyone who receives this link, whether they receive it directly from you or forwarded from someone else. This may include people outside of your organization.
       
@@ -246,11 +246,11 @@ OneDrive gives you one place to store, share, and sync your work or school files
 
      - **Set password**: When a user clicks the link, they will be prompted to enter a password before they can access the file. You'll need to provide this password separately to users.
      
-    ![](Images/img158.png)
+    ![](Images/lab1-E2t2-img9.png)
        
 1. Once you're back at the main **Share** box enter a name or email of users with whom you intend to share the file, click on **Send**. You can also select **Copy Link** to copy the link to your clipboard and share it.
 
-    ![](Images/img159.png)
+    ![](Images/lab1-E2t2-img10.png)
   
 1. You can explore through other options available in the **OneDrive**. 
 
