@@ -62,7 +62,7 @@ In this task, you will learn how to create and manage users from Microsoft Admin
      
    - **Automatically create a password**: unselected.
 
-   - **Password**: Password.1!!
+   - **Password**: Enter a strong Password.
 
    - **Require this user to change their password when they first sign in** : unselected
 
