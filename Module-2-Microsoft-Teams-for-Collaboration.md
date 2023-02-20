@@ -45,8 +45,23 @@ In this task, we will explore the options available in Teams, learn how to creat
    - **Automatically create a password**: unselected.
 
    - **Password**: Enter a strong password.
+    - **Require this user to change their password when they first sign in** : unselected
 
+    ![](Images/ms-900-lab1-img2.png)
 
+1. In the  **Assign product licenses**  pane, choose your location from the **select location** dropdown. In the licenses section, choose **Assign user a product license** and select **office 365 E5** license. Click **Next**.
+
+    ![](Images/img6.png)
+
+1. In the **Optional settings**  pane, leave everything as default and click on **Next**.
+
+    ![](Images/ms900-lab1-img6.png)
+
+1. In the **Review and Finish** pane, review the new user&#39;s settings and click on **Finish adding**, then **Close**.
+
+    ![](Images/ms900-lab1-img7.png)
+   
+1. Verify that the user has been created successfully. In the Microsoft 365 admin center, in the left navigation pane, select **Users** and select **Active users**. The new user should be listed, along with their assigned license.
 
 
 1. From the top left corner click on **App launcher**.
