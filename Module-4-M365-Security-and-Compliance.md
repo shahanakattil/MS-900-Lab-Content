@@ -46,7 +46,7 @@ In this task, you will enable MFA in Azure Active Directory using Conditional Ac
    
 1. Now under **Access controls** select **Grant**, and then select **Grant access**, check the **Require multi-factor authentication** checkbox, and click on **select**.
 
-   ![](Images/M4E1T1Step1001.png)
+   ![](Images/ms900-6.png)
    
 1. Confirm your settings and set Enable policy to **On**. Click on **Create** to create and enable your policy.
 
@@ -77,7 +77,7 @@ Privileged Identity Management (PIM) is a service in Azure Active Directory (Azu
 
    ![](Images/img116.png)
    
-1. On the Azure Active Directory page click on **All services**  and select **Azure AD Privileged Identity Management**.
+1. On the Azure Active Directory page click on **Identity & governnace** under **Azure Active Directory** and then select **Privileged Identity Management**.
 
    ![](Images/M4E1T2Step301.png)
 
@@ -85,7 +85,7 @@ Privileged Identity Management (PIM) is a service in Azure Active Directory (Azu
 
 1. Now select **Settings**, from here you can configure role settings. Explore through the roles and select the role which you want to configure.
 
-   ![](Images/img118.png)
+   ![](Images/ms900-8.png)
 
 1. Select **Edit** to open the Role settings page. On the Role setting page for each role, there are several settings you can configure.
 
