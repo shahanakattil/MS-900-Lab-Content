@@ -62,51 +62,53 @@
    
 9. Verify that the user has been created successfully. In the Microsoft 365 admin center, in the left navigation pane, select **Users** and select **Active users**. The new user should be listed, along with their assigned license.
 
-10. From the navigation menu click on the **Teams & Groups** icon and click on **Active teams & groups**, now select **Add a group** icon.
+10. From the navigation menu click on the **Teams & Groups (1)** icon and click on **Active teams & groups (2)**, now select **Add a group (3)** icon.
 
-   ![](Images/ms-900-lab1-img02.png)
+    ![](Images/upd-ms-900-lab1-img02.png)
     
 11. On the Choose a group type page, select **Microsoft 365**, and click on **Next**.
 
-   ![](Images/M3E2T1Step401.png)
+    ![](Images/M3E2T1Step401.png)
 
 12. On the Basics page, type a name for the group as **Sales-demo** and a description(optional). Click **Next**.
 
-   ![](Images/M3E2T1Step501.png)   
+    ![](Images/M3E2T1Step501.png)   
 
 13. On the **Owners** page, choose the name of one or more people who will be designated to manage the group. Anyone who is a group owner can add or remove members and have unique permissions like the ability to delete conversations from the shared inbox or change different settings about the group. Click **Next**.
  
-   ![](Images/M3E2T1Step601.png) 
+    ![](Images/M3E2T1Step601.png) 
   
-   ![](Images/M3E2T1Step6.101.png)  
+    ![](Images/M3E2T1Step6.101.png)  
   
-   ![](Images/M3E2T1Step6.201.png)
+    ![](Images/M3E2T1Step6.201.png)
    
 14. Now in the **Members** page,Add existing and newly created user , and then click **Next**. (**Note:** you can join 20 member including owner)
 
-   ![](Images/M3E2T1Step701.png) 
+    ![](Images/M3E2T1Step701.png) 
    
-   ![](Images/M3E2T1Step7.101.png)
+    ![](Images/M3E2T1Step7.101.png)
    
-   ![](Images/M3E2T1Step7.201.png)
+    ![](Images/M3E2T1Step7.201.png)
 
 15. Now in the **Settings** page, type a unique email address for the group, choose a privacy option based on your requirement, and whether you want to add Microsoft Teams for the group, and then click **Next**.
 
-   ![](Images/M3E2T1Step801.png)
+    ![](Images/M3E2T1Step801.png)
 
 16. Review your settings and make any changes if needed, select **Create group**, and then **close**.
 
-   ![](Images/M3E2T1Step901.png)
+    ![](Images/M3E2T1Step901.png)
 
 17. In the admin center, select the name of the group that you want to add members to. Refresh the page if you are not able to see the newly created group.
 
-18. To add members to the group, navigate to the **Membership tab** and select **+ Owners**.
+18. To add members to the group, navigate to the **Membership tab (1)** and select **Members (2)**.
 
-   ![](Images/img059.png)
+    ![](Images/upd-img059.png)
    
-19. Click on **Add members**, select the users you want to add, and then click on **Save**.
-
-   ![](Images/img60.png)
+19. Click on **+ Add members**, select the users you want to add, and then click on **Save**.
+    
+    > **Note:** You will have different members in your environment. 
+    
+    ![](Images/img60.png)
    
 20. To learn more about groups refer to https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups.
 
@@ -124,31 +126,33 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
 1. Select **New plan**  in the left pane.
  
-   ![](Images/img61.png)
+    ![](Images/img61.png)
 
-1. In the **New plan** window: 
+1. On the **New plan** window, select **New blank plan** option.
+
+1. In the **New blank plan** window: 
     
     - Enter a name for the plan as **Demo-plan**
     
     - Make the plan public if you want it to be visible to the rest of your organization and in search results, or make it private if you want only plan members to see it.
     
-    - Click on **Add to an existing Microsoft 365 Group** to create your plan in an existing group or if needed you can create a new group.
+    - Click on **Add to an existing Microsoft 365 Group** to create your plan in an existing group ( i.e. **Sales-demo**) or if needed you can create a new group.
     
-    - Select **Create plan**.
+    - Select **Create**.
     
-   ![](Images/img62.png)
+    ![](Images/upd-img62.png)
 
 1. Now to add members to the plan, from the upper-right corner of the Planner window click on **Members**.
 
-   ![](Images/img63.png)
+    ![](Images/img63.png)
 
 1. Search the name or email address of a person within your organization that you want to add to the plan and select the person's card when it appears.
 
 1. Now to create a bucket click on **Add new bucket**. Buckets helps to organize tasks into things like workstreams, project phases, or topics. 
 
-   ![](Images/img232.png)
+    ![](Images/img232.png)
 
-1.  Type a name for the bucket, and then press Enter.
+1. Type a name for the bucket, and then press Enter.
 
 1. Select **Add task** below the heading of the bucket to which you want to add a task.
     
@@ -158,21 +162,21 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
     
     - Click on **Assign** and choose a plan member from the list. If the right person isn't listed, type a name or email address in the search box to add someone new. click on Add task .
     
-   ![](Images/img233.png)
+    ![](Images/img233.png)
  
 1. Click on the task to open the task window. 
  
 1. Select **Start anytime** below Start date, and then select the start date you want. Select **Due anytime** below Due date, and then select the due date you want.
  
-   ![](Images/img234.png)
+    ![](Images/img234.png)
      
 1. In the task window select **Priority**  from here you can set the priority of the task.
  
-   ![](Images/img235.png)
+    ![](Images/img235.png)
  
 1. Select **Add attachment**. Select **computer** to attach a locally stored file, select **Link** to include a link, or select **SharePoint** to attach a file from a SharePoint site.
 
-   ![](Images/image10.png)
+    ![](Images/image10.png)
 
 1. Navigate to and select the file you want to attach or enter the link information.
 
@@ -180,7 +184,7 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
 1. Now select **Charts**. The charts show how your plan is progressing, with details about what’s done, in progress, not started, and late.
 
-   ![](Images/img237.png)
+    ![](Images/img237.png)
 
 1. To learn more about planner refer to https://support.microsoft.com/en-us/planner.
 
@@ -206,11 +210,11 @@ In this task, you will learn how to create a Form using Microsoft Forms.
 
 1. Click **Add New** to add a new question to the form. 
 
-   ![](Images/img66.png)
+    ![](Images/img66.png)
 
 1. Choose from Choice, Text, Rating, or Date questions. You can also click More question types Drop down list for more question types in Microsoft Forms to select Ranking, Likert, File upload, or Net Promoter Score® questions. 
 
-   ![](Images/img67.png)
+    ![](Images/img67.png)
 
 1. For now select **Choice**. Enter the text you want to display for the question and each of the choices. Click **Add Option** to add more choices than the default two choices.
 
@@ -220,23 +224,23 @@ In this task, you will learn how to create a Form using Microsoft Forms.
 
 1. Text questions also allow you to set restrictions when you need to have numbers as the answer. For this click on **More options** button, and then select **Restrictions**.
     
-   ![](Images/img68.png)
+    ![](Images/img68.png)
    
-   ![](Images/img69.png)
+    ![](Images/img69.png)
   
 1. Now from the drop-down select **Between** and enter the number. You can choose to restrict the numbers by selecting from the various options such as Greater than, Less than, Between, and many others.
    
-   ![](Images/img70.png)
+    ![](Images/img70.png)
 
 1. Click Preview at the top of the design window to see how your form will look on a computer. Now to test your form, enter answers for the questions in preview mode and then click on **Submit**.
 
-   ![](Images/img71.png)
+    ![](Images/img71.png)
    
-   ![](Images/img72.png)
+    ![](Images/img72.png)
 
 1. Now click on **Back** and select the **Responses tab**. From here you can see summary information data about your form, such as the number of responses and the average time it took for respondents to complete your form.
 
-   ![](Images/img73.png)
+    ![](Images/img73.png)
 
 ### Task 2 : Change a form Style and Sharing forms
 
@@ -244,15 +248,15 @@ In this task, you will learn how to customize the theme of your newly created fo
 
 1. Click on the **Style** at the top right of the design window and pick the color or background you want.
 
-   ![](Images/img74.png)
+    ![](Images/img74.png)
 
 1. If you prefer to customize the theme, within the theme page scroll down and select **+ Customize theme** button. From here you can either upload an image by clicking on **Upload image** icon or customize the color of your choice by clicking on **Customize color** button.
 
-   ![](Images/img75.png)
+    ![](Images/img75.png)
 
 1. From the top navigation menu click on **Collect Responses**. From here based on your requirement you can either use a link, QR code, Embed, or Email option to share your form.
 
-   ![](Images/img076.png)
+    ![](Images/img076.png)
    
 1. To know more about forms refer to https://support.microsoft.com/en-us/forms.
 
@@ -272,17 +276,18 @@ In this task, you will import sample financial data to PowerBI.
 
 1. Download sample data from https://docs.microsoft.com/en-us/power-bi/create-reports/sample-financial-download
 
-   ![](Images/img77.png)
+    ![](Images/img77.png)
    
 1. In Power BI, from the left navigation menu select **My workspace**, click on **New**, and from the drop-down select **Upload a file**.
 
-   ![](Images/img78.png)
+    ![](Images/img78.png)
 
-1. Select **Local File**, browse to where you saved the Financial Sample data file, and click on **Open**.
+1. Under Add data to get started page, select **Excel**. On the select a file pop-up window, click on **Browse this device**.
+    
+    ![](Images/upd-img79.png)
+    ![](Images/upd-img80.png)
 
-   ![](Images/img79.png)
-
-1. On the **Local File page**, select **Import**.
+1. Browse to where you saved the Financial Sample data file, and click on **Open**..
 
 
 ### Task 2 : Visualize data
@@ -293,33 +298,33 @@ In this task, you will visualize the data which you had imported in the previous
 
 1. Click on **Financial Sample** dataset. From the dropdown of **+Create a report**, click on **Start from scratch**.
 
-   ![](Images/image11.png)
+    ![](Images/image11.png)
    
-   ![](Images/image12.png)
+    ![](Images/image12.png)
 
 1. The report opens in the Editing view and displays the blank report canvas. On the right are the **Visualizations**, **Filters**, and **Data** panes.
 
-   ![](Images/img81.png)
+    ![](Images/img81.png)
 
-1. Now let us create visualizations. Let's say your manager wants to see profit over time. To do this, in the Fields pane select **Profit**. Power BI displays a column chart with one column.
+1. Now let us create visualizations by selecting **Clustered column chart (1)**. Let's say your manager wants to see profit over time. To do this, in the Fields pane select **Profit (2)**. Power BI displays a column chart with one column.
 
-   ![](Images/img82.png)
+    ![](Images/upd-img82.png)
 
 1. From Data pane, select **Date**. Power BI updates the column chart to show profit by date. 
 
-   ![](Images/img83.png)
+    ![](Images/img83.png)
 
 1. We can also create a map visualization. In this, we will check which countries are the most profitable.
 
-1. Select a blank area on your report canvas, from the **Fields** pane, select **Country**, and **Profit** field. Power BI creates a map visual with bubbles representing the relative profit of each location.
+1. Select a blank area on your report canvas and click on **Maps** under visualization pane. From the **Fields** pane, select **Country**, and **Profit** field. Power BI creates a map visual with bubbles representing the relative profit of each location.
 
-   ![](Images/img84.png)
+    ![](Images/img84.png)
 
 1. In this way you can explore through other visualization options.
 
 1. To save your report from the top navigation menu, select **File** and click on **Save**, provide a name for your report, and select **Save**.
 
-   ![](Images/img85.png)
+    ![](Images/img85.png)
 
 1. To learn more about **Power BI** refer to https://docs.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview.
 
@@ -337,25 +342,27 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
 1. From the navigation menu scroll down to Admin centers and select Azure Active Directory, the Azure Active Directory overview page will appear.
 
-   ![](Images/img116.png)
+    ![](Images/img116.png)
 
 1. On the left side of the page scroll down to the **Billing** and then under billing select **Licenses**, select **All Products** and then click on **+ Try/Buy**
 
-   ![](Images/licenses-try.png)
+    ![](Images/licenses-try.png)
 
 1. Select the **Enterprise Mobility + Security E5** license and click on the **Free Trial** and select **Activate**.    
 
-   ![](Images/licenses-E5.png)
+    ![](Images/licenses-E5.png)
 
 1. Refresh your browser window once you see a notification that you have **Successfully activated Enterprise Mobility + Security e5**
 
-   ![](Images/p5activated.png)
+    ![](Images/p5activated.png)
 
 1. Select the **Enterprise Mobility + Security E5** license and click on **+ Assign**.
 
+    ![](Images/upd-p5activated.png)
+
 1. On the **Assign license** page, select **+ add users and groups** and select your user account, you can find the details in the environment details tab and click on select
 
-   ![](Images/add-user-license-1.png)
+    ![](Images/add-user-license-1.png)
 
 1. Now select **Review and assign** followed by **Assign**.
 
@@ -363,11 +370,11 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
 1. Switch back to **Admin Center** portal. Refresh your browser window. Now from the navigation menu scroll down to Admin centers, and select **Endpoint Manager**. This will redirect you to the Endpoint Manager admin center.
 
-   ![](Images/img196.png)
+    ![](Images/img196.png)
 
 1. From the navigation pane, select **Dashboard** to display overall details about the devices and client apps in your Intune tenant.
 
-   ![](Images/img197.png)
+    ![](Images/img197.png)
 
 1. Microsoft Intune is a cloud-based service that focuses on mobile device management (MDM) and mobile application management (MAM). Intune is part of Microsoft's Enterprise Mobility + Security (EMS) suite.
 
@@ -389,40 +396,44 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
 1. From the Devices **Overview** pane, select **Compliance policies**  to display details about compliance policies for devices managed by Intune. Compliance requirements are essentially rules, such as requiring a device PIN or requiring device encryption. Device compliance policies define the rules and settings that a device must follow to be considered compliant.
 
-   ![](Images/img199.png)
+    ![](Images/img199.png)
 
 1. From the Devices Overview pane, select **Conditional Access**, and select **New Policy** to see all the options available. Now select **X** to exit out of **New -Conditional Access policy** pop up.
 
    Conditional Access refers to ways you can control the devices and apps that are allowed to connect to your email and company resources.
 
-   ![](Images/img200.png)
+    ![](Images/img200.png)
 
 1. From the navigation pane, select Devices and select **Configuration profiles** to display details about device profiles in Intune(**Reference**). 
 
-   ![](Images/img201.png)
+    ![](Images/img201.png)
 
 1. From here you can configure device restriction settings like Allow or block the device camera, control access to Google Play, app stores, viewing documents, and gaming, and much more.
 
 1. In the  **Devices** page select **All devices** to display details about your Intune tenant's enrolled devices. This list of devices show key details about compliance, OS version, and last check-in date. 
 
-   ![](Images/img202.png)
+    ![](Images/img202.png)
   
->**Note:** You will not see any devices present in your lab environment. 
+    >**Note:** You will not see any devices present in your lab environment. 
 
 1. From the navigation pane select **Apps**. On the apps page select **All apps** this displays a list of apps that have been added to Intune. You can add a variety of different app types based on the platform to Intune. Once an app has been added, you can assign it to groups of users.
 
-   ![](Images/img203.png)
+    ![](Images/img203.png)
 
->**Note:** You will not see any apps present in your lab environment. 
+    >**Note:** You will not see any apps present in your lab environment. 
 
 1. From the navigation pane, select **Users** to display details about the users that you have included in Intune.
 
-   ![](Images/img204.png)
+    ![](Images/img204.png)
+    
+    >**Note:** You will have different list of users in your environment.
 
 1. From the navigation pane, select **Groups** to display details about the Azure Active Directory (Azure AD) groups included in Intune. As an Intune admin, you use groups to manage devices and users.
 
-   ![](Images/img205.png)
+    ![](Images/img205.png)
    
+    >**Note:** You will have different list of groups in your environment.
+     
 1. To learn more about Endpoint Manager refer to https://docs.microsoft.com/en-us/mem/intune/fundamentals.
 
 ## Conclusion
