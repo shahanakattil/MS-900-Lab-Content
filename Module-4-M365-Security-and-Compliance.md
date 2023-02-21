@@ -18,9 +18,9 @@ In this task, you will enable MFA in Azure Active Directory using Conditional Ac
 
    ![](Images/img116.png)
 
-1. On the left side of the page scroll down to the **Security**.
+1. On the left side of the page scroll down to the **Protect & Secure** section under **Azure Active Directory** and then select the dropdown next to **Protect & Secure** then selct **security center**.
 
-   ![](Images/img127.png)
+   ![](Images/ms900-1.png)
 
 1. In the **Security** page select **Conditional access**.
 
@@ -28,29 +28,29 @@ In this task, you will enable MFA in Azure Active Directory using Conditional Ac
 
 1. At the top of the Policies pane, click **+ New Policy**. 
 
-   ![](Images/img-127.png)
+   ![](Images/ms900-2.png)
 
 1. Provide a name for your policy. Under Assignments, select **Users and groups**. In the Include tab, **select users and groups**. In the search bar search and select the user's you intend to enable MFA and click on **Select**.
 
-   ![](Images/M4E1T1Step701.png)
+   ![](Images/ms900-3.png)
 
 1. Under **Cloud apps or actions**, click on **Select Apps** and select the apps for which you intend to apply policy.
 
-   ![](Images/M4E1T1Step801.png)
+   ![](Images/ms900-4.png)
 
 1. Now under **Conditions** tab select **Client apps** and in **Client apps** page under **Configure** select **Yes** and then select **Done**. You can also make use of other conditions like risk, device platform, or location based on your requirement
 
-   ![](Images/M4E1T1Step901.png)
+   ![](Images/ms900-5.png)
    
-1. Now under **Access controls** select **Grant**, and then select **Grant access**, check the **Require multifactor authentication** checkbox, and click on **select**.
+1. Now under **Access controls** select **Grant**, and then select **Grant access**, check the **Require multi-factor authentication** checkbox, and click on **select**.
 
-   ![](Images/M4E1T1Step1001.png)
+   ![](Images/ms900-6.png)
    
 1. Confirm your settings and set Enable policy to **On**. Click on **Create** to create and enable your policy.
 
    ![](Images/img139.png)
    
-    **Note :** You may see the error that default secutiy need to disabled, then follow the below steps :
+ **Note :** You may see the error that default secutiy need to disabled, then follow the below steps :
 
 1. Select the **Azure Active Directory** from the dashboard Select **Properties** then Click on **Manage Security Default** and Disabled it by selecting **My Organization is Using Conditional Access** and click on **save**.
    
@@ -75,7 +75,7 @@ Privileged Identity Management (PIM) is a service in Azure Active Directory (Azu
 
    ![](Images/img116.png)
    
-1. On the Azure Active Directory page click on **All services**  and select **Azure AD Privileged Identity Management**.
+1. On the Azure Active Directory page click on **Identity & governnace** under **Azure Active Directory** and then select **Privileged Identity Management**.
 
    ![](Images/M4E1T2Step301.png)
 
@@ -83,7 +83,7 @@ Privileged Identity Management (PIM) is a service in Azure Active Directory (Azu
 
 1. Now select **Settings**, from here you can configure role settings. Explore through the roles and select the role which you want to configure.
 
-   ![](Images/img118.png)
+   ![](Images/ms900-8.png)
 
 1. Select **Edit** to open the Role settings page. On the Role setting page for each role, there are several settings you can configure.
 
