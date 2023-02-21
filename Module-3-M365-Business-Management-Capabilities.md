@@ -24,11 +24,11 @@
 1. Open a new browser window and log in to the admin center at https://admin.microsoft.com.
 
 2. When prompted, use the credentials provided in the **Environment Details** page to login to the admin center.
-3. From the navigation menu, click on the **Users** icon and click on **Active users**. This will display the list of active users.
+3. From the navigation menu, click on the **Users (1)** icon and click on **Active users (2)**. This will display the list of active users.
 
     ![](Images/ms900-lab1-3-img1.png)
 
-4. Now to create a new user, from the navigation menu click on **Users icon** and click on **Active users**, and then select **Add a user** icon.
+4. Now to create a new user, from the navigation menu click on **Users icon (1)** and click on **Active users (2)**, and then select **Add a user (3)** icon.
 
     ![](Images/ms900-lab1-3-img3.png)
 
