@@ -219,9 +219,7 @@ Microsoft Cloud App Security is a multimode Cloud Access Security Broker (CASB).
 
    ![](Images/img178.png)
 
-1. In the Microsoft 365 security page, click **More resources**, and then select **Microsoft Defender for Cloud Apps**.
-
-   ![](Images/Capp1.png)
+1. Open a new tab and navigate to the https://portal.cloudappsecurity.com/.
   
 1. From the left-hand menu select **Dashboard**. In the dashboard you can see details about:
 
@@ -355,10 +353,6 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
 
    ![](Images/img-t1.png)
 
-1. On **Turn on labeling for Microsoft Purview Data Map** Select **yes**.
-
-   ![](Images/img-t2.png)
-
 1. Now on the **Labels** page, select **+ Create a label** to start the New sensitivity, label wizard.
 
    ![](Images/img90.png)
@@ -366,12 +360,8 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
 1. Enter a **Label name**  and **Description**. Select **Next**.
 
       -**Groups & sites**: Enable sensitivity labels for containers and synchronize labels
-
-      -**Azure Purview assets (preview)**: Enable to Automatically label your content in Azure Purview
-
-    **Note**: if the scope for files and emails is not selected, you can't select the options on the next page.
   
-1. In the **Choose protection settings for labeled items** page, select **Encrypt files and emails** and **Mark the content of files**, Click **Next**. 
+1. In the **Choose protection settings for labeled items** page, select **Apply or remove encryption** and **Apply content marking**, Click **Next**. 
 
 1. In the **Encryption** page, choose when you want to assign permissions, whether you want your users access to the content to expire, and whether you want to allow offline access. 
       
@@ -405,7 +395,7 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
 
    ![](Images/001.png)
    
-   ![](Images/002.png)
+   ![](Images/ms900-10.png)
 
 1. In **Auto-labeling for Files and Emails**, turn on **Auto-labeling for files and emails**. Add a condition, under **Detect content that matches these conditions**, select Add a condition. 
 
