@@ -54,7 +54,7 @@ In this task, you will enable MFA in Azure Active Directory using Conditional Ac
 
 1. Select the **Azure Active Directory** from the dashboard Select **Properties** then Click on **Manage Security Default** and Disabled it by selecting **My Organization is Using Conditional Access** and click on **save**.
    
-   ![](Images/M4E1T1Step11.png)
+   ![](Images/M4E1T1Step11n.png)
        
 1. Now to test the policy open the admin center account in incognito/private window and login to the user for whom you enabled MFA. From **App launcher** under Apps, select the app for which you enabled MFA.
 
