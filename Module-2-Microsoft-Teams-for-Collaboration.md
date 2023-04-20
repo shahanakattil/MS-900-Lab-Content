@@ -16,9 +16,13 @@ In this exercise, you'll learn various activities carried out in Teams such as h
 
 In this task, we will explore the options available in Teams, learn how to create a team and add members to it.
 
-1. Open a new browser window and log in to the admin center at https://admin.microsoft.com.
+1.  If you are not already signed into the admin center, sign in to the admin center at https://admin.microsoft.com with the credentials.
 
-1. When prompted, use the credentials provided in the **Environment Details** page to log in to the admin center.
+1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+1. Now enter the following password and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
 1. From the navigation menu, click on the **Users** icon and click on **Active users**. This will display the list of active users.
 
@@ -32,9 +36,7 @@ In this task, we will explore the options available in Teams, learn how to creat
 
    - **First name:** Odl.
 
-   - **Display Name:** Odl_User-DeploymentID.
-
-    > **Note**: Replace DeploymentID with your unique id, which can be found under the environment details page.
+   - **Display Name:**  **Odl_User-<inject key="DeploymentID" enableCopy="true"/>**
 
    - **Username:** Odl.
 
@@ -49,7 +51,7 @@ In this task, we will explore the options available in Teams, learn how to creat
 
 1. In the  **Assign product licenses**  pane, choose your location from the **select location** dropdown. In the licenses section, choose **Assign user a product license** and select **office 365 E5** license. Click **Next**.
 
-    ![](Images/img6.png)
+    ![](Images/img6-1.png)
 
 1. In the **Optional settings**  pane, leave everything as default and click on **Next**.
 
@@ -88,7 +90,9 @@ In this task, we will explore the options available in Teams, learn how to creat
 
 1. To create a new team from the left navigation menu select **Teams**, click on **Join or create a team** and Select **Create a new team**.
 
-    ![](Images/img211.png)
+    ![](Images/img211-1.png)
+    
+1. On **Create a team** page, select **From Scratch** option. 
    
     ![](Images/M2E1T1Step1101.png)
 
@@ -106,7 +110,7 @@ In this task, we will explore the options available in Teams, learn how to creat
 
 1. From here you can start a new conversation and share files.
 
-    ![](Images/img216.png)
+    ![](Images/teams.png)
 
 ### Task 2: Scheduling Teams meeting
 
@@ -114,7 +118,7 @@ In this task, we will learn how to schedule a meeting in Teams.
 
 1. Select **calendar** from the left-hand menu of the team's pane. 
 
-1. Now click on  **New Meeting**. 
+1. Now click on  **+ New Meeting**. 
   
     ![](Images/M2E1T2Step201.png)
    
@@ -146,7 +150,7 @@ In this task, we will create and assign a messaging policy to the user from the 
 
 1. Teams policies in Microsoft Teams can be used to control what users in your organization can do in teams and channels.
 
-1. From the Navigation menu, under **Admin centers** select **Teams**. This will redirect you to **Microsoft Teams admin center**.
+1. From the Navigation menu, click on show all and under **Admin centers** select **Teams**. This will redirect you to **Microsoft Teams admin center**.
 
     ![](Images/img43.png)
    
@@ -160,7 +164,7 @@ In this task, we will create and assign a messaging policy to the user from the 
 
    * Name: **Services-Team**.
 
-    ![](Images/img222.png)
+     ![](Images/img222.png)
 
 1. Click on your newly created team. From here you can add or remove **Members**, **channels** to the team and manage them.
 
@@ -168,7 +172,7 @@ In this task, we will create and assign a messaging policy to the user from the 
    
     ![](Images/Teams3.png)
 
-1. Now from the **Left navigation menu** select **Messaging policies**. Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams.
+1. Now from the **Left navigation menu**, select **show all** and  **Messaging policies**. Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams.
 
     ![](Images/Teams4.png)
 
@@ -208,7 +212,7 @@ In this task, we will create and assign a messaging policy to the user from the 
 
     ![](Images/img220.png)
 
-1. To apply this policy to specific users select your newly created policy, click on **Manage users** in the search bar search and select the users or groups to whom you intend to apply this policy. Select **Apply**.
+1. To apply this policy to specific users select your newly created policy, click on **Manage users** from the dropdown select **Assign users** in the search bar search and select the users or groups to whom you intend to apply this policy. Select **Apply**.
 
 1. This policy will enable users to access only the apps that you have allowed.
 
