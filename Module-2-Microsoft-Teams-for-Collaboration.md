@@ -40,14 +40,14 @@ In this task, we will explore the options available in Teams, learn how to creat
 
    - **Username:** Odl.
 
-    ![](Images/ms-900-lab1-img2.png)
+       ![](Images/ms-900-lab1-img2.png)
      
    - **Automatically create a password**: unselected.
 
    - **Password**: Enter a strong password.
-    - **Require this user to change their password when they first sign in** : unselected
+   - **Require this user to change their password when they first sign in** : unselected
 
-    ![](Images/ms-900-lab1-img2.png)
+        ![](Images/ms-900-lab1-img2.png)
 
 1. In the  **Assign product licenses**  pane, choose your location from the **select location** dropdown. In the licenses section, choose **Assign user a product license** and select **office 365 E5** license. Click **Next**.
 
@@ -132,7 +132,7 @@ In this task, we will learn how to schedule a meeting in Teams.
    
    - If you want to have your meeting in a channel, select the appropriate channel. If you’d rather not, skip it. When you have a meeting in a channel, everyone in the team will be able to see it and join in on that channel.
    
-    ![](Images/img42.png)
+      ![](Images/img42.png)
    
 1. Microsoft Teams also has a **Scheduling Assistant** which you can use to find a time that works for everyone. 
 
@@ -162,9 +162,9 @@ In this task, we will create and assign a messaging policy to the user from the 
 
 1. From here you can add a new team by clicking on **Add**. In the **Add a new team**  page fill in the deatils and click on **Apply**.
 
-   * Name: **Services-Team**.
+    * Name: **Services-Team**.
 
-     ![](Images/img222.png)
+      ![](Images/img222.png)
 
 1. Click on your newly created team. From here you can add or remove **Members**, **channels** to the team and manage them.
 
@@ -184,7 +184,7 @@ In this task, we will create and assign a messaging policy to the user from the 
    
    - Click on **Save**.
     
-    ![](Images/Teams5.png)
+     ![](Images/Teams5.png)
    
 1. To assign a policy to the user, select the policy that you have created and click on **Manage Users**. In the search bar, search and select the user that you created previously and click on **Apply**.
  
