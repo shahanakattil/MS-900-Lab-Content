@@ -28,7 +28,7 @@ In this task, we will explore the options available in Teams, learn how to creat
 
     ![](Images/ms900-lab1-3-img1.png)
 
-3. Now to create a new user, from the navigation menu click on **Users icon** and click on **Active users**, and then select **Add a user** icon.
+1. Now to create a new user, from the navigation menu click on **Users icon** and click on **Active users**, and then select **Add a user** icon.
 
     ![](Images/ms900-lab1-3-img3.png)
 
