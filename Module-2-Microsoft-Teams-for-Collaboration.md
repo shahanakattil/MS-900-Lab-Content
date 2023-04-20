@@ -16,9 +16,13 @@ In this exercise, you'll learn various activities carried out in Teams such as h
 
 In this task, we will explore the options available in Teams, learn how to create a team and add members to it.
 
-1. Open a new browser window and log in to the admin center at https://admin.microsoft.com.
+1.  If you are not already signed into the admin center, sign in to the admin center at https://admin.microsoft.com with the credentials.
 
-1. When prompted, use the credentials provided in the **Environment Details** page to log in to the admin center.
+1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+1. Now enter the following password and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
 1. From the navigation menu, click on the **Users** icon and click on **Active users**. This will display the list of active users.
 
@@ -87,6 +91,8 @@ In this task, we will explore the options available in Teams, learn how to creat
 1. To create a new team from the left navigation menu select **Teams**, click on **Join or create a team** and Select **Create a new team**.
 
     ![](Images/img211.png)
+    
+1. On **Create a team** page, select **From Scratch** option. 
    
     ![](Images/M2E1T1Step1101.png)
 
