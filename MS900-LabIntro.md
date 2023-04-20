@@ -6,7 +6,7 @@
 
 # Sign up for Office 365 E5 free trial
 
-1. Open a new browser window, click on the [Sign up for Office 365 E5 free trial](https://www.microsoft.com/en-in/microsoft-365/enterprise/office-365-e5) and click on **Free trial**.
+1. Open a new browser window, click on the [Sign up for Office 365 E5 free trial](https://www.microsoft.com/en-us/microsoft-365/enterprise/office-365-e5) and click on **Free trial**.
 
    ![](Images/Ms900-01.png)
 
