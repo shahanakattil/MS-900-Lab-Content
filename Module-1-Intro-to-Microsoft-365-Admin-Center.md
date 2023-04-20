@@ -214,6 +214,8 @@ OneDrive gives you one place to store, share, and sync your work or school files
    
     ![](Images/lab1-E2t2-img4.png)
    
+    > **Note**: if you are not able to see your folder refresh the page.
+
 1. Now select the newly created folder. From the top navigation bar select, **Upload** and select **Files**, when prompted choose the file(s) that you want to upload.
 
     ![](Images/lab1-E2t2-img5.png)
@@ -266,7 +268,8 @@ With yammer people can openly connect and engage across the organization, from h
    
     ![](Images/M1E2T3Step2.202.png)
    
-   
+    > **Note**: if you are not able to see your community refresh the page.
+
 1. Now select the group that you newly created, click on **discussion**. Type the content that you like to post (you can include gifs, files or any website links based on the requirement). Click on **post**.
   
     ![](Images/MS-900-discussion.png)
@@ -304,7 +307,9 @@ Microsoft Stream is an Enterprise Video service where people in your organizatio
 1. In the Stream page, select the **upload** button, and upload a video.
    
     ![](Images/MS-900-upload.png)
-   
+    
+    > **Note**: if you are not able to see your folder refresh the page.
+
 1. Select the video, by clicking on the video, it will redirect you to the new-browser
    
     ![](Images/MS-900-video.png)
