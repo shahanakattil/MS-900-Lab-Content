@@ -32,7 +32,7 @@ In this exercise, you will learn how to create users, assign a license to the us
 
 In this task, you will learn how to create and manage users from Microsoft Admin Center.
 
-1. Open a new browser window and log in to the admin center at [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+1. if not logged in, open a new browser window and log in to the admin center at [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
 1. When prompted, use the credentials provided in the **Environment Details** page to login to the admin center.
 
@@ -50,15 +50,13 @@ In this task, you will learn how to create and manage users from Microsoft Admin
 
 1. In the **Set up the basics pane**, fill the following details, and then select **Next**.
 
-   - **First name:** Odl.
+   - **First name:** Odl
 
-   - **Display Name:** Odl_User-DeploymentID.
+   - **Display Name:** Odl_User-<inject key="DeploymentID" enableCopy="false"/>
 
-    > **Note**: Replace DeploymentID with your unique id, which can be found under the environment details page.
-
-   - **Username:** Odl.
+   - **Username:** Odl
      
-   - **Automatically create a password**: unselected.
+   - **Automatically create a password**: unselected
 
    - **Password**: Enter a strong Password.
 
@@ -90,7 +88,7 @@ In this task, you will verify Custom Domains in the tenant and add a new domain 
 
 1. All the available domains can be found here. We can also purchase new domains or add any existing domain from the **Domains** page.
 
-1. To add a domain Select **Add domain**. Enter the name of the domain as **myspektra.com** , then select **Use this domain**.
+1. To add a domain Select **+ Add domain**. Enter the name of the domain as **myspektra.com** , then select **Use this domain**.
 
     ![](Images/img225.png)
     
@@ -172,9 +170,11 @@ Microsoft Outlook is an application that is used mainly to send and receive emai
 
 1. When prompted enter the username and password of the user that you created in the previous step.
 
-   >**Note**: You can get the username by clicking on **Users** and then **Active users** from the navigation menu. In the Active Users pane note down the username for your newly created  user
+   >**Note**: You can get the username by clicking on **Users** and then **Active users** from the navigation menu. In the Active Users pane note down the username for your newly created  user.
 
-1. From the top right corner click on **App launcher**
+1. From the top left corner click on **App launcher**.
+
+    ![](Images/MS-900-applauncher.png)
 
 1. Under **Apps**, select **Outlook** and from **Open context menu** click on **Open in new tab**. This will redirect you to the outlook mail.
    
@@ -260,16 +260,16 @@ With yammer people can openly connect and engage across the organization, from h
  
     ![](Images/Yammer1.png)
 
-1. From the left-hand pane click on **Create a Community**, enter a name for your community. In **Members** search and select the users you want to add. Based on your requirement choose **Public** or **Private** access by click on **Edit**.
+1. From the left-hand pane, select **communities**, click on **+ Create a Community**, enter a name for your community. In **Members** search and select the users you want to add. Based on your requirement choose **Public** or **Private** access by click on **Edit**, after this click on **Create**.
 
     ![](Images/M1E2T3Step2.101.png)  
    
     ![](Images/M1E2T3Step2.202.png)
    
    
-1. Now select the group that you newly created, click on **Start a discussion**. Type the content that you like to post (you can include gifs, files or any website links based on the requirement). Click on **post**.
+1. Now select the group that you newly created, click on **discussion**. Type the content that you like to post (you can include gifs, files or any website links based on the requirement). Click on **post**.
   
-    ![](Images/Yammer2.png)
+    ![](Images/MS-900-discussion.png)
    
 1. Switch back to the yammer account of the user whom you added to the group and verify if the user is added to the newly created group and if the posts are visible.
    
@@ -297,39 +297,23 @@ Microsoft Stream is an Enterprise Video service where people in your organizatio
 
 1. Open a new browser window and log in to the office365 center at https://www.office.com.
 
-1. When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example Odl_User-DeploymentId.
+1. When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example Odl_User-<inject key="DeploymentID" enableCopy="false"/>.
 
 1. In the office365 portal from the  **App launcher** click on **All apps** and in the search bar search for **Stream**, from **Open context menu** click on **Open in new tab**, this will redirect you to the **Stream** web page. 
 
-1. In the Stream navigation bar, click on the **Invite** button.
+1. In the Stream page, select the **upload** button, and upload a video.
    
-    ![](Images/img27.png)
+    ![](Images/MS-900-upload.png)
    
-1. In the search bar, search and select the users or groups that you would like to invite. Click on **Add** and then select **Invite**.
+1. Select the video, by clicking on the video, it will redirect you to the new-browser
    
-    ![](Images/img28.png)
+    ![](Images/MS-900-video.png)
 
-1. Now, from the top navigation bar of the **Stream** dashboard, click on **Create** button and then select **Upload video** option from the drop-down.
+1. Now, click on **Share** button, and share it with the  person's name that you want the video to be sent then click on **Send**.
 
-    ![](Images/img29.png)
-
-1. Drag and drop or select files that need to be uploaded from your device. In the Details tab, you can rename the video, add a description, and choose a thumbnail for the video. 
-
-1. Under the "Permissions" tab, you can configure access to the video inside of the organization. 
-
-    ![](Images/img31.png)
-   
-1. Now click on the "Options" tab. From here you can enable/disable the ability to tag people, have a comments section, have captions, or add subtitles.
- 
-    ![](Images/img32.png)
-
-1. Click on **Publish**.
-   
-    ![](Images/img33.png)
-
-1. From the Stream navigation bar, click on **Discover**. You can browse for videos, channels, people in your organization, and groups from here.
-
-    ![](Images/img161.png)
+    ![](Images/MS-900-share.png)
+    
+    ![](Images/MS-900-link.png)
    
 1. You can explore other options available in Microsoft Stream.
 
@@ -405,11 +389,11 @@ List helps to track information and organize your work. With a list, one can tra
 
 1. In the office365 portal from the  **App launcher** click on **All apps** and in the search bar search for **List**, from **Open context menu** click on **Open in new tab**, this will redirect you to the **List** web page. 
 
-1. On the home page of **Lists** click on **New list**. 
+1. On the home page of **Lists** click on **+ New list**. 
 
     ![](Images/img38.png)
 
-1. From the Create a list page, select **Blank list**. 
+1. From the Create a list page, select **+ Blank list**. 
  
     - Provide a name for your list and if needed provide a description.
     
