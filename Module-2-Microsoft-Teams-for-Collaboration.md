@@ -51,7 +51,7 @@ In this task, we will explore the options available in Teams, learn how to creat
 
 1. In the  **Assign product licenses**  pane, choose your location from the **select location** dropdown. In the licenses section, choose **Assign user a product license** and select **office 365 E5** license. Click **Next**.
 
-    ![](Images/img6.png)
+    ![](Images/img6-1.png)
 
 1. In the **Optional settings**  pane, leave everything as default and click on **Next**.
 
@@ -90,7 +90,7 @@ In this task, we will explore the options available in Teams, learn how to creat
 
 1. To create a new team from the left navigation menu select **Teams**, click on **Join or create a team** and Select **Create a new team**.
 
-    ![](Images/img211.png)
+    ![](Images/img211-1.png)
     
 1. On **Create a team** page, select **From Scratch** option. 
    
@@ -110,7 +110,7 @@ In this task, we will explore the options available in Teams, learn how to creat
 
 1. From here you can start a new conversation and share files.
 
-    ![](Images/img216.png)
+    ![](Images/teams.png)
 
 ### Task 2: Scheduling Teams meeting
 
@@ -164,7 +164,7 @@ In this task, we will create and assign a messaging policy to the user from the 
 
    * Name: **Services-Team**.
 
-    ![](Images/img222.png)
+     ![](Images/img222.png)
 
 1. Click on your newly created team. From here you can add or remove **Members**, **channels** to the team and manage them.
 
