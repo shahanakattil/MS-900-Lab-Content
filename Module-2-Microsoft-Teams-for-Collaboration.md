@@ -114,7 +114,7 @@ In this task, we will learn how to schedule a meeting in Teams.
 
 1. Select **calendar** from the left-hand menu of the team's pane. 
 
-1. Now click on  **New Meeting**. 
+1. Now click on  **+ New Meeting**. 
   
     ![](Images/M2E1T2Step201.png)
    
