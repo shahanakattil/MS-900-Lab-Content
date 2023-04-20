@@ -19,10 +19,10 @@ In this task, we will explore the options available in Teams, learn how to creat
 1.  If you are not already signed into the admin center, sign in to the admin center at https://admin.microsoft.com with the credentials.
 
 1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+     * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
 1. Now enter the following password and click on **Sign in**.
-   * Password: <inject key="AzureAdUserPassword"></inject>
+     * Password: <inject key="AzureAdUserPassword"></inject>
 
 1. From the navigation menu, click on the **Users** icon and click on **Active users**. This will display the list of active users.
 
