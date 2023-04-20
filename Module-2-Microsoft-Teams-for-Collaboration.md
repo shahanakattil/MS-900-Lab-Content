@@ -146,7 +146,7 @@ In this task, we will create and assign a messaging policy to the user from the 
 
 1. Teams policies in Microsoft Teams can be used to control what users in your organization can do in teams and channels.
 
-1. From the Navigation menu, under **Admin centers** select **Teams**. This will redirect you to **Microsoft Teams admin center**.
+1. From the Navigation menu, click on show all and under **Admin centers** select **Teams**. This will redirect you to **Microsoft Teams admin center**.
 
     ![](Images/img43.png)
    
