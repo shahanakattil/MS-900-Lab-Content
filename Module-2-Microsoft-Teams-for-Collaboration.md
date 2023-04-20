@@ -168,7 +168,7 @@ In this task, we will create and assign a messaging policy to the user from the 
    
     ![](Images/Teams3.png)
 
-1. Now from the **Left navigation menu** select **Messaging policies**. Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams.
+1. Now from the **Left navigation menu**, select **show all** and  **Messaging policies**. Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams.
 
     ![](Images/Teams4.png)
 
