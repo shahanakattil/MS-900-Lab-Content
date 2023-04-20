@@ -36,7 +36,7 @@ In this task, we will explore the options available in Teams, learn how to creat
 
    - **First name:** Odl.
 
-   - **Display Name:**  **Odl_User-<inject key="DeploymentID" enableCopy="true"/>**
+   - **Display Name:**  **Odl_User-<inject key="DeploymentID" enableCopy="false"/>**
 
    - **Username:** Odl.
 
