@@ -32,9 +32,7 @@ In this task, we will explore the options available in Teams, learn how to creat
 
    - **First name:** Odl.
 
-   - **Display Name:** Odl_User-DeploymentID.
-
-    > **Note**: Replace DeploymentID with your unique id, which can be found under the environment details page.
+   - **Display Name:**  **Odl_User-<inject key="DeploymentID" enableCopy="true"/>**
 
    - **Username:** Odl.
 
