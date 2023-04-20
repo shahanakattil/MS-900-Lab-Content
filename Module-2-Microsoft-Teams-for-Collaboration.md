@@ -78,7 +78,7 @@ In this task, we will explore the options available in Teams, learn how to creat
 
       - **Activity** - Catch up on all your unread messages, @mentions, replies, and more.
 
-1. Now open a new browser window and log in to the teams at https://teams.microsoft.com.
+1. Now open a new browser window and log in to [Microsoft Teams](https://go.microsoft.com/fwlink/p/?linkid=2123761&lm=deeplink&lmsrc=FreemiumEOLWeb&cmpid=FreemiumEOL).
 
 1. When prompted enter the username and password of the user that you created in the previous exercise.
 
