@@ -304,7 +304,7 @@ Microsoft Stream is an Enterprise Video service where people in your organizatio
 
 1. In the office365 portal from the  **App launcher** click on **All apps** and in the search bar search for **Stream**, from **Open context menu** click on **Open in new tab**, this will redirect you to the **Stream** web page. 
 
-1. In the Stream page, select the **upload** button, and select the video from the device.
+1. In the Stream page, select the **upload** button, and open **File Explorer > Windows (C:) > AllFiles**  and select the video.
    
     ![](Images/MS-900-upload.png)
     
