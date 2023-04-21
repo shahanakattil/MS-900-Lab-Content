@@ -20,7 +20,7 @@ In this task, you will enable MFA in Azure Active Directory using Conditional Ac
 
 1. On the left side of the page scroll down to the **Protect & Secure** section under **Azure Active Directory** and then select the dropdown next to **Protect & Secure** then selct **security center**.
 
-   ![](Images/ms900-1.png)
+   ![](Images/ms900-t3.png)
 
 1. In the **Security** page select **Conditional access**.
 
@@ -28,15 +28,15 @@ In this task, you will enable MFA in Azure Active Directory using Conditional Ac
 
 1. At the top of the Policies pane, click **+ New Policy**. 
 
-   ![](Images/ms900-2.png)
+   ![](Images/ms900-t4.png)
 
 1. Provide a name for your policy as **MFA policy**. Under Assignments, select **Users and groups**. In the Include tab, **select users and groups** and select the **Users and groups** from the list and select the user's you intend to enable MFA and click on **Select**.
 
-   ![](Images/ms900-3.png)
+   ![](Images/ms900-t1.png)
 
 1. Under **Cloud apps or actions**,In the Include tab, click on **Select Apps** and select the apps for which you intend to apply policy.
 
-   ![](Images/ms900-4.png)
+   ![](Images/ms900-t2.png)
 
 1. Now under **Conditions** tab select **Client apps** and in **Client apps** page under **Configure** select **Yes** and then select **Done**. You can also make use of other conditions like risk, device platform, or location based on your requirement
 
