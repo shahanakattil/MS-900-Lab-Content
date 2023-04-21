@@ -465,7 +465,7 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
 
 1. The next time you open an desktop app like Word , you'll see the sensitivity labels that were created. 
 
-   **Note**: You can download the desktop apps from [office 365 portal](https://www.office.com) portal and sign in with existing credientials and click on Install apps and select **Microsoft 365 apps**.
+   **Note**: You can download the desktop apps from [office 365 portal](https://www.office.com) and sign in with existing credientials and click on Install apps and select **Microsoft 365 apps**.
 
    ![](Images/ms900-n8.png)
 
