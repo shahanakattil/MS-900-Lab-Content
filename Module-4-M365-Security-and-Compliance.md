@@ -50,13 +50,15 @@ In this task, you will enable MFA in Azure Active Directory using Conditional Ac
 
    ![](Images/img139.png)
    
-    **Note :** You may see the error that default secutiy need to disabled, then follow the below steps :
+    **Note :** You may see the error that default secutiy need to disabled, then follow the below step :
 
-1. Select the **Azure Active Directory** from the dashboard Select **Properties** then Click on **Manage Security Default** and Disabled it by selecting **My Organization is Using Conditional Access** and click on **save**.
+1. Select the **Azure Active Directory** from the Azure portal, sign in if required and then Select **Properties** then Click on **Manage Security Default** and Disabled it by selecting **My Organization is Using Conditional Access** and click on **save**.
    
-   ![](Images/M4E1T1Step11.png)
+   ![](Images/ms900-4-1.png)
        
 1. Now to test the policy open the admin center account in incognito/private window and login to the user for whom you enabled MFA. From **App launcher** under Apps, select the app for which you enabled MFA.
+
+   ![](Images/ms900-4-2.png)
 
 1. You're required to register for and use Azure Multi-Factor Authentication. For more information required page click **Next**.
 
@@ -64,7 +66,11 @@ In this task, you will enable MFA in Azure Active Directory using Conditional Ac
 
    ![](Images/M4E1T1Step1401.png)
    
+   ![](Images/ms900-4-3.png)   
+   
    ![](Images/M4E1T1Step1501.png)
+ 
+   ![](Images/ms900-4-4.png)
    
 1. To learn more about conditional access and policies refer to https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview.
 
@@ -91,7 +97,7 @@ Privileged Identity Management (PIM) is a service in Azure Active Directory (Azu
 
 1. Use the **Activation maximum duration** slider to set the maximum time, in hours, that a role stays active before it expires. This value can be from 1 to 24 hours.
 
-   ![](Images/img120.png)
+   ![](Images/ms900-4-5.png)
 
 1. To require multi-factor authentication before activation, check the Require Multi-Factor Authentication on the activation box in the Assignment tab of the Edit role setting.
 
@@ -113,7 +119,7 @@ Privileged Identity Management (PIM) is a service in Azure Active Directory (Azu
 
 1. From the **Select role** drop-down select a role you want to assign, and under **Select members** select a member to whom you want to assign the role, and then select **Next**.
    
-   ![](Images/img124.png)
+   ![](Images/ms900-4-6.png)
 
 1. In the **Assignment type** list on the **Membership settings** pane, select **Eligible** or **Active**.
 
@@ -129,7 +135,7 @@ Privileged Identity Management (PIM) is a service in Azure Active Directory (Azu
 
 1. Now select **Assignments** from here you can check **Eligible**, **Active** and **Expired** assignments. You can also add new assignments from here.
 
-   ![](Images/img126.png)
+   ![](Images/ms900-4-7.png)
    
 1. You can learn more about Privileged identity management by referring to https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure.
 
@@ -161,7 +167,7 @@ In this task, you will explore Microsoft Threat Protection Portal.
 
 1. Select **Reports** from the menu and then slect **Security Report** from here you can view security trends and track the protection status of your identities, data, devices, apps, and infrastructure.
 
-   ![](Images/M4E2T1Step501.png)
+   ![](Images/ms900-4-8.png)
 
 1. Select **Secure Score** this page provides an all-up summary of the different security features and capabilities you've enabled and includes recommendations for areas to improve.
 
@@ -239,7 +245,7 @@ Microsoft Cloud App Security is a multimode Cloud Access Security Broker (CASB).
 
    - **Azure security configuration**: Shows the number and severity of Azure security configuration recommendations.
    
-   ![](Images/Cloud-apps1.png)
+   ![](Images/ms900-4-9.png)
 
 1. Now from the left navigation menu select **Discover**. Cloud Discovery uses your traffic logs to dynamically discover and analyze the cloud apps that your organization is using.
 
@@ -257,15 +263,17 @@ Microsoft Cloud App Security is a multimode Cloud Access Security Broker (CASB).
 
    ![](Images/image015.png)
   
-1. Under **Report Details** tab, Enter a **Report name** and a **Description**. Select the **source** from which you want to upload the log files. Click **View log formate** then Download sample log.
+1. Under **Report Details** tab, Enter a **Report name** and a **Description**. Select the **source** from which you want to upload the log files. Click **View log formate** then Download sample log and click on **Next**.
    
    ![](Images/image016.png)
 
 1. Under **Upload Traffic Logs** Tab, In **Choose traffic logs** browse and upload the log file which you downloaded. Click **Upload logs**.
 
+   ![](Images/ms900-4-10.png)
+
 1. After the upload completes, the status message will appear at the top right corner of your screen letting you know that your log was successfully uploaded.
 
-1. After you upload your log files, it will take some hours for them to be parsed and analyzed. Wait till the status of your log files turns **Ready**.
+1. After you upload your log files, it will take some 20-30 mins for them to be parsed and analyzed. Wait till the status of your log files turns **Ready**.
 
    ![](Images/Cloud-apps9.png)
 
@@ -321,7 +329,7 @@ Microsoft Cloud App Security is a multimode Cloud Access Security Broker (CASB).
  
 1. Enable **Trigger a policy match if all the following occur on the same day**. Select criteria from the drop-down based on your requirements.
  
-   ![](Images/img193.png)
+   ![](Images/ms900-4-11.png)
  
 1. Set a **Daily alert limit** under Alerts. Select whether the alert is sent as an email, a text message, or both. 
  
@@ -349,19 +357,23 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
 
 1. Now under **Solutions** select **Information protection**. If you don't immediately see this option, first select **Show all**.
 
-1. On the **Labels** page, select **Turn on** under **Extend labeling to assests in Azure Purview**.
+1. On the **Labels** page, select **Turn on** under **Extend labeling to assests in Azure Purview** and select **yes** for *Turn on labeling for Microsoft purview Data Map*.
 
-   ![](Images/img-t1.png)
+   ![](Images/ms900-4-12.png)
 
 1. Now on the **Labels** page, select **+ Create a label** to start the New sensitivity, label wizard.
 
    ![](Images/img90.png)
 
-1. Enter a **Label name**  and **Description**. Select **Next**.
+1. Enter a **Label name** as **Demo sensitivity label**  and provide the same name to **Description** and **Description for users**.Select **Next**.
 
-      -**Groups & sites**: Enable sensitivity labels for containers and synchronize labels
+   ![](Images/ms900-n1.png)
+   
+1. Leave all defaults in **Scope** page and click on **Next**. 
   
 1. In the **Choose protection settings for labeled items** page, select **Apply or remove encryption** and **Apply content marking**, Click **Next**. 
+
+   ![](Images/ms900-n2.png)
 
 1. In the **Encryption** page, choose when you want to assign permissions, whether you want your users access to the content to expire, and whether you want to allow offline access. 
       
@@ -378,6 +390,8 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
 1. In the **Assign permissions** pane, add users or groups that will be assigned permissions to the labeled content. For now select **+ Add users or groups** and select the user or group for whom you want to assign the label. Select **Add**.
 
    ![](Images/img93.png)
+   
+   ![](Images/ms900-n3.png)  
  
 1. Now in **Assign permissions** pane, click on **Choose permissions**. 
 
@@ -391,12 +405,14 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
 
    ![](Images/M4E4T1Step1001.png)
 
-1. On the **Content Marking** page, you can configure the Header, Footer, and the Water Marking for this label. Click Next.
+1. On the **Content Marking** page, you can configure the Header, Footer, and the Water Marking for this label by adding customize text, and click on **Next**.
 
    ![](Images/001.png)
    
-   ![](Images/ms900-10.png)
+   ![](Images/ms900-n7.png)
 
+   ![](Images/ms900-n9.png)
+   
 1. In **Auto-labeling for Files and Emails**, turn on **Auto-labeling for files and emails**. Add a condition, under **Detect content that matches these conditions**, select Add a condition. 
 
    ![](Images/003.png)
@@ -406,27 +422,22 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
 1. Now select **Groups & Sites** to configure priacy, access control and other settings to protect label, leave the setting as default
 
 1. Under the **Schematized data assests (preview)** check the below option, click on **Next** then review the settings and click **Create label**.
-     2. Select Check sensitive info types to choose the sensitive info types you want to apply to your label.
-
-   ![](Images/M4E4T1Step1301.png)
    
 1. Click on your newly created label from here you can edit, publish, or delete it.
 
-   ![](Images/img103.png)
-
 1. Now click on **Label policies** and select **Publish labels**. 
 
-   ![](Images/img104.png)
+   ![](Images/ms900-n6.png)
 
-1. On the next page Click  **Choose sensitivity labels to publish**, and select your newly created label and click **Choose user and group**, and then click **Next**.
+1. On the next page Click  **Choose sensitivity labels to publish**, and select your newly created label, and then click **Next**.
 
    ![](Images/img105.png)
-   
-   ![](Images/img107.png)
 
-1. In **Publish to users and groups** pane select the **Users and Groups** and click on **Add**. Now select users or groups in which you are going to publish this label and Click **Next** to continue.
+1. Leave defaults on **Admin units(preview)** page and then click **Next**.
+
+1. In **Publish to users and groups** pane select the **Choose user or Groups** and select the user and click on **Done** and then Click **Next** to continue.
    
-   ![](Images/M4E4T1Step17.png)
+   ![](Images/ms900-n4.png)
 
 1. Under the **Policy Setting**, select the way you prefer and click **Next**.
 
@@ -434,23 +445,29 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
    
 1. Under policy setting, in the **Apply a default label to documents**, select the label which you have created in the previous task and select next.
 
-1. In the **Apply a default label to emails** leave the settings as default and select next.
+1. In the **Apply a default label to emails**, select the label which you have created in the previous task and select next.
 
-1. In the **Apply a default label to Power BI content (preview)** leave the settings as default and select next.
+1. In the **Apply a default label to meetings and calendar events**, select the label which you have created in the previous task and select next.
 
-1. Provide a Name and Description for your policy. Click **Next**.
+1. In the **Apply a default label to Power BI content (preview)**, select the label which you have created in the previous task and select next.
+
+1. Provide a Name and Description for your policy as **Demo sensitivity label policy** and then Click **Next**.
 
    ![](Images/img110.png)
 
-1. Click **Submit** to finish the policy creation for the label.
+1. Click **Submit** to finish the policy creation for the label and then click on **Done**.
 
    ![](Images/img111.png)
    
+   ![](Images/ms900-n5.png)
+   
 1. For your labels to work, each user needs to download the Azure Information Protection unified labeling client. Search the web for **AzinfoProtection_UL.exe**, then download it from the Microsoft Download Center, and run it on your users' computers.
 
-1. The next time you open an Office app like Word, you'll see the sensitivity labels that were created. 
+1. The next time you open an desktop app like Word , you'll see the sensitivity labels that were created. 
 
-   ![](Images/img245.png)
+   **Note**: You can download the desktop apps from [office 365 portal](https://www.office.com) portal and sign in with existing credientials and click on Install apps and select **Microsoft 365 apps**.
+
+   ![](Images/ms900-n8.png)
 
 1. Learn more about Sensitivity labels by referring  https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#:~:text=Unlike%20retention%20labels%2C%20which%20are,and%20groups%20see%20the%20labels.
 
