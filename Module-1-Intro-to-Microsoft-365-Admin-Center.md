@@ -320,6 +320,10 @@ Microsoft Stream is an Enterprise Video service where people in your organizatio
     
     ![](Images/MS-900-link.png)
    
+1. Now log into your outlook email with the username (<inject key="AzureAdUserEmail"></inject>) in which you have sent the email, you will recieved the message on the outlook.
+
+    ![](Images/MS-900-shared.png)
+
 1. You can explore other options available in Microsoft Stream.
 
 1. To learn more about Microsoft Stream refer to https://docs.microsoft.com/en-us/stream/overview.
