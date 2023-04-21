@@ -314,7 +314,7 @@ Microsoft Stream is an Enterprise Video service where people in your organizatio
    
     ![](Images/MS-900-video.png)
 
-1. Now, click on **Share** button, and enter the Username: <inject key="AzureAdUserEmail"></inject> , then click on **Send**.
+1. Now, click on **Share** button.
 
     ![](Images/MS-900-share1.png)
  
