@@ -41,7 +41,7 @@
    
 1. It show you the confirmation Message, Click on **Try Now**.  
 
-   ![](Images/ms900-3.png)
+   ![](Images/ms900-333.png)
 
 1. Will receive the order Receipt and click on **Continue**.
 
