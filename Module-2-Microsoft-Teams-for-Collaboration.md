@@ -84,33 +84,33 @@ In this task, we will explore the options available in Teams, learn how to creat
 
 16. In the admin team's account, search and select the newly created user from the search bar and initiate a conversation.
 
-    ![](Images/img40.png)
+     ![](Images/img40.png)
 
 17. Now switch back to the team's user account and verify the message.
 
 18. To create a new team from the left navigation menu select **Teams**, click on **Join or create a team** and Select **Create a new team**.
 
-    ![](Images/img211-1.png)
+     ![](Images/img211-1.png)
     
 19. On **Create a team** page, select **From Scratch** option. 
    
-    ![](Images/M2E1T1Step1101.png)
+     ![](Images/M2E1T1Step1101.png)
 
 20. Select **Private** if you'd like people to request permission to join, or select **Public** if anyone in your organization can join.
 
-    ![](Images/M2E1T1Step1201.png)
+     ![](Images/M2E1T1Step1201.png)
 
 21. Give the team name as **IT-Team** and add a description if needed. Select **Create**.
 
-    ![](Images/img214.png)
+     ![](Images/img214.png)
 
 22. To Add members click on more options and select **Add members** search and select the members. When you're done adding members, select **Add** and then Close.
 
-    ![](Images/img215.png)
+     ![](Images/img215.png)
 
 23. From here you can start a new conversation and share files.
 
-    ![](Images/teams.png)
+     ![](Images/teams.png)
 
 ### Task 2: Scheduling Teams meeting
 
@@ -196,21 +196,21 @@ In this task, we will create and assign a messaging policy to the user from the 
 
 11. In the left navigation of the Microsoft Teams admin center, select **Teams apps**  and select **Permission policies**. From here you can configure App permission policies. App permission policies control what apps you want to make available to Teams users in your organization.
 
-    ![](Images/Teams7.png)
+     ![](Images/Teams7.png)
 
 12. Click on **Add**. Enter a name and description for the policy.
 
 13. Under **Microsoft apps** select **Allow specific apps and block all others**. You can also select other options based on your requirement.
 
-    ![](Images/Teams8.png)
+     ![](Images/Teams8.png)
 
 14. Select **Allow apps**, search for the apps that you want to allow, and then click **Add**.
 
-    ![](Images/img219.png)
+     ![](Images/img219.png)
 
 15. Similarly, repeat the above steps for **Third-party apps**, **Custom apps** as per required. When done click **Save**.
 
-    ![](Images/img220.png)
+     ![](Images/img220.png)
 
 16. To apply this policy to specific users select your newly created policy, click on **Manage users** from the dropdown select **Assign users** in the search bar search and select the users or groups to whom you intend to apply this policy. Select **Apply**.
 
