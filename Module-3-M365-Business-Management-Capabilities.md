@@ -36,11 +36,9 @@
 
    - **First name:** Odl.
 
-   - **Display Name:** Odl_User-DeploymentID.
+   - **Display Name:** Odl_User-<inject key="DeploymentID" enableCopy="false" />.
 
-    > **Note**: Replace DeploymentID with your unique id, which can be found under the environment details page.
-
-   - **Username:** Odl.
+    - **Username:** Odl.
 
     ![](Images/ms-900-lab1-img2.png)
      
@@ -48,9 +46,9 @@
 
    - **Password**: Enter a strong password.
    
-6 . In the  **Assign product licenses**  pane, choose your location from the **select location** dropdown. In the licenses section, choose **Assign user a product license** and select **office 365 E5** license. Click **Next**.
+6. In the  **Assign product licenses**  pane, choose your location from the **select location** dropdown. In the licenses section, choose **Assign user a product license** and select **office 365 E5** license. Click **Next**.
 
-   ![](Images/img6.png)
+     ![](Images/MS-900-01x.png ) 
 
 7. In the **Optional settings**  pane, leave everything as default and click on **Next**.
 
@@ -78,7 +76,7 @@
  
     ![](Images/M3E2T1Step601.png) 
   
-    ![](Images/M3E2T1Step6.101.png)  
+    ![](Images/MS-900-2.png)  
   
     ![](Images/M3E2T1Step6.201.png)
    
@@ -86,13 +84,13 @@
 
     ![](Images/M3E2T1Step701.png) 
    
-    ![](Images/M3E2T1Step7.101.png)
+    ![](Images/MS-900-04.png)
    
     ![](Images/M3E2T1Step7.201.png)
 
 15. Now in the **Settings** page, type a unique email address for the group, choose a privacy option based on your requirement, and whether you want to add Microsoft Teams for the group, and then click **Next**.
 
-    ![](Images/M3E2T1Step801.png)
+    ![](Images/MS-900-05.png)
 
 16. Review your settings and make any changes if needed, select **Create group**, and then **close**.
 
@@ -108,7 +106,7 @@
     
     > **Note:** You will have different members in your environment. 
     
-    ![](Images/img60.png)
+    ![](Images/MS-900-06.1.png)
    
 20. To learn more about groups refer to https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups.
 
@@ -122,11 +120,16 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
 1. When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example Odl_User-DeploymentId. 
 
-1. In the office365 portal from the App launcher click on **All apps** and in the search bar search for **Planner**, from **Open context menu** click on Open in new tab, this will redirect you to the **Planner** web page.
+1. In the Office365 portal click on  the App launcher at the top left corner and  click on **All apps** and in the search bar search for **Planner**, from **Open context menu** click on Open in new tab, this will redirect you to the **Planner** web page.
+
+    ![](Images/MS-900-07.png)
+    
+    ![](Images/MS-900-08.png)
+    
 
 1. Select **New plan**  in the left pane.
  
-    ![](Images/img61.png)
+    ![](Images/MS-900-09.png)
 
 1. On the **New plan** window, select **New blank plan** option.
 
@@ -142,7 +145,7 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
     
     ![](Images/upd-img62.png)
 
-1. Now to add members to the plan, from the upper-right corner of the Planner window click on **Members**.
+1. Now to add members to the plan, from the upper-right corner of the Planner window click on **Members**.Perform this step only if members are not added to the plan.
 
     ![](Images/img63.png)
 
@@ -178,7 +181,7 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
     ![](Images/image10.png)
 
-1. Navigate to and select the file you want to attach or enter the link information.
+1. Navigate to and select the file you want to attach or enter any link information and click on **Add**.
 
 1. You can also add comments in **Comment** section. When done click on the dismiss button in the upper-right corner of the task window to save and close the task.
 
@@ -278,15 +281,11 @@ In this task, you will import sample financial data to PowerBI.
 
     ![](Images/img77.png)
    
-1. In Power BI, from the left navigation menu select **My workspace**, click on **New**, and from the drop-down select **Upload a file**.
+1. In Power BI, from the left navigation menu select **My workspace**, click on **Upload**, and from the drop-down select **Browse**.
 
-    ![](Images/img78.png)
-
-1. Under Add data to get started page, select **Excel**. On the select a file pop-up window, click on **Browse this device**.
+    ![](Images/MS-900-11.png)
+    ![](Images/MS-900-12.png)
     
-    ![](Images/upd-img79.png)
-    ![](Images/upd-img80.png)
-
 1. Browse to where you saved the Financial Sample data file, and click on **Open**..
 
 
@@ -296,7 +295,10 @@ In this task, you will visualize the data which you had imported in the previous
 
 1. Go to  setting in power Bi, from right icon(...), click on Admin Portal, further search for map and enable the **Use Azure Maps visual** and **Map and Filled map visuals** and Apply for both.
 
-1. Click on **Financial Sample** dataset. From the dropdown of **+Create a report**, click on **Start from scratch**.
+    ![](Images/MS-900-13.1.png)
+    
+    ![](Images/MS-900-14.png)
+1. Go to My workspace and click on **Financial Sample** dataset. From the dropdown of **+Create a report**, click on **Start from scratch**.
 
     ![](Images/image11.png)
    
@@ -392,7 +394,7 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
       
       - **Software update status** - See a visual of the deployment status for all devices and all users.
       
-        ![](Images/img198.png)
+    ![](Images/img198.png)
 
 1. From the Devices **Overview** pane, select **Compliance policies**  to display details about compliance policies for devices managed by Intune. Compliance requirements are essentially rules, such as requiring a device PIN or requiring device encryption. Device compliance policies define the rules and settings that a device must follow to be considered compliant.
 
