@@ -214,6 +214,8 @@ OneDrive gives you one place to store, share, and sync your work or school files
    
     ![](Images/lab1-E2t2-img4.png)
    
+    > **Note**: if you are not able to see your folder refresh the page.
+
 1. Now select the newly created folder. From the top navigation bar select, **Upload** and select **Files**, when prompted choose the file(s) that you want to upload.
 
     ![](Images/lab1-E2t2-img5.png)
@@ -266,7 +268,8 @@ With yammer people can openly connect and engage across the organization, from h
    
     ![](Images/M1E2T3Step2.202.png)
    
-   
+    > **Note**: if you are not able to see your community refresh the page.
+
 1. Now select the group that you newly created, click on **discussion**. Type the content that you like to post (you can include gifs, files or any website links based on the requirement). Click on **post**.
   
     ![](Images/MS-900-discussion.png)
@@ -301,20 +304,26 @@ Microsoft Stream is an Enterprise Video service where people in your organizatio
 
 1. In the office365 portal from the  **App launcher** click on **All apps** and in the search bar search for **Stream**, from **Open context menu** click on **Open in new tab**, this will redirect you to the **Stream** web page. 
 
-1. In the Stream page, select the **upload** button, and upload a video.
+1. In the Stream page, select the **upload** button, and select the video from the device.
    
     ![](Images/MS-900-upload.png)
-   
+    
+    > **Note**: if you are not able to see your folder refresh the page.
+
 1. Select the video, by clicking on the video, it will redirect you to the new-browser
    
     ![](Images/MS-900-video.png)
 
-1. Now, click on **Share** button, and share it with the  person's name that you want the video to be sent then click on **Send**.
+1. Now, click on **Share** button, and enter the * Username: <inject key="AzureAdUserEmail"></inject> , then click on **Send**.
 
-    ![](Images/MS-900-share.png)
+    ![](Images/MS-900-share1.png)
     
     ![](Images/MS-900-link.png)
    
+1. Now log into your outlook email with the username (<inject key="AzureAdUserEmail"></inject>) in which you have sent the email, you will recieved the message on the outlook.
+
+    ![](Images/MS-900-shared.png)
+
 1. You can explore other options available in Microsoft Stream.
 
 1. To learn more about Microsoft Stream refer to https://docs.microsoft.com/en-us/stream/overview.
