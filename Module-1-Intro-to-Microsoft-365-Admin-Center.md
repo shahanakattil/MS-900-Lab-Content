@@ -308,21 +308,25 @@ Microsoft Stream is an Enterprise Video service where people in your organizatio
    
     ![](Images/MS-900-upload.png)
     
-    > **Note**: if you are not able to see your folder refresh the page.
+    > **Note**: if you are not able to see your video keep refrehing the page.
 
 1. Select the video, by clicking on the video, it will redirect you to the new-browser
    
     ![](Images/MS-900-video.png)
 
-1. Now, click on **Share** button, and enter the * Username: <inject key="AzureAdUserEmail"></inject> , then click on **Send**.
+1. Now, click on **Share** button, and enter the Username: <inject key="AzureAdUserEmail"></inject> , then click on **Send**.
 
     ![](Images/MS-900-share1.png)
-    
-    ![](Images/MS-900-link.png)
-   
-1. Now log into your outlook email with the username (<inject key="AzureAdUserEmail"></inject>) in which you have sent the email, you will recieved the message on the outlook.
+ 
+ 1. Select **Anyone with the link can edit >**, now select **People you choose** and click on **Apply**, then enter the Username: <inject key="AzureAdUserEmail"></inject> , click on **Send**.
 
-    ![](Images/MS-900-shared.png)
+    ![](Images/MS-900people.png)
+    
+    ![](Images/MS-900send.png)
+   
+1. Open a new browser window and log in to the outlook https://outlook.office.com/mail with the username (<inject key="AzureAdUserEmail"></inject>) in which you have sent the email, now check you have recieved a email, after that click **open** it will open the video that you have shared it from the user you created.
+
+    ![](Images/MS-900-email.png)
 
 1. You can explore other options available in Microsoft Stream.
 
