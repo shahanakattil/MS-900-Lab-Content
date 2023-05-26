@@ -12,17 +12,17 @@
 1. Now enter the following password and click on **Sign in**.
       * Password: <inject key="AzureAdUserPassword"></inject>
 
-1. From the navigation menu scroll down to  **Billing** and select **Licenses**.
+1. From the navigation menu scroll down to  **Billing (1)** and select **Licenses (2)**.
    
-1. On the Subscriptions page you can see all Available licenses, Assigned licenses. Click on **any** of the License to get detailed information.
+1. On the **Subscriptions (3)** page you can see all Available licenses, Assigned licenses. Click on **any (4)** of the License to get detailed information.
 
-   ![](Images/License1.png)
+   ![](Images/ms900L5I1.png)
 
 1. This displays the list of users to whom the selected license is assigned. From here you can assign the license to users.
 
 1. Click on **Assign licenses**.
 
-   ![](Images/img130.png)
+   ![](Images/ms900L5I2.png)
 
 1. In the **Assign licenses to users** pane, Enter **Uername** <inject key="AzureAdUserEmail"></inject>, and then choose it from the results to add it to the list. You can add up to 20 users at a time.
 
@@ -34,13 +34,13 @@
 
 1. You can export the list of all users assigned with this license by clicking on **Export users**.
 
-   ![](Images/img134.png)
+   ![](Images/ms900L5I3.png)
 
 1. To Unassign licenses, Select the users for which you want to unassign licenses.
 
 1. Select **Unassign licenses**. In the Unassign licenses box, select Unassign.
 
-   ![](Images/img132.png)
+   ![](Images/ms900L5I4.png)
 
 1. Switch back to the licenses page click on **Requests**. From here you can approve or deny the requests made from members of your organization for license assignments.
 
