@@ -45,7 +45,7 @@
 
 1. To Unassign licenses, Select the users for which you want to unassign licenses.
 
-1. Select **Unassign licenses**. In the Unassign licenses box, select Unassign.
+1. Select **Unassign licenses**. In the Unassign licenses box, select **Unassign**.
 
    ![](Images/ms900L5I4.png)
 
