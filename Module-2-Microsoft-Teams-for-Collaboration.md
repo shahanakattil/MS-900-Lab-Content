@@ -198,25 +198,30 @@ In this task, we will create and assign a messaging policy to the user from the 
 
      ![](Images/Teams7.png)
 
-12. Click on **Add**. Enter a name and description for the policy.
+12. Click on **Add**. 
 
-13. Under **Microsoft apps** select **Allow specific apps and block all others**. You can also select other options based on your requirement.
+13. Provide a name as **App restrictions** and description for the policy.
+
+14. Under **Microsoft apps** select **Allow specific apps and block all others**. You can also select other options based on your requirement.
 
      ![](Images/Teams8.png)
 
-14. Select **Allow apps**, search for the apps that you want to allow, and then click **Add**.
+15. Select **Allow apps**, search for the apps that you want to allow, and then click **Add**.
 
      ![](Images/img219.png)
 
-15. Similarly, repeat the above steps for **Third-party apps**, **Custom apps** as per required. When done click **Save**.
+16. Similarly, repeat the above steps for **Third-party apps** as per required. When done click **Save**.
 
      ![](Images/img220.png)
+     
+     >**Note:** Ignore If you received any error while saving, Go back to the **Permission policies** page, you can see your newly created policy.
+     
+17. To apply this policy to specific users select your newly created policy, click on **Manage users** from the dropdown select **Assign users** in the search bar search and select the users or groups to whom you intend to apply this policy. Select **Apply**.
 
-16. To apply this policy to specific users select your newly created policy, click on **Manage users** from the dropdown select **Assign users** in the search bar search and select the users or groups to whom you intend to apply this policy. Select **Apply**.
 
-17. This policy will enable users to access only the apps that you have allowed.
+18. This policy will enable users to access only the apps that you have allowed.
 
-18. To learn more about teams policies refer to https://docs.microsoft.com/en-us/microsoftteams/assign-policies.
+19. To learn more about teams policies refer to https://docs.microsoft.com/en-us/microsoftteams/assign-policies.
 
 ## Conclusion
 
