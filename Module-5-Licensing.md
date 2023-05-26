@@ -32,13 +32,20 @@
 
 1. When you're finished, select **Assign**, then select Close.
 
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > 
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 1. You can export the list of all users assigned with this license by clicking on **Export users**.
 
    ![](Images/ms900L5I3.png)
 
 1. To Unassign licenses, Select the users for which you want to unassign licenses.
 
-1. Select **Unassign licenses**. In the Unassign licenses box, select Unassign.
+1. Select **Unassign licenses**. In the Unassign licenses box, select **Unassign**.
 
    ![](Images/ms900L5I4.png)
 
