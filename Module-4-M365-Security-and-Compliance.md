@@ -1,4 +1,4 @@
-# Module 4 : M365 Security and Compliance 
+# Module 4: M365 Security and Compliance 
 
   This module helps you to understand various features that contribute to overall organization security.
 
