@@ -1,4 +1,4 @@
-# Module 3 : M365 Business Management Capabilities 
+# Module 3: M365 Business Management Capabilities 
 
  In this module, you will learn to work with M365 groups, Microsoft Planner, Forms, Power BI. You will also explore through Microsoft Endpoint Manager.
 
