@@ -1,8 +1,16 @@
 # Getting Started
 
-1. Use the azure credentials provided in the **Environment Details** tab to log in to the **Office 365 Admin Portal**.
+1. On **Sign in** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-   ![](Images/image.png)
+1. Now enter the following password and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
+   
+1. In the pop-up for *Help us protect your account*, select **Skip for now (14 days until this is required)**.
+
+1. If you see the pop-up **Stay Signed in?**, click Yes
+
+1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
 # Sign up for Office 365 E5 free trial
 
