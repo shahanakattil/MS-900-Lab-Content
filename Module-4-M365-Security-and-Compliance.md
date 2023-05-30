@@ -422,7 +422,35 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
 1. Now select **Groups & Sites** to configure priacy, access control and other settings to protect label, leave the setting as default
 
 1. Under the **Schematized data assests (preview)** check the below option, click on **Next** then review the settings and click **Create label**.
+
+  >**NOTE:** If you received any error like **Right Management is not Active for the tenant.**  then perform the following steps:
+  
+1. In your Jump VM, On the Taskbar click on **Search icon (1)** and search for **Powershell (2)** then Right-click on **Powershell ISE (3)**, Select **Run as administator (4)**.
    
+      ![](Images/psISE.png)
+
+1. Run the Following Commands, Once Completed go back to the Admin center and Click  **Create label**:
+
+   ```Powershell
+    Install-Module -Name AIPService
+    update-Module -Name AIPService
+   ```
+   
+   ```Powershell 
+    Connect-AipService
+   ```
+   
+   ```Powershell
+    Install-Module -Name AIPService
+    update-Module -Name AIPService
+   ```
+    
+    ```Powershell
+     Connect-AipService
+     Get-AipService
+     Enable-AipService
+    ```
+
 1. Click on your newly created label from here you can edit, publish, or delete it.
 
 1. Now click on **Label policies** and select **Publish labels**. 
