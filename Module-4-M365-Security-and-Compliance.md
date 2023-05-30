@@ -18,7 +18,7 @@ In this task, you will enable MFA in Azure Active Directory using Conditional Ac
 
    ![](Images/img116.png)
 
-1. On the left side of the page scroll down to the **Protect & Secure** section under **Azure Active Directory** and then select the dropdown next to **Protect & Secure** then selct **security center**.
+1. On the left side of the page scroll down to the **Protect & Secure** section under **Azure Active Directory** and then select the dropdown next to **Protect & Secure (1)** then selct **security center (2)**.
 
    ![](Images/ms900-t3.png)
 
@@ -26,7 +26,7 @@ In this task, you will enable MFA in Azure Active Directory using Conditional Ac
 
    ![](Images/security.png)
 
-1. At the top of the Policies pane, click **+ New Policy**. 
+1. At the top of the Policies pane, click **+ Creat New Policy**. 
 
    ![](Images/ms900-t4.png)
 
