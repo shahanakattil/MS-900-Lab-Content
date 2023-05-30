@@ -34,7 +34,11 @@ In this task, you will learn how to create and manage users from Microsoft Admin
 
 1. if not logged in, open a new browser window and log in to the admin center at [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-1. When prompted, use the credentials provided in the **Environment Details** page to login to the admin center.
+1. On the **Sign into** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>   
+   
+1. Now enter the following **Password** and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
 1. From the navigation menu, click on the **Users** icon and click on **Active users**. This will display the list of active users.
 
