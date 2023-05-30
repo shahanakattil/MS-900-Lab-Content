@@ -442,13 +442,13 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
 1. From the navigation pane, select **Users** to display details about the users that you have included in Intune.
 
-    ![](Images/img204.png)
+    ![](Images/users.png)
     
     >**Note:** You will have different list of users in your environment.
 
 1. From the navigation pane, select **Groups** to display details about the Azure Active Directory (Azure AD) groups included in Intune. As an Intune admin, you use groups to manage devices and users.
 
-    ![](Images/img205.png)
+    ![](Images/grps.png)
    
     >**Note:** You will have different list of groups in your environment.
      
