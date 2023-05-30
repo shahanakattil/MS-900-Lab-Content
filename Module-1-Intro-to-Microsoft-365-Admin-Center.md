@@ -346,11 +346,7 @@ Microsoft SharePoint helps organizations share and manage content, knowledge, an
 
 1. In the office365 portal from the  **App launcher** click on **All apps**. In the search bar search for **SharePoint**, from **Open context menu** click on **Open in new tab**. This will redirect you to the **SharePoint** web page. 
 
-1. From the top of the SharePoint page, click **+ Create site**  option.
-  
-    ![](Images/img35.png)
-
-1. A site creation wizard will appear on the right-hand side of the screen. Based on your requirement you can select **Team site** or **Communication site**. For now, select **Team site**.
+1. From the top of the SharePoint page, click **+ Create site (1)**  option. A site creation wizard will appear on the right-hand side of the screen. Based on your requirement you can select **Team site** or **Communication site**. For now, select **Team site (2)**.
    
     ![](Images/img36.png)
    
