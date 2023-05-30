@@ -312,10 +312,14 @@ In this task, you will visualize the data which you had imported in the previous
     
     ![](Images/dateset.png)
     
-1. On **Add date to start building a report** blade, Select **Excel**.
+1. On **Add date to start building a report** window, Select **Excel**.
 
    ![](Images/excel.png)
    
+1. On **Select a file** window, Click on **Browse this device**.
+
+    ![](Images/browsfile.png)
+    
 1. Select previously downloaded **Financial Sample** excel.
 
    ![](Images/selectexcel.png)
