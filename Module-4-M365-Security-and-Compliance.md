@@ -423,31 +423,38 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
 
   >**NOTE:** If you received any error like **Right Management is not Active for the tenant.**  then perform the following steps:
   
-1. In your Jump VM, On the Taskbar click on **Search icon (1)** and search for **Powershell (2)** then Right-click on **Powershell ISE (3)**, Select **Run as administator (4)**.
-   
-      ![](Images/psISE.png)
+1. In the **Search** field on the taskbar at the bottom of the desktop, enter **PowerShell**.
 
-1. Run the Following Commands, Once Completed go back to the Admin center and Click  **Create label**:
+   ![](Images/image024.png)
 
-   ```Powershell
-    Install-Module -Name AIPService
-    update-Module -Name AIPService
-   ```
+    **Important:** you should select **Windows PowerShell ISE** (not Windows PowerShell); therefore, right-click on **Windows PowerShell ISE** and select **Run as administrator**.
+
+    ![](Images/image245.png)
+
+1. If a **User Account Control** dialog box appears, select **Yes** to allow this app to make changes to your device.
+
+1. Run the following command to install Azure Information Protection
+
+   **Note**: If you are prompted to confirm an Execution Policy Change, select Yes to All
    
-   ```Powershell 
-    Connect-AipService
-   ```
-   
-   ```Powershell
-    Install-Module -Name AIPService
-    update-Module -Name AIPService
-   ```
+       Install-Module -Name AIPService
+
+1. Run the following command. In the **Sign in** dialog box, Enter the **username** and **password** as provided in the environment detail tab for your Azure Information Protection tenant.
+
+       Connect-AipService
+
+1. Run the command to confirm whether the protection service is activated. A status of Enabled confirms activation; Disabled indicates that the service is deactivated.
+  
+       Get-AipService
     
-    ```Powershell
-     Connect-AipService
-     Get-AipService
-     Enable-AipService
-    ```
+1. To activate the service, run the command.
+
+       Enable-AipService
+       
+1. On the Next Page, Learn about how to create users, assign a license to the users, verify custom domains in the tenant, and see how to access other admin centers.
+       
+       
+
 
 1. Click on your newly created label from here you can edit, publish, or delete it.
 
