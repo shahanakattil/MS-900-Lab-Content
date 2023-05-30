@@ -23,7 +23,12 @@
 
 1. Open a new browser window and log in to the admin center at https://admin.microsoft.com.
 
-2. When prompted, use the credentials provided in the **Environment Details** page to login to the admin center.
+1. On the **Sign into** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>   
+   
+1. Now enter the following **Password** and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>.
+
 3. From the navigation menu, click on the **Users (1)** icon and click on **Active users (2)**. This will display the list of active users.
 
     ![](Images/ms900-lab1-3-img1.png)
@@ -163,7 +168,7 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
     
     - Select a due date for the task
     
-    - Click on **Assign** and choose a plan member from the list. If the right person isn't listed, type a name or email address in the search box to add someone new. click on Add task .
+    - Click on **Assign** and choose a plan member from the list. If the right person isn't listed, type a name or email address in the search box to add someone new. click on Add task 
     
     ![](Images/img233.png)
  
@@ -203,7 +208,7 @@ In this task, you will learn how to create a Form using Microsoft Forms.
 
 1. Open a new browser window and log in to the office365 center at https://www.office.com.
 
-1. When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example Odl_User-DeploymentId. 
+1. When prompted enter the username and password of the user which you have created in the the **Exercise 1 task 1.** For example Odl_User-<inject key="DeploymentID" enableCopy="false"/>.
 
 1. In the office365 portal from the **App launcher** click on **All apps** and in the search bar search for **Forms**, from **Open context menu** click on **Open in new tab**, this will redirect you to the **Forms** web page.
 
@@ -273,7 +278,11 @@ In this task, you will import sample financial data to PowerBI.
 
 1. Open a new browser window and log in to the office365 center at https://www.office.com.
 
-1. When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example Odl_User-DeploymentId. 
+1. On the **Sign into** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>   
+   
+1. Now enter the following **Password** and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
 1. In office365 portal from the **App launcher** click on **All apps** and in the search bar search for **Power BI**, from **Open context menu** click on **Open in new tab**, this will redirect you to the **Power BI** web page.
 
@@ -298,35 +307,42 @@ In this task, you will visualize the data which you had imported in the previous
     ![](Images/MS-900-13.1.png)
     
     ![](Images/MS-900-14.png)
-1. Go to My workspace and click on **Financial Sample** dataset. From the dropdown of **+Create a report**, click on **Start from scratch**.
+    
+1. Go to My workspace and Click on **New (1)** from the drop-down Select **Dataset (2)**.
+    
+    ![](Images/dateset.png)
+    
+1. On **Add date to start building a report** blade, Select **Excel**.
 
-    ![](Images/image11.png)
+   ![](Images/excel.png)
    
-    ![](Images/image12.png)
+1. Select previously downloaded **Financial Sample** excel.
+
+   ![](Images/selectexcel.png)
+            
+1. Go to My workspace and click on **Financial Sample** dataset. From the dropdown of **+Create a report (1)**, click on **Start from scratch (2)**.
+
+    ![](Images/fromscrach.png)
 
 1. The report opens in the Editing view and displays the blank report canvas. On the right are the **Visualizations**, **Filters**, and **Data** panes.
 
-    ![](Images/img81.png)
+    ![](Images/FVD.png)
 
-1. Now let us create visualizations by selecting **Clustered column chart (1)**. Let's say your manager wants to see profit over time. To do this, in the Fields pane select **Profit (2)**. Power BI displays a column chart with one column.
+1. Now let us create visualizations (1) by selecting **Clustered column chart (2)**. Let's say your manager wants to see profit over time. To do this, From Data (3) pane, select **Date (4)**. Power BI updates the column chart to show profit by date, in the Dataf pane select **Profit (5)**. Power BI displays a column chart with one column.
 
-    ![](Images/upd-img82.png)
-
-1. From Data pane, select **Date**. Power BI updates the column chart to show profit by date. 
-
-    ![](Images/img83.png)
-
+    ![](Images/graph.png)
+  
 1. We can also create a map visualization. In this, we will check which countries are the most profitable.
 
-1. Select a blank area on your report canvas and click on **Maps** under visualization pane. From the **Fields** pane, select **Country**, and **Profit** field. Power BI creates a map visual with bubbles representing the relative profit of each location.
+1. Select a blank area on your report canvas and click on **Maps (2)** under visualization (1) pane. From the **Data (3)** pane, select **Country (4)**, and **Profit (5)** field. Power BI creates a map visual with bubbles representing the relative profit of each location.
 
-    ![](Images/img84.png)
+    ![](Images/map.png)
 
 1. In this way you can explore through other visualization options.
 
-1. To save your report from the top navigation menu, select **File** and click on **Save**, provide a name for your report, and select **Save**.
+1. To save your report from the top navigation menu, select **File (1)** and click on **Save (2)**, provide a name for your report, and select **Save**.
 
-    ![](Images/img85.png)
+    ![](Images/save.png)
 
 1. To learn more about **Power BI** refer to https://docs.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview.
 
