@@ -421,7 +421,7 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
 
 1. Under the **Schematized data assests (preview)** check the below option, click on **Next** then review the settings and click **Create label**.
 
-  >**NOTE:** If you received any error like **Right Management is not Active for the tenant.**  then perform the following steps:
+    **NOTE:** If you received any error like **Right Management is not Active for the tenant.**  then perform the following steps:
   
 1. In the **Search** field on the taskbar at the bottom of the desktop, enter **PowerShell**.
 
