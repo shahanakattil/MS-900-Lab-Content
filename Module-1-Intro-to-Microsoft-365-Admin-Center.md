@@ -282,9 +282,9 @@ With yammer people can openly connect and engage across the organization, from h
    
     ![](Images/img24.png)
   
-1.  We can also send a private message to Yammer.
+1. We can also send a private message to Yammer.
    
-1.  In the yammer dashboard click on the **Inbox** icon and select  **New Private Messages**. 
+1. In the yammer dashboard click on the **Inbox** icon and select  **New Private Messages**. 
    
     ![](Images/img25.png)
 
@@ -414,11 +414,11 @@ List helps to track information and organize your work. With a list, one can tra
     
     - In **Save to** select a location where you want your list to be saved. Click on **Create**
    
-    ![](Images/img39.png)
+     ![](Images/img39.png)
     
  1. When your list opens, to add an item to your list, select **+ New**. 
-  
-    ![](Images/img167.png)
+   
+     ![](Images/img167.png)
  
  1. Under **Title** provide a name for your new item, if needed you can also add attachments. Once done click on **Save**.
  
