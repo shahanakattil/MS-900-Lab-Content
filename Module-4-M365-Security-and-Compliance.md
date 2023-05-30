@@ -260,8 +260,6 @@ Microsoft Cloud App Security is a multimode Cloud Access Security Broker (CASB).
 1. If you don't have a log file follow the below steps to download a sample log file.
 
 1. Under overview tab, click **Next**.
-
-   ![](Images/image015.png)
   
 1. Under **Report Details** tab, Enter a **Report name** and a **Description**. Select the **source** from which you want to upload the log files. Click **View log formate** then Download sample log and click on **Next**.
    
