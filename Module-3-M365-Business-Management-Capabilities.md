@@ -27,7 +27,7 @@
    * Email/Username: <inject key="AzureAdUserEmail"></inject>   
    
 1. Now enter the following **Password** and click on **Sign in**.
-   * Password: <inject key="AzureAdUserPassword"></inject>.
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
 3. From the navigation menu, click on the **Users (1)** icon and click on **Active users (2)**. This will display the list of active users.
 
@@ -288,23 +288,28 @@ In this task, you will import sample financial data to PowerBI.
 
 1. Download sample data from https://docs.microsoft.com/en-us/power-bi/create-reports/sample-financial-download
 
-    ![](Images/img77.png)
+     ![](Images/img77.png)
    
-1. In Power BI, from the left navigation menu select **My workspace**, click on **Upload**, and from the drop-down select **Browse**.
+1. In Power BI, from the left navigation menu select **My workspace**.
 
     ![](Images/MS-900-11.png)
+  
+1. Click on **Upload**, and from the drop-down select **Browse**.
+ 
     ![](Images/MS-900-12.png)
     
-1. Browse to where you saved the Financial Sample data file, and click on **Open**..
+1. Browse to where you saved the Financial Sample data file, and click on **Open**.
 
 
 ### Task 2 : Visualize data
 
 In this task, you will visualize the data which you had imported in the previous task by using various visualization options available in PowerBI.
 
-1. Go to  setting in power Bi, from right icon(...), click on Admin Portal, further search for map and enable the **Use Azure Maps visual** and **Map and Filled map visuals** and Apply for both.
+1. Go to setting in power Bi, from right icon(...), click on Admin Portal, further search for map and enable the **Use Azure Maps visual** Apply.
 
     ![](Images/MS-900-13.1.png)
+    
+1. Similarly, enable the **Map and Filled map visuals** and Apply.
     
     ![](Images/MS-900-14.png)
     
@@ -314,7 +319,7 @@ In this task, you will visualize the data which you had imported in the previous
     
 1. On **Add date to start building a report** window, Select **Excel**.
 
-   ![](Images/excel.png)
+    ![](Images/excel.png)
    
 1. On **Select a file** window, Click on **Browse this device**.
 
@@ -366,7 +371,7 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
     ![](Images/img116.png)
 
-1. On the left side of the page scroll down to the **Billing** and then under billing select **Licenses**, select **All Products** and then click on **+ Try/Buy**
+1. On the left side of the page scroll down to the **Billing** and then under billing select **Licenses**, select **All Products** and then click on **+ Try/Buy**.
 
     ![](Images/licenses-try.png)
 
@@ -374,7 +379,7 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
     ![](Images/licenses-E5.png)
 
-1. Refresh your browser window once you see a notification that you have **Successfully activated Enterprise Mobility + Security e5**
+1. Refresh your browser window once you see a notification that you have **Successfully activated Enterprise Mobility + Security e5**.
 
     ![](Images/p5activated.png)
 
@@ -382,7 +387,7 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
     ![](Images/upd-p5activated.png)
 
-1. On the **Assign license** page, select **+ add users and groups** and select your user account, you can find the details in the environment details tab and click on select
+1. On the **Assign license** page, select **+ add users and groups** and select your user account, you can find the details in the environment details tab and click on **Select**.
 
     ![](Images/add-user-license-1.png)
 
@@ -414,7 +419,7 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
       
       - **Software update status** - See a visual of the deployment status for all devices and all users.
       
-    ![](Images/img198.png)
+      ![](Images/img198.png)
 
 1. From the Devices **Overview** pane, select **Compliance policies**  to display details about compliance policies for devices managed by Intune. Compliance requirements are essentially rules, such as requiring a device PIN or requiring device encryption. Device compliance policies define the rules and settings that a device must follow to be considered compliant.
 
