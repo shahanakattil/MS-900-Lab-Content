@@ -18,21 +18,21 @@ In this task, we will explore the options available in Teams, learn how to creat
 
 1.  If you are not already signed into the admin center, sign in to the admin center at https://admin.microsoft.com with the credentials.
 
-2. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
+1. On **Sign in** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
      * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-3. Now enter the following password and click on **Sign in**.
+1. Now enter the following password and click on **Sign in**.
      * Password: <inject key="AzureAdUserPassword"></inject>
 
-4. From the navigation menu, click on the **Users** icon and click on **Active users**. This will display the list of active users.
+1. From the navigation menu, click on the **Users** icon and click on **Active users**. This will display the list of active users.
 
     ![](Images/ms900-lab1-3-img1.png)
 
-5. Now to create a new user, from the navigation menu click on **Users icon** and click on **Active users**, and then select **Add a user** icon.
+1. Now to create a new user, from the navigation menu click on **Users icon** and click on **Active users**, and then select **Add a user** icon.
 
     ![](Images/ms900-lab1-3-img3.png)
 
-6. In the **Set up the basics pane**, fill the following details, and then select **Next**.
+1. In the **Set up the basics pane**, fill the following details, and then select **Next**.
 
     - **First name:** Odl.
 
@@ -49,26 +49,27 @@ In this task, we will explore the options available in Teams, learn how to creat
 
         ![](Images/ms-900-lab1-img2.png)
 
-7. In the  **Assign product licenses**  pane, choose your location from the **select location** dropdown. In the licenses section, choose **Assign user a product license** and select **office 365 E5** license. Click **Next**.
+1. In the  **Assign product licenses**  pane, choose your location from the **select location** dropdown. In the licenses section, choose **Assign user a product license** and select **office 365 E5** license. Click **Next**.
 
     ![](Images/img6-1.png)
 
-8. In the **Optional settings**  pane, leave everything as default and click on **Next**.
+1. In the **Optional settings**  pane, leave everything as default and click on **Next**.
 
     ![](Images/ms900-lab1-img6.png)
 
-9. In the **Review and Finish** pane, review the new user&#39;s settings and click on **Finish adding**, then **Close**.
+1. In the **Review and Finish** pane, review the new user&#39;s settings and click on **Finish adding**, then **Close**.
 
-    ![](Images/ms900-lab1-img7.png)
+     ![](Images/ms900-lab1-img7.png)
    
-10. Verify that the user has been created successfully. In the Microsoft 365 admin center, in the left navigation pane, select **Users** and select **Active users**. The new user should be listed, along with their assigned license.
+1. Verify that the user has been created successfully. In the Microsoft 365 admin center, in the left navigation pane, select **Users** and select **Active users**. The new user should be listed, along with their assigned license.
 
+1. From the top left corner click on **App launcher**.
 
-11. From the top left corner click on **App launcher**.
+    ![](Images/MS-900-applauncher.png)
 
-12. Under **Apps** select **Teams** and from **Open context menu** click on **Open in new tab**. This will redirect you to the Teams web app page. On the Teams page click on **Use the web app instead**.
+1. Under **Apps** select **Teams** and from **Open context menu** click on **Open in new tab**. This will redirect you to the Teams web app page. On the Teams page click on **Use the web app instead**.
 
-13. On the left side of **Teams** you can find: 
+1. On the left side of **Teams** you can find: 
 
       - **Teams** - Find channels to belong to or create your own. Inside channels, you can hold on-the-spot meetings, have conversations, and share files.
 
@@ -78,37 +79,37 @@ In this task, we will explore the options available in Teams, learn how to creat
 
       - **Activity** - Catch up on all your unread messages, @mentions, replies, and more.
 
-14. Now open a new browser window and log in to [Microsoft Teams](https://go.microsoft.com/fwlink/p/?linkid=2123761&lm=deeplink&lmsrc=FreemiumEOLWeb&cmpid=FreemiumEOL).
+1. Now open a new browser window and log in to [Microsoft Teams](https://go.microsoft.com/fwlink/p/?linkid=2123761&lm=deeplink&lmsrc=FreemiumEOLWeb&cmpid=FreemiumEOL).
 
-15. When prompted enter the username and password of the user that you created in the previous exercise.
+1. When prompted enter the username and password of the user that you created in the previous exercise.
 
-16. In the admin team's account, search and select the newly created user from the search bar and initiate a conversation.
+1. In the admin team's account, search and select the newly created user from the search bar and initiate a conversation.
 
      ![](Images/img40.png)
 
-17. Now switch back to the team's user account and verify the message.
+1. Now switch back to the team's user account and verify the message.
 
-18. To create a new team from the left navigation menu select **Teams**, click on **Join or create a team** and Select **Create a new team**.
+1. To create a new team from the left navigation menu select **Teams**, click on **Join or create a team** and Select **Create a new team**.
 
      ![](Images/img211-1.png)
     
-19. On **Create a team** page, select **From Scratch** option. 
+1. On **Create a team** page, select **From Scratch** option. 
    
      ![](Images/M2E1T1Step1101.png)
 
-20. Select **Private** if you'd like people to request permission to join, or select **Public** if anyone in your organization can join.
+1. Select **Private** if you'd like people to request permission to join, or select **Public** if anyone in your organization can join.
 
      ![](Images/M2E1T1Step1201.png)
 
-21. Give the team name as **IT-Team** and add a description if needed. Select **Create**.
+1. Give the team name as **IT-Team** and add a description if needed. Select **Create**.
 
      ![](Images/img214.png)
 
-22. To Add members click on more options and select **Add members** search and select the members. When you're done adding members, select **Add** and then Close.
+1. To Add members click on more options and select **Add members** search and select the members. When you're done adding members, select **Add** and then Close.
 
      ![](Images/img215.png)
 
-23. From here you can start a new conversation and share files.
+1. From here you can start a new conversation and share files.
 
      ![](Images/teams.png)
 
@@ -118,7 +119,7 @@ In this task, we will learn how to schedule a meeting in Teams.
 
 1. Select **calendar** from the left-hand menu of the team's pane. 
 
-2. Now click on  **+ New Meeting**. 
+1. Now click on  **+ New Meeting**. 
   
     ![](Images/M2E1T2Step201.png)
    
@@ -134,11 +135,11 @@ In this task, we will learn how to schedule a meeting in Teams.
    
       ![](Images/img42.png)
    
-3. Microsoft Teams also has a **Scheduling Assistant** which you can use to find a time that works for everyone. 
+1. Microsoft Teams also has a **Scheduling Assistant** which you can use to find a time that works for everyone. 
 
-4. Once done click on **Send**. This will close the scheduling form and send an invite to everyone's Outlook inbox.
+1. Once done click on **Send**. This will close the scheduling form and send an invite to everyone's Outlook inbox.
 
-5. To learn more about teams refer to https://docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-quick-start.
+1. To learn more about teams refer to https://docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-quick-start.
    
 # Exercise 2: Explore Teams admin center 
 
@@ -150,33 +151,33 @@ In this task, we will create and assign a messaging policy to the user from the 
 
 1. Teams policies in Microsoft Teams can be used to control what users in your organization can do in teams and channels.
 
-2. From the Navigation menu, click on show all and under **Admin centers** select **Teams**. This will redirect you to **Microsoft Teams admin center**.
+1. From the Navigation menu, click on show all and under **Admin centers** select **Teams**. This will redirect you to **Microsoft Teams admin center**.
 
     ![](Images/img43.png)
    
-3. From the **Left navigation menu** select **Teams** and under it select **Manage teams**. From here you can manage all the teams and channels, create new ones, and manage the existing ones.
+1. From the **Left navigation menu** select **Teams** and under it select **Manage teams**. From here you can manage all the teams and channels, create new ones, and manage the existing ones.
 
     ![](Images/Teams1.png)
 
-4. The Manage teams page displays the list of your teams along with channels, users, and the status of the team.
+1. The Manage teams page displays the list of your teams along with channels, users, and the status of the team.
 
-5. From here you can add a new team by clicking on **Add**. In the **Add a new team**  page fill in the deatils and click on **Apply**.
+1. From here you can add a new team by clicking on **Add**. In the **Add a new team**  page fill in the deatils and click on **Apply**.
 
     * Name: **Services-Team**.
 
       ![](Images/img222.png)
 
-6. Click on your newly created team. From here you can add or remove **Members**, **channels** to the team and manage them.
+1. Click on your newly created team. From here you can add or remove **Members**, **channels** to the team and manage them.
 
     ![](Images/Teams2.png)
    
     ![](Images/Teams3.png)
 
-7. Now from the **Left navigation menu**, select **show all** and  **Messaging policies**. Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams.
+1. Now from the **Left navigation menu**, select **show all** and  **Messaging policies**. Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams.
 
     ![](Images/Teams4.png)
 
-8. In the **Messaging policies** page click on **Add**. 
+1. In the **Messaging policies** page click on **Add**. 
 
     - Provide a name as **Disable giphy** and description for the policy.
    
@@ -186,42 +187,42 @@ In this task, we will create and assign a messaging policy to the user from the 
     
        ![](Images/Teams5.png)
    
-9. To assign a policy to the user, select the policy that you have created and click on **Manage Users**. In the search bar, search and select the user that you created previously and click on **Apply**.
+1. To assign a policy to the user, select the policy that you have created and click on **Manage Users**. In the search bar, search and select the user that you created previously and click on **Apply**.
  
     ![](Images/Teams6.png)
    
     ![](Images/M3E2T1Step1001.png)
 
-10. Switch back to the user's teams portal and in the chat notice **Delete** option is not available.
+1. Switch back to the user's teams portal and in the chat notice **Delete** option is not available.
 
 11. In the left navigation of the Microsoft Teams admin center, select **Teams apps**  and select **Permission policies**. From here you can configure App permission policies. App permission policies control what apps you want to make available to Teams users in your organization.
 
      ![](Images/Teams7.png)
 
-12. Click on **Add**. 
+1. Click on **Add**. 
 
-13. Provide a name as **App restrictions** and description for the policy.
+1. Provide a name as **App restrictions** and description for the policy.
 
-14. Under **Microsoft apps** select **Allow specific apps and block all others**. You can also select other options based on your requirement.
+1. Under **Microsoft apps** select **Allow specific apps and block all others**. You can also select other options based on your requirement.
 
      ![](Images/Teams8.png)
 
-15. Select **Allow apps**, search for the apps that you want to allow, and then click **Add**.
+1. Select **Allow apps**, search for the apps that you want to allow, and then click **Add**.
 
      ![](Images/img219.png)
 
-16. Similarly, repeat the above steps for **Third-party apps** as per required. When done click **Save**.
+1. Similarly, repeat the above steps for **Third-party apps** as per required. When done click **Save**.
 
      ![](Images/img220.png)
      
      >**Note:** Ignore any error you received while saving the policy, Go back to the **Permission policies** page, Click on **Discard**, You can see your newly created policy.
      
-17. To apply this policy to specific users select your newly created policy, click on **Manage users** from the dropdown select **Assign users** in the search bar search and select the users or groups to whom you intend to apply this policy. Select **Apply**.
+1. To apply this policy to specific users select your newly created policy, click on **Manage users** from the dropdown select **Assign users** in the search bar search and select the users or groups to whom you intend to apply this policy. Select **Apply**.
 
 
-18. This policy will enable users to access only the apps that you have allowed.
+1. This policy will enable users to access only the apps that you have allowed.
 
-19. To learn more about teams policies refer to https://docs.microsoft.com/en-us/microsoftteams/assign-policies.
+1. To learn more about teams policies refer to https://docs.microsoft.com/en-us/microsoftteams/assign-policies.
 
 ## Conclusion
 
