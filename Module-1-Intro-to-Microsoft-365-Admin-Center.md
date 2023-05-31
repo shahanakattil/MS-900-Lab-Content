@@ -81,6 +81,14 @@ In this task, you will learn how to create and manage users from Microsoft Admin
     ![](Images/ms900-lab1-img7.png)
    
 1. Verify that the user has been created successfully. In the Microsoft 365 admin center, in the left navigation pane, select **Users** and select **Active users**. The new user should be listed, along with their assigned license.
+
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > 
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
    
 ### Task 2: Verify Custom Domains in the tenant [Read-Only]
 
