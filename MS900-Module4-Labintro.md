@@ -53,6 +53,16 @@
 
    ![](Images/ms900-1.png)   
    
+1. Now enter the following **Password** and click on **Sign in**.
+
+   * Password: <inject key="AzureAdUserPassword"></inject>
+   
+   ![](Images/pass.png)
+   
+1. If you see the pop-up **Action Required**, click **Ask Later**.
+
+   ![](Images/Ms900-04.png)
+   
 1. It show you the confirmation Message, Click on **Try Now**.  
 
    ![](Images/ms900-333.png)
