@@ -85,7 +85,7 @@
   
     ![](Images/M3E2T1Step6.201.png)
    
-14. Now in the **Members** page,Add existing and newly created user , and then click **Next**. (**Note:** you can join 20 member including owner)
+14. Now in the **Members** page, Add existing and newly created user , and then click **Next**. (**Note:** you can join 20 member including owner)
 
     ![](Images/M3E2T1Step701.png) 
    
@@ -123,7 +123,7 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
 1. Open a new browser window and log in to the office365 center at https://www.office.com.
 
-1. When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example Odl_User-<inject key="DeploymentID" enableCopy="false"/>. 
+1. When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example, Odl_User-<inject key="DeploymentID" enableCopy="false"/>. 
 
 1. In the Office365 portal click on the **App launcher** at the top left corner.
 
@@ -151,7 +151,7 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
     
     - Enter a name for the plan as **Demo-plan**.
     
-    - Make the plan public if you want it to be visible to the rest of your organization and in search results, or make it private if you want only plan members to see it.
+    - Make the plan public if you want it to be visible to the rest of your organization and in search results or make it private if you want only plan members to see it.
     
     - Click on **Add to an existing Microsoft 365 Group** to create your plan in an existing group ( i.e. **Sales-demo**) or if needed you can create a new group.
     
@@ -159,7 +159,7 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
     
     ![](Images/upd-img62.png)
 
-1. Now to add members to the plan, from the upper-right corner of the Planner window click on **Members**.Perform this step only if members are not added to the plan.
+1. Now to add members to the plan, from the upper-right corner of the Planner window click on **Members**. Perform this step only if members are not added to the plan.
 
     ![](Images/img63.png)
 
@@ -208,7 +208,7 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > 
    > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
