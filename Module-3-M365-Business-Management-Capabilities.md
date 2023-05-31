@@ -123,24 +123,33 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
 1. Open a new browser window and log in to the office365 center at https://www.office.com.
 
-1. When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example Odl_User-DeploymentId. 
+1. When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example Odl_User-<inject key="DeploymentID" enableCopy="false"/>. 
 
-1. In the Office365 portal click on  the App launcher at the top left corner and  click on **All apps** and in the search bar search for **Planner**, from **Open context menu** click on Open in new tab, this will redirect you to the **Planner** web page.
+1. In the Office365 portal click on the **App launcher** at the top left corner.
 
     ![](Images/MS-900-07.png)
+ 
+1. click on **All apps** and in the search bar search for **Planner**, from **Open context menu** click on Open in new tab, this will redirect you to the **Planner** web page.
     
     ![](Images/MS-900-08.png)
     
-
-1. Select **New plan**  in the left pane.
+1. On **Welcome to Planner** window, Click **>**.
  
-    ![](Images/MS-900-09.png)
+    ![](Images/planner1.png)
+
+1. Again on **Plan together** window, Click **">"**.
+  
+    ![](Images/planner2.png)
+
+1. On **Put it on the board** window, click on **Create a plan!** to create your new plan. 
+
+    ![](Images/planner3.png)
 
 1. On the **New plan** window, select **New blank plan** option.
 
 1. In the **New blank plan** window: 
     
-    - Enter a name for the plan as **Demo-plan**
+    - Enter a name for the plan as **Demo-plan**.
     
     - Make the plan public if you want it to be visible to the rest of your organization and in search results, or make it private if you want only plan members to see it.
     
@@ -196,7 +205,6 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
 1. To learn more about planner refer to https://support.microsoft.com/en-us/planner.
 
-
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > 
    > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
@@ -222,6 +230,8 @@ In this task, you will learn how to create a Form using Microsoft Forms.
 1. In the office365 portal from the **App launcher** click on **All apps** and in the search bar search for **Forms**, from **Open context menu** click on **Open in new tab**, this will redirect you to the **Forms** web page.
 
 1. Select **New Form** to begin creating your form.
+
+    ![](Images/form.png)
 
 1. Enter a name for your form, you can also enter a description if needed.
 
