@@ -18,9 +18,15 @@
 
 1. Click on **Sign in**. 
 
-   ![](Images/Ms900-02.png)
+   ![](Images/Ms900-2.png)
+   
+1. Now enter the following **Password** and click on **Sign in**.
 
-1. Select **Skip for Now[1]** and Click on **Next[2]**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
+   
+   ![](Images/pass.png)
+
+1. If you see the pop-up **Action Required**, click **Ask Later**.
 
    ![](Images/Ms900-04.png)
 
