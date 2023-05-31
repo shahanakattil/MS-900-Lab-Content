@@ -18,7 +18,7 @@ In this task, you will enable MFA in Azure Active Directory using Conditional Ac
 
    ![](Images/img116.png)
 
-1. On the left side of the page scroll down to the **Protect & Secure** section under **Azure Active Directory** and then select the dropdown next to **Protect & Secure (1)** then selct **security center (2)**.
+1. On the left side of the page scroll down to the **Protect & Secure** section under **Azure Active Directory** and then select the dropdown next to **Protect & Secure (1)** then select **security center (2)**.
 
    ![](Images/ms900-t3.png)
 
@@ -227,7 +227,7 @@ In this exercise, you will use the Microsoft Defender for Cloud Apps portal to i
 
 ### Task 1: Discover Apps with Microsoft Defender for Cloud Apps  
 
-Microsoft Cloud App Security is a multimode Cloud Access Security Broker (CASB). It provides rich visibility, control over data travel, and sophisticated analytics to identify and combat cyber threats across all your cloud services.
+Microsoft Cloud App Security is a multi-mode Cloud Access Security Broker (CASB). It provides rich visibility, control over data travel, and sophisticated analytics to identify and combat cyber threats across all your cloud services.
 
 1. In the **admin center**, from the **App launcher** click on **All apps** and in the search bar search for **Security**, from Open context menu click on **Open in new tab**.
 
@@ -255,7 +255,7 @@ Microsoft Cloud App Security is a multimode Cloud Access Security Broker (CASB).
    
    ![](Images/ms900-4-9.png)
 
-1. Now from the left navigation menu select **Discover**. Cloud Discovery uses your traffic logs to dynamically discover and analyse the cloud apps that your organization is using.
+1. Now from the left navigation menu select **Discover**. Cloud Discovery uses your traffic logs to dynamically discover and analyze the cloud apps that your organization is using.
 
 1. Under **Discover** select **Create snapshot report**. 
   
@@ -279,7 +279,7 @@ Microsoft Cloud App Security is a multimode Cloud Access Security Broker (CASB).
 
 1. After the upload completes, the status message will appear at the top right corner of your screen letting you know that your log was successfully uploaded.
 
-1. After you upload your log files, it will take some 20-30 mins for them to be parsed and analysed. Wait till the status of your log files turns **Ready**.
+1. After you upload your log files, it will take some 20-30 mins for them to be parsed and analyzed. Wait till the status of your log files turns **Ready**.
 
    ![](Images/Cloud-apps9.png)
 
@@ -389,7 +389,7 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
       
       - **Access expires** : Select a date. After this time, users won't be able to open the labelled item.
       
-      - **Allow offline access** :  Never, always, or for a specific number of days after the label is applied. If you restrict offline access to never or a number of days, when that threshold is reached, users must be reauthenticated and their access is logged. 
+      - **Allow offline access** :  Never, always, or for a specific number of days after the label is applied. If you restrict offline access to never or a number of days, when that threshold is reached, users must be re-authenticated and their access is logged. 
       
 1. Under **Assign permissions to specific users or groups** click on **Assign permissions**. From here you can grant permissions to specific people so that only they can interact with the labelled content.
  
