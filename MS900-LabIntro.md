@@ -2,10 +2,7 @@
 
 1. Use the azure credentials provided in the **Environment Details** tab to log in to the **Office 365 Admin Portal**.
 
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
-
-   * Password: <inject key="AzureAdUserPassword"></inject>
-  
+   ![](Images/envdetails.png)
 
 # Sign up for Office 365 E5 free trial
 
@@ -13,7 +10,9 @@
 
    ![](Images/Ms900-01.png)
 
-1. Then on the next screen, Enter the work email address as provided in the **Environment Details** and click on **Next**.
+1. Then on the next screen, in that enter following **Email** and then click on **Next**.
+
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>  
 
    ![](Images/Ms900-03.png)
 
