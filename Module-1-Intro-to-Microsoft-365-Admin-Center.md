@@ -2,7 +2,7 @@
 
 The Microsoft 365 admin center is where you manage your business in the cloud. You can complete tasks such as adding and removing users, changing licenses, and resetting passwords. Here are the features and settings you'll find in the left-hand navigation of the admin center.
   
-   - **Home**: This is the landing page in the admin center. Here you'll see where to manage users, billing, service health, and reports.
+   - **Home**: This is the landing page in the admin center. Here you will see where to manage users, billing, service health, and reports.
    
    - **Users**: From here you can create and manage users in your organization, like employees or students. You can also set their permission level or reset their passwords.
    
@@ -10,7 +10,7 @@ The Microsoft 365 admin center is where you manage your business in the cloud. Y
    
    - **Resources**: Create and manage resources, like a SharePoint site collection. 
    
-   - **Billing**: View purchase, or cancel subscriptions for your organization. View past billing statements or view the number of assigned licenses to individual users.
+   - **Billing**: View purchase or cancel subscriptions for your organization. View past billing statements or view the number of assigned licenses to individual users.
    
    - **Support**: You can view existing service requests or create new ones.
    
@@ -54,7 +54,7 @@ In this task, you will learn how to create and manage users from Microsoft Admin
 
 1. In the **Set up the basics pane**, fill the following details, and then select **Next**.
 
-   - **First name:** Odl
+   - **First name :** Odl
 
    - **Display Name:** Odl_User-<inject key="DeploymentID" enableCopy="false"/>
 
@@ -85,7 +85,7 @@ In this task, you will learn how to create and manage users from Microsoft Admin
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > 
    > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
@@ -100,7 +100,7 @@ In this task, you will verify Custom Domains in the tenant and add a new domain 
 
 1. All the available domains can be found here. We can also purchase new domains or add any existing domain from the **Domains** page.
 
-1. To add a domain Select **+ Add domain**. Enter the name of the domain as **myspektra.com** , then select **Use this domain**.
+1. To add a domain Select **+ Add domain**. Enter the name of the domain as **myspektra.com**, then select **Use this domain**.
 
     ![](Images/img225.png)
     
@@ -112,11 +112,11 @@ In this task, you will verify Custom Domains in the tenant and add a new domain 
 
 1. Now in **Verify your domain** page copy the **TXT name** and **TXT value**. 
 
-1. Go to your domain's registrar or DNS hosting provider, go to the DNS management page of your domain and click on **+ Record set**. Under **Name**  paste the **TXT name** and under **Value** paste **TXT value** you copied earlier and in type select **TXT**. Once done click on **Ok**. 
+1. Go to your domain's registrar or DNS hosting provider, go to the DNS management page of your domain and click on **+ Record set**. Under **Name** paste the **TXT name** and under **Value** paste **TXT value** you copied earlier and in type select **TXT**. Once done click on **Ok**. 
 
     ![](Images/img228.png)
 
-1. Wait for the recordset to be created. Switch back to the admin center, click on **Verify** and select **Continue**.
+1. Wait for the record set to be created. Switch back to the admin center, click on **Verify** and select **Continue**.
 
 1. On **Add DNS records** page follow the instructions and click on **Continue**.
 
@@ -132,7 +132,7 @@ In this task, you will verify Custom Domains in the tenant and add a new domain 
 
 1. To learn more about managing domains from Microsoft admin center refer to  https://docs.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide
 
-### Task 3: Access other admin centers 
+### Task 3: Access other admin centers.
 
 In this task, you will learn how to access other admin centers from Microsoft Admin Center.
 
@@ -154,13 +154,13 @@ In this task, you will learn how to access other admin centers from Microsoft Ad
      
      - **Migration**   -  Migrate mailboxes in batches.
      
-     - **Reports**     - 	View reports on mail flow and migration batches.
+     - **Reports**     -  View reports on mail flow and migration batches.
      
-     - **Insights**    - 	Use the recommendations to discover trends and/or insights, and take actions to fix issues related to mailbox and mail flow.
+     - **Insights**    -  Use the recommendations to discover trends and/or insights, and take actions to fix issues related to mailbox and mail flow.
      
        ![](Images/lab1-t3-img3.png)
 
-1. Switch back to the admin centers page, select **SharePoint**. This will redirect you to the Sharepoint admin center page.
+1. Switch back to the admin centers page, select **SharePoint**. This will redirect you to the SharePoint admin center page.
 
     ![](Images/lab1-t3-img4.png)
 
@@ -182,7 +182,7 @@ Microsoft Outlook is an application that is used mainly to send and receive emai
 
 1. When prompted enter the username and password of the user that you created in the previous step.
 
-   >**Note**: You can get the username by clicking on **Users** and then **Active users** from the navigation menu. In the Active Users pane note down the username for your newly created  user.
+   >**Note**: You can get the username by clicking on **Users** and then **Active users** from the navigation menu. In the Active Users pane note down the username for your newly created user.
 
 1. From the top left corner click on **App launcher**.
 
@@ -204,7 +204,7 @@ Microsoft Outlook is an application that is used mainly to send and receive emai
     ![](Images/lab1-E2t1-img4.png)
     
    
-1. Now Select **People**, you can use the People page to view, create, edit, find, and delete contacts. You can use your contacts for your reference, and can automatically add them as recipients when you compose an email message.
+1. Now Select **People**, you can use the People page to view, create, edit, find, and delete contacts. You can use your contacts for your reference and can automatically add them as recipients when you compose an email message.
 
     ![](Images/lab1-E2t1-img5.png)
     
@@ -240,7 +240,7 @@ OneDrive gives you one place to store, share, and sync your work or school files
 
     ![](Images/lab1-E2t2-img7.png)
 
-1. Select **Anyone with the link can edit to customize the link** option. Set the options you want on your link, then select Apply when you're done.
+1. Select **Anyone with the link can edit to customize the link** option. Set the options you want on your link, then select Apply when you are done.
 
     ![](Images/lab1-E2t2-img8.png)
 
@@ -256,7 +256,7 @@ OneDrive gives you one place to store, share, and sync your work or school files
       
       - **Set expiration date**: The link will only work until the date you set. After that, the link will be invalid, and you will need to create a new link for users requiring access to your file or folder.
 
-     - **Set password**: When a user clicks the link, they will be prompted to enter a password before they can access the file. You'll need to provide this password separately to users.
+     - **Set password**: When a user clicks the link, they will be prompted to enter a password before they can access the file. You will need to provide this password separately to users.
      
     ![](Images/lab1-E2t2-img9.png)
        
@@ -266,7 +266,7 @@ OneDrive gives you one place to store, share, and sync your work or school files
   
 1. You can explore through other options available in the **OneDrive**. 
 
-### Task 3: Explore yammer
+### Task 3: Explore yammer.
 
 With yammer people can openly connect and engage across the organization, from here we can discuss ideas, share and collaborate with others.
 
@@ -274,7 +274,7 @@ With yammer people can openly connect and engage across the organization, from h
  
     ![](Images/Yammer1.png)
 
-1. From the left-hand pane, select **communities**, click on **+ Create a Community**, enter a name for your community. In **Members** search and select the users you want to add. Based on your requirement choose **Public** or **Private** access by click on **Edit**, after this click on **Create**.
+1. From the left-hand pane, select **communities**, click on **+ Create a community**, enter a name for your community. In **Members** search and select the users you want to add. Based on your requirement choose **Public** or **Private** access by click on **Edit**, after this click on **Create**.
 
     ![](Images/M1E2T3Step2.101.png)  
    
@@ -320,7 +320,7 @@ Microsoft Stream is an Enterprise Video service where people in your organizatio
    
     ![](Images/MS-900-upload.png)
     
-    > **Note**: if you are not able to see your video keep refrehing the page.
+    > **Note**: if you are not able to see your video keep refreshing the page.
 
 1. Select the video, by clicking on the video, it will redirect you to the new-browser
    
@@ -336,7 +336,7 @@ Microsoft Stream is an Enterprise Video service where people in your organizatio
     
     ![](Images/MS-900send.png)
    
-1. Open a new browser window and log in to the outlook https://outlook.office.com/mail with the username (<inject key="AzureAdUserEmail"></inject>) in which you have sent the email, now check you have recieved a email, after that click **open** it will open the video that you have shared it from the user you created.
+1. Open a new browser window and log in to the outlook https://outlook.office.com/mail with the username (<inject key="AzureAdUserEmail"></inject>) in which you have sent the email, now check you have received an email after that click **open** it will open the video that you have shared it from the user you created.
 
     ![](Images/MS-900-email.png)
 
@@ -346,11 +346,11 @@ Microsoft Stream is an Enterprise Video service where people in your organizatio
 
 ### Task 5: Explore SharePoint
 
-Microsoft SharePoint helps organizations share and manage content, knowledge, and applications to Empower teamwork, Quickly find information and seamlessly collaborate across the organization.
+Microsoft SharePoint helps organizations share and manage content, knowledge, and applications to Empower teamwork, quickly find information and seamlessly collaborate across the organization.
 
 1. Open a new browser window and log in to the office365 center at https://www.office.com.
 
-1. When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example Odl_User-DeploymentId.
+1. When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example, Odl_User-<inject key="DeploymentID" enableCopy="false"/>.
 
 1. In the office365 portal from the  **App launcher** click on **All apps**. In the search bar search for **SharePoint**, from **Open context menu** click on **Open in new tab**. This will redirect you to the **SharePoint** web page. 
 
@@ -364,7 +364,7 @@ Microsoft SharePoint helps organizations share and manage content, knowledge, an
 
     -  Select a language for your site and click on **Next**
     
-    ![](Images/img37.png)
+     ![](Images/img37.png)
     
     -  In **Add group members** pane, under **Add additional owners box** add the names or email addresses of others whom you would want to allow to manage this site. In **Add members box**, add the name or email address of users you want to be a member of your site and then click **Finish**.  
     
@@ -406,7 +406,7 @@ List helps to track information and organize your work. With a list, one can tra
 
 1. Open a new browser window and log in to the office365 center at https://www.office.com.
 
-1.When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example Odl_User-DeploymentId. 
+1.When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example, Odl_User- <inject key="DeploymentID" enableCopy="false"/>. 
 
 1. In the office365 portal from the  **App launcher** click on **All apps** and in the search bar search for **List**, from **Open context menu** click on **Open in new tab**, this will redirect you to the **List** web page. 
 
@@ -418,7 +418,7 @@ List helps to track information and organize your work. With a list, one can tra
  
     - Provide a name for your list and if needed provide a description.
     
-    - Choose a color and icon for your list.
+    - Choose a colour and icon for your list.
     
     - In **Save to** select a location where you want your list to be saved. Click on **Create**
    
@@ -454,11 +454,11 @@ List helps to track information and organize your work. With a list, one can tra
 
     ![](Images/img170.png)
     
-1. Enter a name or email address. To change the access permissions you are granting to people, select **Can edit** and then select an option based on requirement. 
+1. Enter a name or email address. To change the access permissions, you are granting to people, select **Can edit** and then select an option based on requirement. 
 
     ![](Images/M1E2T6Step12.png)
 
-1. In the Alert Title section, change the title for the alert if you want. Within the **Send Alerts To section**, enter the user names or email addresses of people you want alerts to be sent to.
+1. In the Alert Title section, change the title for the alert if you want. Within the **Send Alerts To section**, enter the usernames or email addresses of people you want alerts to be sent to.
 
     ![](Images/img01.png)
    
@@ -480,4 +480,4 @@ List helps to track information and organize your work. With a list, one can tra
 ## Conclusion
 
 In this module, you have learned how to create users and assign licenses to the users from the Microsoft 365 admin center. You have also learned how to add domains and the process to access other admin centers and explored through various office365 apps.
- 
+
