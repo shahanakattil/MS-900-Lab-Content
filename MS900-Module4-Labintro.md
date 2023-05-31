@@ -16,7 +16,7 @@
 
    ![](Images/Ms900-03.png)
 
-1. Click on **Sign in** and Enter the Password as provided in the **Environment Details** and click on **Sign in**.
+1. Click on **Sign in**.
 
    ![](Images/ms900-2.png)
    
@@ -28,7 +28,7 @@
 
 1. If you see the pop-up **Action Required**, click **Ask Later**.
 
-   ![](Images/Ms900-4.png)
+   ![](Images/asklater.png)
    
 1. If for **Stay signed in** Pops up, Check **Do't show this again (1)** box and click on **yes (2)**.   
 
@@ -61,7 +61,7 @@
    
 1. If you see the pop-up **Action Required**, click **Ask Later**.
 
-   ![](Images/Ms900-04.png)
+   ![](Images/asklater.png)
    
 1. It show you the confirmation Message, Click on **Try Now**.  
 
