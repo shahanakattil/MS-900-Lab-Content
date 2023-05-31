@@ -53,7 +53,7 @@
    
 6. In the  **Assign product licenses**  pane, choose your location from the **select location** dropdown. In the licenses section, choose **Assign user a product license** and select **office 365 E5** license. Click **Next**.
 
-     ![](Images/MS-900-01x.png ) 
+     ![](Images/img6.png ) 
 
 7. In the **Optional settings**  pane, leave everything as default and click on **Next**.
 
