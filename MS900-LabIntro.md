@@ -18,7 +18,7 @@
 
 1. Click on **Sign in**. 
 
-   ![](Images/Ms900-2.png)
+   ![](Images/ms900-2.png)
    
 1. Now enter the following **Password** and click on **Sign in**.
 
@@ -28,7 +28,7 @@
 
 1. If you see the pop-up **Action Required**, click **Ask Later**.
 
-   ![](Images/Ms900-04.png)
+   ![](Images/asklater.png)
 
 1. Click on the **Account**, you just signed in. 
 
