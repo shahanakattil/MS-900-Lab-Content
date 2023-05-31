@@ -65,11 +65,11 @@
    
 1. It show you the confirmation Message, Click on **Try Now**.  
 
-   ![](Images/ms900-333.png)
+   ![](Images/ms900Etrynow.png)
 
 1. Will receive the order Receipt and click on **Continue**.
 
-   ![](Images/Ms900-E8.png)
+   ![](Images/Ms900-E.png)
    
 1. On the Next Page, Learn about how to create users, assign a license to the users, verify custom domains in the tenant, and see how to access other admin centers.    
 
