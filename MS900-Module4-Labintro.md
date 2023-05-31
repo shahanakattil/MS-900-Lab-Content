@@ -10,7 +10,9 @@
 
    ![](Images/Ms900-01.png)
 
-1. Then on the next screen, Enter the work email address as provided in the **Environment Details** and click on **Next**.
+1. Then on the next screen, in that enter following **Email (1)** and then click on **Next (2)**.
+
+   * Email/Username: <inject key="AzureAdUserEmail"></inject> 
 
    ![](Images/Ms900-03.png)
 
@@ -18,7 +20,19 @@
 
    ![](Images/ms900-2.png)
    
-1. If for *Stay signed in* Pops up, click on **yes**.   
+1. Now enter the following **Password** and click on **Sign in**.
+
+   * Password: <inject key="AzureAdUserPassword"></inject>
+   
+   ![](Images/pass.png)
+
+1. If you see the pop-up **Action Required**, click **Ask Later**.
+
+   ![](Images/Ms900-04.png)
+   
+1. If for **Stay signed in** Pops up, Check **Do't show this again (1)** box and click on **yes (2)**.   
+
+    ![](Images/stayin.png)
 
 1. Enter the **Phone Number**, and click on *Text Me* then it will ask you to enter a **verification code** which you have received as a SMS to the provided number and click on **Start your free trail**.
    >**Note**: Make sure to provide a valid mobile number and choose the country code properly.
