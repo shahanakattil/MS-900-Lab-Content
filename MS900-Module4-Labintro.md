@@ -28,7 +28,7 @@
 
 1. If you see the pop-up **Action Required**, click **Ask Later**.
 
-   ![](Images/Ms900-04.png)
+   ![](Images/Ms900-4.png)
    
 1. If for **Stay signed in** Pops up, Check **Do't show this again (1)** box and click on **yes (2)**.   
 
