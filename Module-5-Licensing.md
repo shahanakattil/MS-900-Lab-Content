@@ -4,9 +4,9 @@
 
 # Exercise 1: Browse Licensing center in M365 Admin center 
 
-1.  If you are not already signed into the admin center, sign in to the admin center at https://admin.microsoft.com with the credentials.
+1.  If you are not already signed into the admin center, sign into the admin center at https://admin.microsoft.com with the credentials.
 
-1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
+1. On **Sign into Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
       * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
 1. Now enter the following password and click on **Sign in**.
@@ -24,18 +24,18 @@
 
    ![](Images/ms900L5I2.png)
 
-1. In the **Assign licenses to users** pane, Enter **Uername** <inject key="AzureAdUserEmail"></inject>, and then choose it from the results to add it to the list. You can add up to 20 users at a time.
+1. In the **Assign licenses to users** pane, Enter **Username** <inject key="AzureAdUserEmail"></inject>, and then choose it from the results to add it to the list. You can add up to 20 users at a time.
 
 1. Select **Turn apps and services on or off** to assign or remove access to specific items.
    
    ![](Images/img131.png)
 
-1. When you're finished, select **Assign**, then select Close.
+1. When you are finished, select **Assign**, then select Close.
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > 
    > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
