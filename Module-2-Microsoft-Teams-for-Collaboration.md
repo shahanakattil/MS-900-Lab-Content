@@ -1,6 +1,6 @@
- # Module 2: Microsoft Teams for Collaboration  
+# Module 2: Microsoft Teams for Collaboration  
 
-  Microsoft Teams is a collaboration app that helps your team stay organized and have conversations — all in one place. With Microsoft Teams on your PC, Mac, or mobile device, you can :
+  Microsoft Teams is a collaboration app that helps your team stay organized and have conversations — all in one place. With Microsoft Teams on your PC, Mac, or mobile device, you can:
   
    * Pull together a team.
    * Use chat instead of email.
@@ -10,13 +10,13 @@
 
 ## Exercise 1: End User Experience 
 
-In this exercise, you'll learn various activities carried out in Teams such as having a Teams chat and scheduling Teams meetings.
+In this exercise, you will learn various activities carried out in Teams such as having a Teams chat and scheduling Teams meetings.
 
 ### Task 1: Exploring through Teams
 
 In this task, we will explore the options available in Teams, learn how to create a team and add members to it.
 
-1.  If you are not already signed into the admin center, sign in to the admin center at https://admin.microsoft.com with the credentials.
+1.  If you are not already signed into the admin center, sign into the admin center at https://admin.microsoft.com with the credentials.
 
 1. On **Sign in** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
      * Email/Username: <inject key="AzureAdUserEmail"></inject>
@@ -45,7 +45,7 @@ In this task, we will explore the options available in Teams, learn how to creat
      - **Automatically create a password**: unselected.
 
      - **Password**: Enter a strong password.
-     - **Require this user to change their password when they first sign in** : unselected
+     - **Require this user to change their password when they first sign in**: unselected
 
         ![](Images/ms-900-lab1-img2.png)
 
@@ -75,7 +75,7 @@ In this task, we will explore the options available in Teams, learn how to creat
 
       - **Calendar** - See everything you’ve got lined up for the day or week. Or, schedule a meeting. This calendar syncs with your Outlook calendar.
 
-      - **Calls** - In some cases, if your organization has it set up, you can call anyone from Teams, even if they’re not using Teams.
+      - **Calls** - In some cases, if your organization has it set up, you can call anyone from Teams, even if they are not using Teams.
 
       - **Activity** - Catch up on all your unread messages, @mentions, replies, and more.
 
@@ -89,7 +89,7 @@ In this task, we will explore the options available in Teams, learn how to creat
 
 1. Now switch back to the team's user account and verify the message.
 
-1. To create a new team from the left navigation menu select **Teams**, click on **Join or create a team** and Select **Create a new team**.
+1. To create a new team from the left navigation menu select **Teams**, click on **Join or create a team** and select **Create a new team**.
 
      ![](Images/img211-1.png)
     
@@ -97,7 +97,7 @@ In this task, we will explore the options available in Teams, learn how to creat
    
      ![](Images/M2E1T1Step1101.png)
 
-1. Select **Private** if you'd like people to request permission to join, or select **Public** if anyone in your organization can join.
+1. Select **Private** if you'd like people to request permission to join or select **Public** if anyone in your organization can join.
 
      ![](Images/M2E1T1Step1201.png)
 
@@ -105,7 +105,7 @@ In this task, we will explore the options available in Teams, learn how to creat
 
      ![](Images/img214.png)
 
-1. To Add members click on more options and select **Add members** search and select the members. When you're done adding members, select **Add** and then Close.
+1. To Add members click on more options and select **Add members** search and select the members. When you are done adding members, select **Add** and then Close.
 
      ![](Images/img215.png)
 
@@ -129,7 +129,7 @@ In this task, we will learn how to schedule a meeting in Teams.
    
    - Select the date and time as per the requirements.
    
-   - If it's a recurring meeting, open the dropdown menu next to **Does not repeat** (just below the date). Choose how often you want it to occur from the default options, or select Custom to create your own cadence.
+   - If it's a recurring meeting, open the dropdown menu next to **Does not repeat** (just below the date). Choose how often you want it to occur from the default options or select Custom to create your own cadence.
    
    - If you want to have your meeting in a channel, select the appropriate channel. If you’d rather not, skip it. When you have a meeting in a channel, everyone in the team will be able to see it and join in on that channel.
    
@@ -161,7 +161,7 @@ In this task, we will create and assign a messaging policy to the user from the 
 
 1. The Manage teams page displays the list of your teams along with channels, users, and the status of the team.
 
-1. From here you can add a new team by clicking on **Add**. In the **Add a new team**  page fill in the deatils and click on **Apply**.
+1. From here you can add a new team by clicking on **Add**. In the **Add a new team**  page fill in the details and click on **Apply**.
 
     * Name: **Services-Team**.
 
@@ -228,7 +228,7 @@ In this task, we will create and assign a messaging policy to the user from the 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > 
    > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
