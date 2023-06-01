@@ -137,7 +137,7 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
  
     ![](Images/planner1.png)
 
-1. Again on **Plan together** window, Click **">"**.
+1. Again on **Plan together** window, Click **>**.
   
     ![](Images/planner2.png)
 
