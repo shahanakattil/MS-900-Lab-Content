@@ -65,9 +65,9 @@
    
 9. Verify that the user has been created successfully. In the Microsoft 365 admin center, in the left navigation pane, select **Users** and select **Active users**. The new user should be listed, along with their assigned license.
 
-10. From the navigation menu click on the **Teams & Groups (1)** icon and click on **Active teams & groups (2)**, now select **Add a group (3)** icon.
+10. From the navigation menu click on the **Teams & Groups (1)** icon and click on **Active teams & groups (2)**, now select **Add a group** icon.
 
-    ![](Images/ms900-lab1-3-img3.png)
+    ![](Images/ms-900-lab1-img02.png)
     
 11. On the Choose a group type page, select **Microsoft 365**, and click on **Next**.
 
