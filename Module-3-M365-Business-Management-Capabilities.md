@@ -452,7 +452,7 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
     ![](Images/img199.png)
 
-1. From the Devices Overview pane, select **Conditional Access**, and select **New Policy** to see all the options available. Now select **X** to exit out of **New -Conditional Access policy** pop up.
+1. From the Devices Overview pane, select **Conditional Access**, and select **Create Policy** to see all the options available. Now select **X** to exit out of **New -Conditional Access policy** pop up.
 
    Conditional Access refers to ways you can control the devices and apps that are allowed to connect to your email and company resources.
 
