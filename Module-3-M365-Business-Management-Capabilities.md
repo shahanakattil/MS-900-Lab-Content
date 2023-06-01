@@ -147,6 +147,8 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
 1. On the **New plan** window, select **New blank plan** option.
 
+    ![](Images/blank.png)
+
 1. In the **New blank plan** window: 
     
     - Enter a name for the plan as **Demo-plan**.
@@ -392,7 +394,11 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
 1. Open a new browser window and log in to the admin center at [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-1. When prompted, use the credentials provided in the **Environment Details** page to login to the admin center.
+1. On the **Sign into** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>   
+   
+1. Now enter the following **Password** and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
 1. From the navigation menu scroll down to Admin centers and select Azure Active Directory, the Azure Active Directory overview page will appear.
 
@@ -450,13 +456,13 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
 1. From the Devices **Overview** pane, select **Compliance policies**  to display details about compliance policies for devices managed by Intune. Compliance requirements are essentially rules, such as requiring a device PIN or requiring device encryption. Device compliance policies define the rules and settings that a device must follow to be considered compliant.
 
-    ![](Images/img199.png)
+    ![](Images/img200.png)
 
-1. From the Devices Overview pane, select **Conditional Access**, and select **Create Policy** to see all the options available. Now select **X** to exit out of **New -Conditional Access policy** pop up.
+1. From the Devices Overview pane, select **Conditional Access**, and select **+ Create New Policy** to see all the options available. Now select **X** to exit out of **New -Conditional Access policy** pop up.
 
    Conditional Access refers to ways you can control the devices and apps that are allowed to connect to your email and company resources.
 
-    ![](Images/img200.png)
+    ![](Images/ca.png)
 
 1. From the navigation pane, select Devices and select **Configuration profiles** to display details about device profiles in Intune(**Reference**). 
 
