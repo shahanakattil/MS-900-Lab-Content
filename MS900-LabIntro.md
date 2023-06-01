@@ -29,6 +29,10 @@
 1. If you see the pop-up **Action Required**, click **Ask Later**.
 
    ![](Images/asklater.png)
+   
+1. If for **Stay signed in** Pops up, Check **Do't show this again (1)** box and click on **yes (2)**.   
+
+    ![](Images/stayin.png)
 
 1. Click on the **Account**, you just signed in. 
 
