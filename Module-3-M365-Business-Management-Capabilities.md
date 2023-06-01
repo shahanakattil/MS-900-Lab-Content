@@ -67,7 +67,7 @@
 
 10. From the navigation menu click on the **Teams & Groups (1)** icon and click on **Active teams & groups (2)**, now select **Add a group (3)** icon.
 
-    ![](Images/upd-ms-900-lab1-img02.png)
+    ![](Images/ms900-lab1-3-img3.png)
     
 11. On the Choose a group type page, select **Microsoft 365**, and click on **Next**.
 
