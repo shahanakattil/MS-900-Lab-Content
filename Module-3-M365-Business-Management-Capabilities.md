@@ -1,4 +1,4 @@
-# Module 3 : M365 Business Management Capabilities 
+# Module 3: M365 Business Management Capabilities 
 
  In this module, you will learn to work with M365 groups, Microsoft Planner, Forms, Power BI. You will also explore through Microsoft Endpoint Manager.
 
@@ -23,7 +23,12 @@
 
 1. Open a new browser window and log in to the admin center at https://admin.microsoft.com.
 
-2. When prompted, use the credentials provided in the **Environment Details** page to login to the admin center.
+1. On the **Sign into** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>   
+   
+1. Now enter the following **Password** and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
+
 3. From the navigation menu, click on the **Users (1)** icon and click on **Active users (2)**. This will display the list of active users.
 
     ![](Images/ms900-lab1-3-img1.png)
@@ -48,7 +53,7 @@
    
 6. In the  **Assign product licenses**  pane, choose your location from the **select location** dropdown. In the licenses section, choose **Assign user a product license** and select **office 365 E5** license. Click **Next**.
 
-     ![](Images/MS-900-01x.png ) 
+     ![](Images/img6.png ) 
 
 7. In the **Optional settings**  pane, leave everything as default and click on **Next**.
 
@@ -60,9 +65,9 @@
    
 9. Verify that the user has been created successfully. In the Microsoft 365 admin center, in the left navigation pane, select **Users** and select **Active users**. The new user should be listed, along with their assigned license.
 
-10. From the navigation menu click on the **Teams & Groups (1)** icon and click on **Active teams & groups (2)**, now select **Add a group (3)** icon.
+10. From the navigation menu click on the **Teams & Groups (1)** icon and click on **Active teams & groups (2)**, now select **Add a group** icon.
 
-    ![](Images/upd-ms-900-lab1-img02.png)
+    ![](Images/ms-900-lab1-img02.png)
     
 11. On the Choose a group type page, select **Microsoft 365**, and click on **Next**.
 
@@ -80,7 +85,7 @@
   
     ![](Images/M3E2T1Step6.201.png)
    
-14. Now in the **Members** page,Add existing and newly created user , and then click **Next**. (**Note:** you can join 20 member including owner)
+14. Now in the **Members** page, Add existing and newly created user , and then click **Next**. (**Note:** you can join 20 member including owner)
 
     ![](Images/M3E2T1Step701.png) 
    
@@ -118,26 +123,37 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
 1. Open a new browser window and log in to the office365 center at https://www.office.com.
 
-1. When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example Odl_User-DeploymentId. 
+1. When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example, Odl_User-<inject key="DeploymentID" enableCopy="false"/>. 
 
-1. In the Office365 portal click on  the App launcher at the top left corner and  click on **All apps** and in the search bar search for **Planner**, from **Open context menu** click on Open in new tab, this will redirect you to the **Planner** web page.
+1. In the Office365 portal click on the **App launcher** at the top left corner.
 
     ![](Images/MS-900-07.png)
+ 
+1. click on **All apps** and in the search bar search for **Planner**, from **Open context menu** click on Open in new tab, this will redirect you to the **Planner** web page.
     
     ![](Images/MS-900-08.png)
     
-
-1. Select **New plan**  in the left pane.
+1. On **Welcome to Planner** window, Click **>**.
  
-    ![](Images/MS-900-09.png)
+    ![](Images/planner1.png)
+
+1. Again on **Plan together** window, Click **>**.
+  
+    ![](Images/planner2.png)
+
+1. On **Put it on the board** window, click on **Create a plan!** to create your new plan. 
+
+    ![](Images/planner3.png)
 
 1. On the **New plan** window, select **New blank plan** option.
 
+    ![](Images/blank.png)
+
 1. In the **New blank plan** window: 
     
-    - Enter a name for the plan as **Demo-plan**
+    - Enter a name for the plan as **Demo-plan**.
     
-    - Make the plan public if you want it to be visible to the rest of your organization and in search results, or make it private if you want only plan members to see it.
+    - Make the plan public if you want it to be visible to the rest of your organization and in search results or make it private if you want only plan members to see it.
     
     - Click on **Add to an existing Microsoft 365 Group** to create your plan in an existing group ( i.e. **Sales-demo**) or if needed you can create a new group.
     
@@ -145,7 +161,7 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
     
     ![](Images/upd-img62.png)
 
-1. Now to add members to the plan, from the upper-right corner of the Planner window click on **Members**.Perform this step only if members are not added to the plan.
+1. Now to add members to the plan, from the upper-right corner of the Planner window click on **Members**. Perform this step only if members are not added to the plan.
 
     ![](Images/img63.png)
 
@@ -163,7 +179,7 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
     
     - Select a due date for the task
     
-    - Click on **Assign** and choose a plan member from the list. If the right person isn't listed, type a name or email address in the search box to add someone new. click on Add task .
+    - Click on **Assign** and choose a plan member from the list. If the right person isn't listed, type a name or email address in the search box to add someone new. click on Add task 
     
     ![](Images/img233.png)
  
@@ -191,6 +207,14 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
 1. To learn more about planner refer to https://support.microsoft.com/en-us/planner.
 
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > 
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+
 # Exercise 3 : Setup Microsoft Forms 
 
 This exercise explains how to create and work with Microsoft Forms.
@@ -203,11 +227,13 @@ In this task, you will learn how to create a Form using Microsoft Forms.
 
 1. Open a new browser window and log in to the office365 center at https://www.office.com.
 
-1. When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example Odl_User-DeploymentId. 
+1. When prompted enter the username and password of the user which you have created in the the **Exercise 1 task 1.** For example Odl_User-<inject key="DeploymentID" enableCopy="false"/>.
 
 1. In the office365 portal from the **App launcher** click on **All apps** and in the search bar search for **Forms**, from **Open context menu** click on **Open in new tab**, this will redirect you to the **Forms** web page.
 
 1. Select **New Form** to begin creating your form.
+
+    ![](Images/form.png)
 
 1. Enter a name for your form, you can also enter a description if needed.
 
@@ -273,62 +299,90 @@ In this task, you will import sample financial data to PowerBI.
 
 1. Open a new browser window and log in to the office365 center at https://www.office.com.
 
-1. When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example Odl_User-DeploymentId. 
+1. On the **Sign into** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>   
+   
+1. Now enter the following **Password** and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
 1. In office365 portal from the **App launcher** click on **All apps** and in the search bar search for **Power BI**, from **Open context menu** click on **Open in new tab**, this will redirect you to the **Power BI** web page.
 
 1. Download sample data from https://docs.microsoft.com/en-us/power-bi/create-reports/sample-financial-download
 
-    ![](Images/img77.png)
+     ![](Images/img77.png)
    
-1. In Power BI, from the left navigation menu select **My workspace**, click on **Upload**, and from the drop-down select **Browse**.
+1. In Power BI, from the left navigation menu select **My workspace**.
 
     ![](Images/MS-900-11.png)
+  
+1. Click on **Upload**, and from the drop-down select **Browse**.
+ 
     ![](Images/MS-900-12.png)
     
-1. Browse to where you saved the Financial Sample data file, and click on **Open**..
+1. Browse to where you saved the Financial Sample data file, and click on **Open**.
 
 
 ### Task 2 : Visualize data
 
 In this task, you will visualize the data which you had imported in the previous task by using various visualization options available in PowerBI.
 
-1. Go to  setting in power Bi, from right icon(...), click on Admin Portal, further search for map and enable the **Use Azure Maps visual** and **Map and Filled map visuals** and Apply for both.
+1. Go to setting in power Bi, from right icon(...), click on Admin Portal, further search for map and enable the **Use Azure Maps visual** Apply.
 
     ![](Images/MS-900-13.1.png)
     
+1. Similarly, enable the **Map and Filled map visuals** and Apply.
+    
     ![](Images/MS-900-14.png)
-1. Go to My workspace and click on **Financial Sample** dataset. From the dropdown of **+Create a report**, click on **Start from scratch**.
+    
+1. Go to My workspace and Click on **New (1)** from the drop-down Select **Dataset (2)**.
+    
+    ![](Images/dateset.png)
+    
+1. On **Add date to start building a report** window, Select **Excel**.
 
-    ![](Images/image11.png)
+    ![](Images/excel.png)
    
-    ![](Images/image12.png)
+1. On **Select a file** window, Click on **Browse this device**.
+
+    ![](Images/browsfile.png)
+    
+1. Select previously downloaded **Financial Sample** excel.
+
+   ![](Images/selectexcel.png)
+            
+1. Go to My workspace and click on **Financial Sample** dataset. From the dropdown of **+Create a report (1)**, click on **Start from scratch (2)**.
+
+    ![](Images/fromscrach.png)
 
 1. The report opens in the Editing view and displays the blank report canvas. On the right are the **Visualizations**, **Filters**, and **Data** panes.
 
-    ![](Images/img81.png)
+    ![](Images/FVD.png)
 
-1. Now let us create visualizations by selecting **Clustered column chart (1)**. Let's say your manager wants to see profit over time. To do this, in the Fields pane select **Profit (2)**. Power BI displays a column chart with one column.
+1. Now let us create visualizations (1) by selecting **Clustered column chart (2)**. Let's say your manager wants to see profit over time. To do this, From Data (3) pane, select **Date (4)**. Power BI updates the column chart to show profit by date, in the Dataf pane select **Profit (5)**. Power BI displays a column chart with one column.
 
-    ![](Images/upd-img82.png)
-
-1. From Data pane, select **Date**. Power BI updates the column chart to show profit by date. 
-
-    ![](Images/img83.png)
-
+    ![](Images/graph.png)
+  
 1. We can also create a map visualization. In this, we will check which countries are the most profitable.
 
-1. Select a blank area on your report canvas and click on **Maps** under visualization pane. From the **Fields** pane, select **Country**, and **Profit** field. Power BI creates a map visual with bubbles representing the relative profit of each location.
+1. Select a blank area on your report canvas and click on **Maps (2)** under visualization (1) pane. From the **Data (3)** pane, select **Country (4)**, and **Profit (5)** field. Power BI creates a map visual with bubbles representing the relative profit of each location.
 
-    ![](Images/img84.png)
+    ![](Images/map.png)
 
 1. In this way you can explore through other visualization options.
 
-1. To save your report from the top navigation menu, select **File** and click on **Save**, provide a name for your report, and select **Save**.
+1. To save your report from the top navigation menu, select **File (1)** and click on **Save (2)**, provide a name for your report, and select **Save**.
 
-    ![](Images/img85.png)
+    ![](Images/save.png)
 
 1. To learn more about **Power BI** refer to https://docs.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview.
+
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > 
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 
 # Exercise 5 : Explore Microsoft EndPoint Manager 
 
@@ -340,13 +394,17 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
 1. Open a new browser window and log in to the admin center at [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-1. When prompted, use the credentials provided in the **Environment Details** page to login to the admin center.
+1. On the **Sign into** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>   
+   
+1. Now enter the following **Password** and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
 1. From the navigation menu scroll down to Admin centers and select Azure Active Directory, the Azure Active Directory overview page will appear.
 
     ![](Images/img116.png)
 
-1. On the left side of the page scroll down to the **Billing** and then under billing select **Licenses**, select **All Products** and then click on **+ Try/Buy**
+1. On the left side of the page scroll down to the **Billing** and then under billing select **Licenses**, select **All Products** and then click on **+ Try/Buy**.
 
     ![](Images/licenses-try.png)
 
@@ -354,7 +412,7 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
     ![](Images/licenses-E5.png)
 
-1. Refresh your browser window once you see a notification that you have **Successfully activated Enterprise Mobility + Security e5**
+1. Refresh your browser window once you see a notification that you have **Successfully activated Enterprise Mobility + Security e5**.
 
     ![](Images/p5activated.png)
 
@@ -362,7 +420,7 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
     ![](Images/upd-p5activated.png)
 
-1. On the **Assign license** page, select **+ add users and groups** and select your user account, you can find the details in the environment details tab and click on select
+1. On the **Assign license** page, select **+ add users and groups** and select your user account, you can find the details in the environment details tab and click on **Select**.
 
     ![](Images/add-user-license-1.png)
 
@@ -394,17 +452,17 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
       
       - **Software update status** - See a visual of the deployment status for all devices and all users.
       
-    ![](Images/img198.png)
+      ![](Images/img198.png)
 
 1. From the Devices **Overview** pane, select **Compliance policies**  to display details about compliance policies for devices managed by Intune. Compliance requirements are essentially rules, such as requiring a device PIN or requiring device encryption. Device compliance policies define the rules and settings that a device must follow to be considered compliant.
 
-    ![](Images/img199.png)
+    ![](Images/img200.png)
 
-1. From the Devices Overview pane, select **Conditional Access**, and select **New Policy** to see all the options available. Now select **X** to exit out of **New -Conditional Access policy** pop up.
+1. From the Devices Overview pane, select **Conditional Access**, and select **+ Create New Policy** to see all the options available. Now select **X** to exit out of **New -Conditional Access policy** pop up.
 
    Conditional Access refers to ways you can control the devices and apps that are allowed to connect to your email and company resources.
 
-    ![](Images/img200.png)
+    ![](Images/ca.png)
 
 1. From the navigation pane, select Devices and select **Configuration profiles** to display details about device profiles in Intune(**Reference**). 
 
@@ -426,13 +484,13 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
 1. From the navigation pane, select **Users** to display details about the users that you have included in Intune.
 
-    ![](Images/img204.png)
+    ![](Images/users.png)
     
     >**Note:** You will have different list of users in your environment.
 
 1. From the navigation pane, select **Groups** to display details about the Azure Active Directory (Azure AD) groups included in Intune. As an Intune admin, you use groups to manage devices and users.
 
-    ![](Images/img205.png)
+    ![](Images/grps.png)
    
     >**Note:** You will have different list of groups in your environment.
      

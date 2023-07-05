@@ -2,7 +2,6 @@
 
 1. Use the azure credentials provided in the **Environment Details** tab to log in to the **Office 365 Admin Portal**.
 
-
    ![](Images/image.png)
 
 # Sign up for Office 365 E5 free trial
@@ -11,17 +10,29 @@
 
    ![](Images/Ms900-01.png)
 
-1. Then on the next screen, Enter the work email address as provided in the **Environment Details** and click on **Next**.
+1. Then on the next screen, in that enter following **Email** and then click on **Next**.
+
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>  
 
    ![](Images/Ms900-03.png)
 
 1. Click on **Sign in**. 
 
-   ![](Images/Ms900-02.png)
+   ![](Images/ms900-2.png)
+   
+1. Now enter the following **Password** and click on **Sign in**.
 
-1. Select **Skip for Now[1]** and Click on **Next[2]**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
+   
+   ![](Images/pass.png)
 
-   ![](Images/Ms900-04.png)
+1. If you see the pop-up **Action Required**, click **Ask Later**.
+
+   ![](Images/asklater.png)
+   
+1. If for **Stay signed in** Pops up, Check **Do't show this again (1)** box and click on **yes (2)**.   
+
+    ![](Images/stayin.png)
 
 1. Click on the **Account**, you just signed in. 
 
