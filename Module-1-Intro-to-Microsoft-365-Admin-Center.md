@@ -132,7 +132,7 @@ In this task, you will verify Custom Domains in the tenant and add a new domain 
 
 1. To learn more about managing domains from Microsoft admin center refer to  https://docs.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide
 
-### Task 3: Access other admin centers.
+### Task 3: Access other admin centers
 
 In this task, you will learn how to access other admin centers from Microsoft Admin Center.
 
