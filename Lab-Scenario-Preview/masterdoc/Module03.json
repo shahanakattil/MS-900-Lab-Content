@@ -1,0 +1,12 @@
+[
+    {
+     "Name": "Lab Scenario Preview - MS-900: M365 Business Management Capabilities",
+     "Language": "English",
+     "Files": [
+         {
+           "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-900-Lab-Content/self-paced/Lab-Scenario-Preview/Module03.md",
+           "Order": 1
+         }
+      ]  
+    } 
+ ]
