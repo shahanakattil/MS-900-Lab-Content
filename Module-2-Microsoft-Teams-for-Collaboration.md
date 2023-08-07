@@ -197,7 +197,7 @@ In this task, we will create and assign a messaging policy to the user from the 
 
 1. Under **Microsoft apps** select **Allow specific apps and block all others**. You can also select other options based on your requirement.
 
-     ![](Images/Teams8.png)
+     ![](Images/MS-900-Mod-2-app)
 
 1. Select **Allow apps**, search and add for the apps that you want to allow, and then click **Allow**.
 
