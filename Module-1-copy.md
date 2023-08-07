@@ -32,6 +32,14 @@ In this exercise, you will learn how to create users, assign a license to the us
 
 In this task, you will learn how to create and manage users from Microsoft Admin Center.
 
+1. if not logged in, open a new browser window and log in to the admin center at [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+
+1. On the **Sign into** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>   
+   
+1. Now enter the following **Password** and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
+
 1. From the navigation menu, click on the **Users** icon and click on **Active users**. This will display the list of active users.
 
     ![](Images/ms900-lab1-3-img1.png)
@@ -81,7 +89,50 @@ In this task, you will learn how to create and manage users from Microsoft Admin
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-### Task 2: Access other admin centers
+   
+### Task 2: Verify Custom Domains in the tenant [Read-Only]
+
+In this task, you will verify Custom Domains in the tenant and add a new domain to the tenant.
+
+1. To verify the custom domains, from the navigation pane click on show all, select **Settings** and choose **Domains**.
+
+    ![](Images/img12.png)
+
+1. All the available domains can be found here. We can also purchase new domains or add any existing domain from the **Domains** page.
+
+1. To add a domain Select **+ Add domain**. Enter the name of the domain as **myspektra.com**, then select **Use this domain**.
+
+    ![](Images/img225.png)
+    
+    ![](Images/img226.png)
+
+1. On **Domain verification** page choose how you want to verify that you own the domain. Select **Add a TXT record to the domain's DNS records** and click on **Continue**.
+
+    ![](Images/img227.png)
+
+1. Now in **Verify your domain** page copy the **TXT name** and **TXT value**. 
+
+1. Go to your domain's registrar or DNS hosting provider, go to the DNS management page of your domain and click on **+ Record set**. Under **Name** paste the **TXT name** and under **Value** paste **TXT value** you copied earlier and in type select **TXT**. Once done click on **Ok**. 
+
+    ![](Images/img228.png)
+
+1. Wait for the record set to be created. Switch back to the admin center, click on **Verify** and select **Continue**.
+
+1. On **Add DNS records** page follow the instructions and click on **Continue**.
+
+    ![](Images/img229.png)
+
+1. Select **Ok** when the domain setup is complete.
+
+    ![](Images/img230.png)
+   
+1. On the domains page you can see the newly added domain.
+
+    ![](Images/img231.png)
+
+1. To learn more about managing domains from Microsoft admin center refer to  https://docs.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide
+
+### Task 3: Access other admin centers
 
 In this task, you will learn how to access other admin centers from Microsoft Admin Center.
 
