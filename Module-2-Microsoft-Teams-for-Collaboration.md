@@ -16,14 +16,6 @@ In this exercise, you will learn various activities carried out in Teams such as
 
 In this task, we will explore the options available in Teams, learn how to create a team and add members to it.
 
-1.  If you are not already signed into the admin center, sign into the admin center at https://admin.microsoft.com with the credentials.
-
-1. On **Sign in** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
-     * Email/Username: <inject key="AzureAdUserEmail"></inject>
-
-1. Now enter the following password and click on **Sign in**.
-     * Password: <inject key="AzureAdUserPassword"></inject>
-
 1. From the navigation menu, click on the **Users** icon and click on **Active users**. This will display the list of active users.
 
     ![](Images/ms900-lab1-3-img1.png)
@@ -34,11 +26,11 @@ In this task, we will explore the options available in Teams, learn how to creat
 
 1. In the **Set up the basics pane**, fill the following details, and then select **Next**.
 
-    - **First name:** Odl.
+    - **First name:** Odl
 
     - **Display Name:**  **Odl_User-<inject key="DeploymentID" enableCopy="false"/>**
 
-    - **Username:** Odl.
+    - **Username:** Odl
 
         ![](Images/ms-900-lab1-img2.png)
      
@@ -67,7 +59,7 @@ In this task, we will explore the options available in Teams, learn how to creat
 
     ![](Images/MS-900-applauncher.png)
 
-1. Under **Apps** select **Teams** and from **Open context menu** click on **Open in new tab**. This will redirect you to the Teams web app page. On the Teams page click on **Use the web app instead**.
+     >**Note**: if it asks you to choose between, **Download the windows app** or **Use the web app instead**, then select **Use the web app instead**.
 
 1. On the left side of **Teams** you can find: 
 
@@ -79,9 +71,11 @@ In this task, we will explore the options available in Teams, learn how to creat
 
       - **Activity** - Catch up on all your unread messages, @mentions, replies, and more.
 
-1. Now open a new browser window and log in to [Microsoft Teams](https://go.microsoft.com/fwlink/p/?linkid=2123761&lm=deeplink&lmsrc=FreemiumEOLWeb&cmpid=FreemiumEOL).
+1. Now open a new InPrivate window and log in to [Microsoft Teams](https://go.microsoft.com/fwlink/p/?linkid=2123761&lm=deeplink&lmsrc=FreemiumEOLWeb&cmpid=FreemiumEOL).
 
 1. When prompted enter the username and password of the user that you created in the previous exercise.
+
+     >**Note**: if it asks you to choose between, **Download the windows app** or **Use the web app instead**, then select **Use the web app instead**.
 
 1. In the admin team's account, search and select the newly created user from the search bar and initiate a conversation.
 
@@ -173,9 +167,9 @@ In this task, we will create and assign a messaging policy to the user from the 
    
     ![](Images/Teams3.png)
 
-1. Now from the **Left navigation menu**, select **show all** and  **Messaging policies**. Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams.
+1. Now from the **Left navigation menu**, select **Messaging**, select  **Messaging policies**. Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams.
 
-    ![](Images/Teams4.png)
+    ![](Images/MS-900-Mod-2(policies))
 
 1. In the **Messaging policies** page click on **Add**. 
 
@@ -187,19 +181,17 @@ In this task, we will create and assign a messaging policy to the user from the 
     
        ![](Images/Teams5.png)
    
-1. To assign a policy to the user, select the policy that you have created and click on **Manage Users**. In the search bar, search and select the user that you created previously and click on **Apply**.
+1. To assign a policy to the user, select the policy that you have created and click on **Manage Users** drop-down, select **Assign User**. In the search bar, search and add the user that you created previously and click on **Apply**, and select **Confirm** on **Assignment will take time to take effect** pop-up.
  
-    ![](Images/Teams6.png)
-   
-    ![](Images/M3E2T1Step1001.png)
+    ![](Images/MS-900-Mod-2-(managepolicies).png)
 
 1. Switch back to the user's teams portal and in the chat notice **Delete** option is not available.
 
 11. In the left navigation of the Microsoft Teams admin center, select **Teams apps**  and select **Permission policies**. From here you can configure App permission policies. App permission policies control what apps you want to make available to Teams users in your organization.
 
-     ![](Images/Teams7.png)
+     ![](Images/MS-900-Mod-2-(permissions).png)
 
-1. Click on **Add**. 
+1. Click on **+ Add**. 
 
 1. Provide a name as **App restrictions** and description for the policy.
 
@@ -207,18 +199,17 @@ In this task, we will create and assign a messaging policy to the user from the 
 
      ![](Images/Teams8.png)
 
-1. Select **Allow apps**, search for the apps that you want to allow, and then click **Add**.
+1. Select **Allow apps**, search and add for the apps that you want to allow, and then click **Allow**.
 
-     ![](Images/img219.png)
+     ![](Images/MS-900-Mod-2(allow).png)
 
 1. Similarly, repeat the above steps for **Third-party apps** as per required. When done click **Save**.
 
-     ![](Images/img220.png)
+     ![](Images/MS-900-Mod-2(third).png)
      
      >**Note:** Ignore any error you received while saving the policy, Go back to the **Permission policies** page, Click on **Discard**, You can see your newly created policy.
      
-1. To apply this policy to specific users select your newly created policy, click on **Manage users** from the dropdown select **Assign users** in the search bar search and select the users or groups to whom you intend to apply this policy. Select **Apply**.
-
+1. To apply this policy to specific users select your newly created policy, click on **Manage users** from the dropdown select **Assign users** in the search bar search and add the users or groups to whom you intend to apply this policy. Select **Apply**, and select **Confirm** on **Assignment will take time to take effect** pop-up..
 
 1. This policy will enable users to access only the apps that you have allowed.
 
