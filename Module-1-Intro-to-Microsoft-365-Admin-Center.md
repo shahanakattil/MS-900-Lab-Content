@@ -80,9 +80,9 @@ In this task, you will learn how to access other admin centers from Microsoft Ad
 
 1. Open [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339), to access other admin centers, from the navigation pane select **Show all**, under **Admin centers** choose **All Admin centers**. Opens a page with a full list of Office 365 admin centers, including admin centers for OneDrive, Yammer Enterprise, Dynamics 365, Power Apps, Skype for business, and other services.
 
-    ![](Images/lab1-t3-img1.png)
+    ![](Images/MS-900-Mod-1-(admin).png)
    
-    ![](Images/lab1-t3-img2.png)
+    ![](Images/MS-900-Mod-1-(alladmin).png)
    
 1. In the admin center page select **Exchange**. This will redirect you to the Exchange admin center page. 
 
@@ -136,7 +136,7 @@ Microsoft Outlook is an application that is used mainly to send and receive emai
 
     ![](Images/lab1-E2t1-img2.png)
     
-    ![](Images/lab1-E2t1-img3.png)
+    ![](Images/MS-900-Mod-1-(outlooksend).png)
     
    
 1. From the left-hand menu select **Calendar**. From here you can create appointments, events, organize meetings and view group schedules.
@@ -164,7 +164,7 @@ OneDrive gives you one place to store, share, and sync your work or school files
   
     ![](Images/lab1-E2t2-img3.png)
    
-    ![](Images/lab1-E2t2-img4.png)
+    ![](Images/MS-900-Mod-1(demo).png)
    
     > **Note**: if you are not able to see your folder refresh the page.
 
@@ -201,8 +201,6 @@ OneDrive gives you one place to store, share, and sync your work or school files
     ![](Images/lab1-E2t2-img9.png)
        
 1. Once you're back at the main **Share** box enter a name or email of users with whom you intend to share the file, click on **Send**. You can also select **Copy Link** to copy the link to your clipboard and share it.
-
-    ![](Images/lab1-E2t2-img10.png)
   
 1. You can explore through other options available in the **OneDrive**. 
 
@@ -214,7 +212,7 @@ With yammer people can openly connect and engage across the organization, from h
 
     >**Note**: inside the Apps options, if Yammer is not listed, then select **Explore all your Apps**, on the apps page search and select **Yammer**.
  
-    ![](Images/Yammer1.png)
+    ![](Images/MS-900-Mod-1(homeyammer).png)
 
 1. From the left-hand pane, select **communities**, click on **+ Create a community**, enter a name **Management** for your community. In **Members** search and select the users you want to add. Based on your requirement choose **Public** or **Private** access by click on **Edit**, after this click on **Create**.
 
@@ -229,14 +227,12 @@ With yammer people can openly connect and engage across the organization, from h
     ![](Images/MS-900-discussion.png)
    
 1. Switch back to the yammer account of the user whom you added to the group and verify if the user is added to the newly created group and if the posts are visible.
-   
-    ![](Images/img24.png)
   
 1. We can also send a private message to Yammer.
    
 1. In the yammer dashboard click on the **Inbox** icon and select  **New Private Messages**. 
    
-    ![](Images/img25.png)
+    ![](Images/MS-900-Mod-1(management).png)
 
 1. In the **Add People** field, search or type the person's username. A drop-down menu of usernames that matches will appear.
 
@@ -261,8 +257,6 @@ Microsoft Stream is an Enterprise Video service where people in your organizatio
     > **Note**: if you are not able to see your video keep refreshing the page.
 
 1. Select the video, by clicking on the video, it will redirect you to the new-browser
-   
-    ![](Images/MS-900-video.png)
 
 1. Now, click on **Share** button.
 
@@ -360,7 +354,7 @@ List helps to track information and organize your work. With a list, one can tra
  
  1. To add a column, select **+ Add column**. In the dropdown, select the type of column you want.
  
-    ![](Images/img165.png)
+    ![](Images/MS-900-Mod-1-(sales).png)
  
  1. In the Create a column panel, in the **Name** field, enter a title or column heading. Enter any other required information. The number of fields will vary with the column type you choose. The above example is for a **Multiple lines of text** field.
  
