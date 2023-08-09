@@ -19,7 +19,7 @@
 
   In this exercise, you will learn how to create groups and add members to it from the admin center.
 
-### Task 1: Create Office 365 Users [Read-Only]
+### Task 1: Create Office 365 Groups [Read-Only]
 
 1. Open a new browser window and log in to the admin center at https://admin.microsoft.com.
 
@@ -59,44 +59,53 @@
    
 9. Verify that the user has been created successfully. In the Microsoft 365 admin center, in the left navigation pane, select **Users** and select **Active users**. The new user should be listed, along with their assigned license.
 
+10. From the navigation menu click on the **Teams & Groups (1)** icon and click on **Active teams & groups (2)**, now select **Add a group** icon.
 
-### Task 2: Create Office 365 Groups
+    ![](Images/ms-900-lab1-img02.png)
+    
+11. On the Choose a group type page, select **Microsoft 365**, and click on **Next**.
 
-1. Open a new browser window and log in to the admin center at https://admin.microsoft.com.
-
-1. From the navigation menu click on the **Teams & Groups (1)** icon and click on **Active teams & groups (2)**. Under **Teams & Microsoft 365 groups**, select **+ Add a Microsoft 365 group**.
-
-    ![](Images/MS-900-Mod-3-teams&groups.png)
-
-    ![](Images/MS-900-Mod-3-(m365).png)
+    ![](Images/M3E2T1Step401.png)
 
 12. On the Basics page, type a name for the group as **Sales-demo** and a description(optional). Click **Next**.
 
-    ![](Images/MS-900-Mod-3-basics.png)   
+    ![](Images/M3E2T1Step501.png)   
 
-13. On the **Owners** page, choose the name of ODL user who will be designated to manage the group, then select **Add**. Anyone who is a group owner can add or remove members and have unique permissions like the ability to delete conversations from the shared inbox or change different settings about the group. Click **Next**.
+13. On the **Owners** page, choose the name of one or more people who will be designated to manage the group. Anyone who is a group owner can add or remove members and have unique permissions like the ability to delete conversations from the shared inbox or change different settings about the group. Click **Next**.
  
     ![](Images/M3E2T1Step601.png) 
   
-    ![](Images/MS-900-Mod-3-users.png)  
+    ![](Images/MS-900-2.png)  
+  
+    ![](Images/M3E2T1Step6.201.png)
    
-14. Now in the **Members** page, select **Add members**, select ODL user, click on **Add**, and then click **Next**. (**Note:** you can join 20 member including owner) 
+14. Now in the **Members** page, Add existing and newly created user , and then click **Next**. (**Note:** you can join 20 member including owner)
+
+    ![](Images/M3E2T1Step701.png) 
    
-    ![](Images/MS-900-Mod-3-users.png)
+    ![](Images/MS-900-04.png)
+   
+    ![](Images/M3E2T1Step7.201.png)
 
 15. Now in the **Settings** page, type a unique email address for the group, choose a privacy option based on your requirement, and whether you want to add Microsoft Teams for the group, and then click **Next**.
 
+    ![](Images/MS-900-05.png)
+
 16. Review your settings and make any changes if needed, select **Create group**, and then **close**.
 
-    ![](Images/MS-900-Mod-3-finish.png)
+    ![](Images/M3E2T1Step901.png)
 
 17. In the admin center, select the name of the group that you want to add members to. Refresh the page if you are not able to see the newly created group.
 
 18. To add members to the group, navigate to the **Membership tab (1)** and select **Members (2)**.
 
-    ![](Images/MS-900-Mod-3-salesdemo.png)
+    ![](Images/upd-img059.png)
    
 19. Click on **+ Add members**, select the users you want to add, and then click on **Save**.
+    
+    > **Note:** You will have different members in your environment. 
+    
+    ![](Images/MS-900-06.1.png)
    
 20. To learn more about groups refer to https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups.
 
@@ -106,9 +115,17 @@ Microsoft Planner provides a hub for team members to create plans, organize, and
 
 In this exercise, you will learn how to create a new plan in Microsoft Planner and add members to it, create buckets, add tasks to the bucket and assign the tasks to the user.
 
+1. Open a new browser window and log in to the office365 center at https://www.office.com.
+
+1. When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example, Odl_User-<inject key="DeploymentID" enableCopy="false"/>. 
+
 1. In the Office365 portal click on the **App launcher** at the top left corner.
+
+    ![](Images/MS-900-07.png)
  
-1. click on **Explore all your apps** and in the search bar search for **Planner**, this will redirect you to the **Planner** web page.
+1. click on **All apps** and in the search bar search for **Planner**, from **Open context menu** click on Open in new tab, this will redirect you to the **Planner** web page.
+    
+    ![](Images/MS-900-08.png)
     
 1. On **Welcome to Planner** window, Click **>**.
  
@@ -136,15 +153,17 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
     
     - Select **Create**.
     
-    ![](Images/MS-900-Mod-3-planner.png)
+    ![](Images/upd-img62.png)
 
-1. Now to add members to the plan, from the upper-right corner of the Planner window click on **Members**. 
+1. Now to add members to the plan, from the upper-right corner of the Planner window click on **Members**. Perform this step only if members are not added to the plan.
 
-    >**Note**: Perform this step only if members are not added to the plan.
+    ![](Images/img63.png)
 
-1. Search with the ODL email address and select the person's card when it appears.
+1. Search the name or email address of a person within your organization that you want to add to the plan and select the person's card when it appears.
 
 1. Now to create a bucket click on **Add new bucket**. Buckets helps to organize tasks into things like workstreams, project phases, or topics. 
+
+    ![](Images/img232.png)
 
 1. Type a name for the bucket, and then press Enter.
 
@@ -152,21 +171,23 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
     
     - Provide a task name
     
-    - Set a due date for the task
+    - Select a due date for the task
     
-    - Click on **Assign** and choose a plan member from the list. Type a ODL email address in the search box to add. click on Add task 
+    - Click on **Assign** and choose a plan member from the list. If the right person isn't listed, type a name or email address in the search box to add someone new. click on Add task 
     
-    ![](Images/MS-900-Mod-3-task.png)
+    ![](Images/img233.png)
  
 1. Click on the task to open the task window. 
  
 1. Select **Start anytime** below Start date, and then select the start date you want. Select **Due anytime** below Due date, and then select the due date you want.
  
-    ![](Images/MS-900-Mod-3-(startdate).png)
+    ![](Images/img234.png)
      
 1. In the task window select **Priority**  from here you can set the priority of the task.
  
-1. Select **Add attachment**. Select **From computer** to attach a locally stored file, select **Link** to include a link, or select **SharePoint** to attach a file from a SharePoint site.
+    ![](Images/img235.png)
+ 
+1. Select **Add attachment**. Select **computer** to attach a locally stored file, select **Link** to include a link, or select **SharePoint** to attach a file from a SharePoint site.
 
     ![](Images/image10.png)
 
@@ -180,6 +201,14 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
 1. To learn more about planner refer to https://support.microsoft.com/en-us/planner.
 
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > 
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+
 # Exercise 3 : Setup Microsoft Forms 
 
 This exercise explains how to create and work with Microsoft Forms.
@@ -190,27 +219,29 @@ With Microsoft Forms, you can create surveys, quizzes, and polls, and easily see
 
 In this task, you will learn how to create a Form using Microsoft Forms.
 
-1. Open a browser where admin center page is opened.
+1. Open a new browser window and log in to the office365 center at https://www.office.com.
 
-1. In the office365 portal from the **App launcher** click on **Explore all your apps** and in the search bar search for **Forms**, this will redirect you to the **Forms** web page.
+1. When prompted enter the username and password of the user which you have created in the the **Exercise 1 task 1.** For example Odl_User-<inject key="DeploymentID" enableCopy="false"/>.
 
-1. Select **+ New Form** to begin creating your form.
+1. In the office365 portal from the **App launcher** click on **All apps** and in the search bar search for **Forms**, from **Open context menu** click on **Open in new tab**, this will redirect you to the **Forms** web page.
+
+1. Select **New Form** to begin creating your form.
 
     ![](Images/form.png)
 
-1. Enter a name **Demo** for your form, you can also enter a description if needed.
+1. Enter a name for your form, you can also enter a description if needed.
 
-1. Click **+ Add New** to add a new question to the form. 
+1. Click **Add New** to add a new question to the form. 
 
-    ![](Images/MS-900-Mod-3-demo.png)
+    ![](Images/img66.png)
 
 1. Choose from Choice, Text, Rating, or Date questions. You can also click More question types Drop down list for more question types in Microsoft Forms to select Ranking, Likert, File upload, or Net Promoter Score® questions. 
 
     ![](Images/img67.png)
 
-1. For now select **Choice**. Enter the text you want to display for the question and each of the choices. Click **+ Add Option** to add more choices than the default two choices.
+1. For now select **Choice**. Enter the text you want to display for the question and each of the choices. Click **Add Option** to add more choices than the default two choices.
 
-1. Click **+ Add New** to add more questions to your form. Now select **Text**.
+1. Click **Add New** to add more questions to your form. Now select **Text**.
 
 1. For text questions, select the **Long Answer** option if you want a larger text box displayed on the form.
 
@@ -226,9 +257,13 @@ In this task, you will learn how to create a Form using Microsoft Forms.
 
 1. Click Preview at the top of the design window to see how your form will look on a computer. Now to test your form, enter answers for the questions in preview mode and then click on **Submit**.
 
+    ![](Images/img71.png)
+   
+    ![](Images/img72.png)
+
 1. Now click on **Back** and select the **Responses tab**. From here you can see summary information data about your form, such as the number of responses and the average time it took for respondents to complete your form.
 
-    ![](Images/MS-900-Mod-3-responses.png)
+    ![](Images/img73.png)
 
 ### Task 2 : Change a form Style and Sharing forms
 
@@ -236,13 +271,15 @@ In this task, you will learn how to customize the theme of your newly created fo
 
 1. Click on the **Style** at the top right of the design window and pick the color or background you want.
 
-    ![](Images/MS-900-Mod-1-styles.png)
+    ![](Images/img74.png)
 
-1. If you prefer to customize the style, within the style page scroll down and select **+ Customize theme** button. From here you can either upload an image by clicking on **Upload image** icon or customize the color of your choice by clicking on **Customize color** button.
+1. If you prefer to customize the theme, within the theme page scroll down and select **+ Customize theme** button. From here you can either upload an image by clicking on **Upload image** icon or customize the color of your choice by clicking on **Customize color** button.
 
     ![](Images/img75.png)
 
 1. From the top navigation menu click on **Collect Responses**. From here based on your requirement you can either use a link, QR code, Embed, or Email option to share your form.
+
+    ![](Images/img076.png)
    
 1. To know more about forms refer to https://support.microsoft.com/en-us/forms.
 
@@ -254,13 +291,19 @@ In this exercise, you will learn how to create a Power BI report from sample dat
 
 In this task, you will import sample financial data to PowerBI. 
 
-1. Open a browser where admin center page is opened.
+1. Open a new browser window and log in to the office365 center at https://www.office.com.
 
-1. In office365 portal from the **App launcher** click on **Explore all your apps** and in the search bar search for **Power BI**, this will redirect you to the **Power BI** web page.
+1. On the **Sign into** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>   
+   
+1. Now enter the following **Password** and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
+
+1. In office365 portal from the **App launcher** click on **All apps** and in the search bar search for **Power BI**, from **Open context menu** click on **Open in new tab**, this will redirect you to the **Power BI** web page.
 
 1. Download sample data from https://docs.microsoft.com/en-us/power-bi/create-reports/sample-financial-download
 
-     ![](Images/MS-900-Mod-1-directly.png)
+     ![](Images/img77.png)
    
 1. In Power BI, from the left navigation menu select **My workspace**.
 
@@ -277,7 +320,7 @@ In this task, you will import sample financial data to PowerBI.
 
 In this task, you will visualize the data which you had imported in the previous task by using various visualization options available in PowerBI.
 
-1. Go to setting in power Bi, click on Admin Portal, further search for map and enable the **Use Azure Maps visual** Apply.
+1. Go to setting in power Bi, from right icon(...), click on Admin Portal, further search for map and enable the **Use Azure Maps visual** Apply.
 
     ![](Images/MS-900-13.1.png)
     
@@ -327,6 +370,14 @@ In this task, you will visualize the data which you had imported in the previous
 
 1. To learn more about **Power BI** refer to https://docs.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview.
 
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > 
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+
 # Exercise 5 : Explore Microsoft EndPoint Manager 
 
 Microsoft Endpoint Manager helps deliver the modern workplace and modern management to keep your data secure, in the cloud and on-premises. Endpoint Manager includes the services and tools you use to manage and monitor mobile devices, desktop computers, virtual machines, embedded devices, and servers. Endpoint Manager combines services like Microsoft Intune, Configuration Manager, Desktop Analytics, co-management, and Windows Autopilot.
@@ -335,15 +386,43 @@ In this exercise, you will explore various available options in Microsoft EndPoi
 
 Before we explore the Microsoft EndPoint Manager, we need to activate the **Enterprise Mobility + Security e5** license in order to view the **Endpoint Manager**.
 
-1. Open a browser where admin center is opened.
+1. Open a new browser window and log in to the admin center at [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-1. From the navigation menu , select **Billing**, and select **Licenses**.
+1. On the **Sign into** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>   
+   
+1. Now enter the following **Password** and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
-    ![](Images/MS-900-Mod-3-billing.png)
+1. From the navigation menu scroll down to Admin centers and select Azure Active Directory, the Azure Active Directory overview page will appear.
 
-1. Select the **Enterprise Mobility + Security E5** license, select **+ Assign licenses**, search and select the ODL user, and click on **Assign**.
+    ![](Images/img116.png)
 
-1. Switch back to **Admin Center** portal. Refresh your browser window. Select **Show all** Now from the navigation menu scroll down to Admin centers, and select **Endpoint Manager**. This will redirect you to the Endpoint Manager admin center.
+1. On the left side of the page scroll down to the **Billing** and then under billing select **Licenses**, select **All Products** and then click on **+ Try/Buy**.
+
+    ![](Images/licenses-try.png)
+
+1. Select the **Enterprise Mobility + Security E5** license and click on the **Free Trial** and select **Activate**.    
+
+    ![](Images/licenses-E5.png)
+
+1. Refresh your browser window once you see a notification that you have **Successfully activated Enterprise Mobility + Security e5**.
+
+    ![](Images/p5activated.png)
+
+1. Select the **Enterprise Mobility + Security E5** license and click on **+ Assign**.
+
+    ![](Images/upd-p5activated.png)
+
+1. On the **Assign license** page, select **+ add users and groups** and select your user account, you can find the details in the environment details tab and click on **Select**.
+
+    ![](Images/add-user-license-1.png)
+
+1. Now select **Review and assign** followed by **Assign**.
+
+1. Open a new browser window and navigate back to the admin center at [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339)
+
+1. Switch back to **Admin Center** portal. Refresh your browser window. Now from the navigation menu scroll down to Admin centers, and select **Endpoint Manager**. This will redirect you to the Endpoint Manager admin center.
 
     ![](Images/img196.png)
 
@@ -398,11 +477,15 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
     >**Note:** You will not see any apps present in your lab environment. 
 
 1. From the navigation pane, select **Users** to display details about the users that you have included in Intune.
+
+    ![](Images/users.png)
     
     >**Note:** You will have different list of users in your environment.
 
 1. From the navigation pane, select **Groups** to display details about the Azure Active Directory (Azure AD) groups included in Intune. As an Intune admin, you use groups to manage devices and users.
 
+    ![](Images/grps.png)
+   
     >**Note:** You will have different list of groups in your environment.
      
 1. To learn more about Endpoint Manager refer to https://docs.microsoft.com/en-us/mem/intune/fundamentals.
