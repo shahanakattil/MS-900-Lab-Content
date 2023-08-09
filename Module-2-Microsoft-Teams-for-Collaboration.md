@@ -12,7 +12,7 @@
 
 In this exercise, you will learn various activities carried out in Teams such as having a Teams chat and scheduling Teams meetings.
 
-### Task 1: Exploring through Teams
+### Task 1: Exploring through Teams [Read-Only]
 
 In this task, we will explore the options available in Teams, learn how to create a team and add members to it.
 
@@ -111,6 +111,12 @@ In this task, we will explore the options available in Teams, learn how to creat
 
 In this task, we will learn how to schedule a meeting in Teams.
 
+1. Open [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339), from the top left corner click on **App launcher**.
+
+1. Select **Teams** app.
+
+     >**Note**: if it asks you to choose between, **Download the windows app** or **Use the web app instead**, then select **Use the web app instead**.
+
 1. Select **calendar** from the left-hand menu of the team's pane. 
 
 1. Now click on  **+ New Meeting**. 
@@ -119,7 +125,7 @@ In this task, we will learn how to schedule a meeting in Teams.
    
    - **Add Title:** Provide a name for the meeting.
    
-   - **Add required attendees:** Search and select the user you created in the previous exercise.
+   - **Add required attendees:** Search and select the odl user.
    
    - Select the date and time as per the requirements.
    
@@ -145,33 +151,30 @@ In this task, we will create and assign a messaging policy to the user from the 
 
 1. Teams policies in Microsoft Teams can be used to control what users in your organization can do in teams and channels.
 
-1. From the Navigation menu, click on show all and under **Admin centers** select **Teams**. This will redirect you to **Microsoft Teams admin center**.
+1. Go back to the Microsoft 365 Admin centers page, from the Navigation menu, click on show all and under **Admin centers** select **Teams**. This will redirect you to **Microsoft Teams admin center**.
 
     ![](Images/img43.png)
    
 1. From the **Left navigation menu** select **Teams** and under it select **Manage teams**. From here you can manage all the teams and channels, create new ones, and manage the existing ones.
 
-    ![](Images/Teams1.png)
+    ![](Images/MS-900-Mod-2-manageteams.png)
 
 1. The Manage teams page displays the list of your teams along with channels, users, and the status of the team.
 
-1. From here you can add a new team by clicking on **Add**. In the **Add a new team**  page fill in the details and click on **Apply**.
+1. From here you can add a new team by clicking on **+ Add**. In the **Add a new team**  page fill in the details and click on **Apply**.
 
-    * Name: **Services-Team**.
+    * Name: **Services-Team**
+    * Privacy: **Private**
 
-      ![](Images/img222.png)
+      ![](Images/MS-900-Mod-2-addateam.png)
 
 1. Click on your newly created team. From here you can add or remove **Members**, **channels** to the team and manage them.
 
-    ![](Images/Teams2.png)
-   
-    ![](Images/Teams3.png)
-
 1. Now from the **Left navigation menu**, select **Messaging**, select  **Messaging policies**. Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams.
 
-    ![](Images/MS-900-Mod-2(policies))
+    ![](Images/MS-900-Mod-2-messaging.png)
 
-1. In the **Messaging policies** page click on **Add**. 
+1. In the **Messaging policies** page click on **+ Add**. 
 
     - Provide a name as **Disable giphy** and description for the policy.
    
@@ -179,15 +182,21 @@ In this task, we will create and assign a messaging policy to the user from the 
    
     - Click on **Save**.
     
-       ![](Images/Teams5.png)
+       ![](Images/MS-900-Mod-2-giphy.png)
    
-1. To assign a policy to the user, select the policy that you have created and click on **Manage Users** drop-down, select **Assign User**. In the search bar, search and add the user that you created previously and click on **Apply**, and select **Confirm** on **Assignment will take time to take effect** pop-up.
+1. To assign a policy to the user, select the policy that you have created and click on **Manage Users** drop-down, select **Assign User**. In the search bar, search and add the odl user and click on **Apply**, and select **Confirm** on **Assignment will take time to take effect** pop-up.
  
     ![](Images/MS-900-Mod-2-(managepolicies).png)
 
-1. Switch back to the user's teams portal and in the chat notice **Delete** option is not available.
+1. Switch back to the browser in which teams app is opened.
 
-11. In the left navigation of the Microsoft Teams admin center, select **Teams apps**  and select **Permission policies**. From here you can configure App permission policies. App permission policies control what apps you want to make available to Teams users in your organization.
+     >**Note**: close the teams calendar if it is opened.
+
+1. Now select **New chat**, in that search with the ODL email address and type a message, and notice **Delete** option is not available.
+
+     ![](Images/MS-900-Mod-2-newchat.png)
+
+11. Switch back to the browser in which microsoft admin center is opened. In the left navigation of the Microsoft Teams admin center, select **Teams apps**  and select **Permission policies**. From here you can configure App permission policies. App permission policies control what apps you want to make available to Teams users in your organization.
 
      ![](Images/MS-900-Mod-2-(permissions).png)
 
@@ -197,7 +206,7 @@ In this task, we will create and assign a messaging policy to the user from the 
 
 1. Under **Microsoft apps** select **Allow specific apps and block all others**. You can also select other options based on your requirement.
 
-     ![](Images/MS-900-Mod-2-app)
+     ![](Images/MS-900-Mod-2-app.png)
 
 1. Select **Allow apps**, search and add for the apps that you want to allow, and then click **Allow**.
 
@@ -209,20 +218,11 @@ In this task, we will create and assign a messaging policy to the user from the 
      
      >**Note:** Ignore any error you received while saving the policy, Go back to the **Permission policies** page, Click on **Discard**, You can see your newly created policy.
      
-1. To apply this policy to specific users select your newly created policy, click on **Manage users** from the dropdown select **Assign users** in the search bar search and add the users or groups to whom you intend to apply this policy. Select **Apply**, and select **Confirm** on **Assignment will take time to take effect** pop-up..
+1. To apply this policy to specific users select your newly created policy, click on **Manage users** dropdown, select **Assign users** in the search bar search and add the odl user to apply this policy. Select **Apply**, and select **Confirm** on **Assignment will take time to take effect** pop-up..
 
 1. This policy will enable users to access only the apps that you have allowed.
 
 1. To learn more about teams policies refer to https://docs.microsoft.com/en-us/microsoftteams/assign-policies.
-
-
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > 
-   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
 
 ## Conclusion
 
