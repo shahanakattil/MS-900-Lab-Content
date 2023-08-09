@@ -28,9 +28,17 @@ The Microsoft 365 admin center is where you manage your business in the cloud. Y
 
 In this exercise, you will learn how to create users, assign a license to the users, verify custom domains in the tenant, and see how to access other admin centers.
   
-### Task 1: Admin Experience for User Management [Read-Only]
+### Task 1: Admin Experience for User Management
 
 In this task, you will learn how to create and manage users from Microsoft Admin Center.
+
+1. if not logged in, open a new browser window and log in to the admin center at [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+
+1. On the **Sign into** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>   
+   
+1. Now enter the following **Password** and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
 1. From the navigation menu, click on the **Users** icon and click on **Active users**. This will display the list of active users.
 
@@ -74,15 +82,65 @@ In this task, you will learn how to create and manage users from Microsoft Admin
    
 1. Verify that the user has been created successfully. In the Microsoft 365 admin center, in the left navigation pane, select **Users** and select **Active users**. The new user should be listed, along with their assigned license.
 
-### Task 2: Access other admin centers
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > 
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+   
+### Task 2: Verify Custom Domains in the tenant [Read-Only]
+
+In this task, you will verify Custom Domains in the tenant and add a new domain to the tenant.
+
+1. To verify the custom domains, from the navigation pane click on show all, select **Settings** and choose **Domains**.
+
+    ![](Images/img12.png)
+
+1. All the available domains can be found here. We can also purchase new domains or add any existing domain from the **Domains** page.
+
+1. To add a domain Select **+ Add domain**. Enter the name of the domain as **myspektra.com**, then select **Use this domain**.
+
+    ![](Images/img225.png)
+    
+    ![](Images/img226.png)
+
+1. On **Domain verification** page choose how you want to verify that you own the domain. Select **Add a TXT record to the domain's DNS records** and click on **Continue**.
+
+    ![](Images/img227.png)
+
+1. Now in **Verify your domain** page copy the **TXT name** and **TXT value**. 
+
+1. Go to your domain's registrar or DNS hosting provider, go to the DNS management page of your domain and click on **+ Record set**. Under **Name** paste the **TXT name** and under **Value** paste **TXT value** you copied earlier and in type select **TXT**. Once done click on **Ok**. 
+
+    ![](Images/img228.png)
+
+1. Wait for the record set to be created. Switch back to the admin center, click on **Verify** and select **Continue**.
+
+1. On **Add DNS records** page follow the instructions and click on **Continue**.
+
+    ![](Images/img229.png)
+
+1. Select **Ok** when the domain setup is complete.
+
+    ![](Images/img230.png)
+   
+1. On the domains page you can see the newly added domain.
+
+    ![](Images/img231.png)
+
+1. To learn more about managing domains from Microsoft admin center refer to  https://docs.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide
+
+### Task 3: Access other admin centers
 
 In this task, you will learn how to access other admin centers from Microsoft Admin Center.
 
-1. Open [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339), to access other admin centers, from the navigation pane select **Show all**, under **Admin centers** choose **All Admin centers**. Opens a page with a full list of Office 365 admin centers, including admin centers for OneDrive, Yammer Enterprise, Dynamics 365, Power Apps, Skype for business, and other services.
+1. To access other admin centers, from the navigation pane select **Admin centers** and choose all **All Admin centers**. Opens a page with a full list of Office 365 admin centers, including admin centers for OneDrive, Yammer Enterprise, Dynamics 365, Power Apps, Skype for business, and other services.
 
-    ![](Images/MS-900-Mod-1-(admin).png)
+    ![](Images/lab1-t3-img1.png)
    
-    ![](Images/MS-900-Mod-1-(alladmin).png)
+    ![](Images/lab1-t3-img2.png)
    
 1. In the admin center page select **Exchange**. This will redirect you to the Exchange admin center page. 
 
@@ -114,21 +172,23 @@ In this task, you will learn how to access other admin centers from Microsoft Ad
    
 ## Exercise 2: Explore Microsoft 365 Apps
 
-In the previous exercise, you learn how to create a user and how to assign an office 365 E3 license. In this exercise, you will explore Office 365 apps.
+In the previous exercise, you created a user and assigned an office 365 E5 license. In this exercise, you will log in with the newly created user and explore through office365 apps.
 
 ### Task 1: Explore Outlook
 
 Microsoft Outlook is an application that is used mainly to send and receive emails. It can also be used to manage various types of personal data including calendar appointments and similar entries, tasks, contacts, and notes.
 
-1. Switch back to the office365 user account portal and from App launcher under Apps, select **Outlook**.
+1. Now login with the newly created user. Open a new browser window and log in to the office365 center at https://www.office.com.
 
-1. When prompted enter the username and password of the ODL user.
+1. When prompted enter the username and password of the user that you created in the previous step.
+
+   >**Note**: You can get the username by clicking on **Users** and then **Active users** from the navigation menu. In the Active Users pane note down the username for your newly created user.
 
 1. From the top left corner click on **App launcher**.
 
     ![](Images/MS-900-applauncher.png)
 
-1. Under **Apps**, select **Outlook**.
+1. Under **Apps**, select **Outlook** and from **Open context menu** click on **Open in new tab**. This will redirect you to the outlook mail.
    
     ![](Images/lab1-E2t1-img1.png)
    
@@ -136,7 +196,7 @@ Microsoft Outlook is an application that is used mainly to send and receive emai
 
     ![](Images/lab1-E2t1-img2.png)
     
-    ![](Images/MS-900-Mod-1-(outlooksend).png)
+    ![](Images/lab1-E2t1-img3.png)
     
    
 1. From the left-hand menu select **Calendar**. From here you can create appointments, events, organize meetings and view group schedules.
@@ -154,17 +214,17 @@ Microsoft Outlook is an application that is used mainly to send and receive emai
 
 OneDrive gives you one place to store, share, and sync your work or school files. As part of your organization's Microsoft 365 subscription, you can save your files in OneDrive and then work with them from almost any device, share files with others, give others permission to edit files and work on them at the same time.
 
-1. Switch back to the office365 user account portal and from App launcher under Apps, select **OneDrive**, from here you can manage all your **files**, click on **Your OneDrive is ready**.
+1. Switch back to the user account and from  **App launcher** under **Apps**, select **OneDrive**. From **Open context menu** click on **Open in new tab**. This will redirect you to the **OneDrive** page, from here you can manage all your **files**.
    
     ![](Images/lab1-E2t2-img1.png)
    
     ![](Images/lab1-E2t2-img2.png)
 
-1. Now we will try to create a folder and upload files to it. On the OneDrive page click on **New** and select the **Folder** option, when prompted provide a name **Demo** for your folder and click on **Create**.
+1. Now we will try to create a folder and upload files to it. On the OneDrive page click on **New** and select the **Folder** option, when prompted provide a name for your folder and click on **Create**.
   
     ![](Images/lab1-E2t2-img3.png)
    
-    ![](Images/MS-900-Mod-1(demo).png)
+    ![](Images/lab1-E2t2-img4.png)
    
     > **Note**: if you are not able to see your folder refresh the page.
 
@@ -201,6 +261,8 @@ OneDrive gives you one place to store, share, and sync your work or school files
     ![](Images/lab1-E2t2-img9.png)
        
 1. Once you're back at the main **Share** box enter a name or email of users with whom you intend to share the file, click on **Send**. You can also select **Copy Link** to copy the link to your clipboard and share it.
+
+    ![](Images/lab1-E2t2-img10.png)
   
 1. You can explore through other options available in the **OneDrive**. 
 
@@ -208,13 +270,11 @@ OneDrive gives you one place to store, share, and sync your work or school files
 
 With yammer people can openly connect and engage across the organization, from here we can discuss ideas, share and collaborate with others.
 
-1. Switch back to the office365 user account portal and from  **App launcher** under **Apps**, select **Yammer**.
-
-    >**Note**: inside the Apps options, if Yammer is not listed, then select **Explore all your Apps**, on the apps page search and select **Yammer**.
+1. Switch back to the office365 user account portal and from  **App launcher** under **Apps**, select **Yammer**. From **Open context menu** click on **Open in new tab**, this will redirect you to the **Yammer** page.
  
-    ![](Images/MS-900-Mod-1(homeyammer).png)
+    ![](Images/Yammer1.png)
 
-1. From the left-hand pane, select **communities**, click on **+ Create a community**, enter a name **Management** for your community. In **Members** search and select the users you want to add. Based on your requirement choose **Public** or **Private** access by click on **Edit**, after this click on **Create**.
+1. From the left-hand pane, select **communities**, click on **+ Create a community**, enter a name for your community. In **Members** search and select the users you want to add. Based on your requirement choose **Public** or **Private** access by click on **Edit**, after this click on **Create**.
 
     ![](Images/M1E2T3Step2.101.png)  
    
@@ -227,12 +287,14 @@ With yammer people can openly connect and engage across the organization, from h
     ![](Images/MS-900-discussion.png)
    
 1. Switch back to the yammer account of the user whom you added to the group and verify if the user is added to the newly created group and if the posts are visible.
+   
+    ![](Images/img24.png)
   
 1. We can also send a private message to Yammer.
    
 1. In the yammer dashboard click on the **Inbox** icon and select  **New Private Messages**. 
    
-    ![](Images/MS-900-Mod-1(management).png)
+    ![](Images/img25.png)
 
 1. In the **Add People** field, search or type the person's username. A drop-down menu of usernames that matches will appear.
 
@@ -248,7 +310,11 @@ With yammer people can openly connect and engage across the organization, from h
 
 Microsoft Stream is an Enterprise Video service where people in your organization can upload, view, and share videos securely. You can share recordings of classes, meetings, presentations, training sessions, or other videos that aid your team's collaboration.
 
-1. In the office365 portal from the  **App launcher**, inside the Apps options, if stream is not listed, then select **Explore all your Apps**, on the apps page search and select **Stream**.
+1. Open a new browser window and log in to the office365 center at https://www.office.com.
+
+1. When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example Odl_User-<inject key="DeploymentID" enableCopy="false"/>.
+
+1. In the office365 portal from the  **App launcher** click on **All apps** and in the search bar search for **Stream**, from **Open context menu** click on **Open in new tab**, this will redirect you to the **Stream** web page. 
 
 1. In the Stream page, select the **upload** button, and open **File Explorer > Windows (C:) > AllFiles**  and select the video.
    
@@ -257,16 +323,20 @@ Microsoft Stream is an Enterprise Video service where people in your organizatio
     > **Note**: if you are not able to see your video keep refreshing the page.
 
 1. Select the video, by clicking on the video, it will redirect you to the new-browser
+   
+    ![](Images/MS-900-video.png)
 
 1. Now, click on **Share** button.
 
     ![](Images/MS-900-share1.png)
  
- 1. Select **Anyone with the link can edit >**, now select **People you choose** and click on **Apply**, then enter the Username, click on **Send**.
+ 1. Select **Anyone with the link can edit >**, now select **People you choose** and click on **Apply**, then enter the Username: <inject key="AzureAdUserEmail"></inject> , click on **Send**.
 
     ![](Images/MS-900people.png)
+    
+    ![](Images/MS-900send.png)
    
-1. Open a new browser window and log in to the outlook https://outlook.office.com/mail with the username in which you have sent the email, now check you have received an email after that click **open** it will open the video that you have shared it from the user you created.
+1. Open a new browser window and log in to the outlook https://outlook.office.com/mail with the username (<inject key="AzureAdUserEmail"></inject>) in which you have sent the email, now check you have received an email after that click **open** it will open the video that you have shared it from the user you created.
 
     ![](Images/MS-900-email.png)
 
@@ -278,7 +348,11 @@ Microsoft Stream is an Enterprise Video service where people in your organizatio
 
 Microsoft SharePoint helps organizations share and manage content, knowledge, and applications to Empower teamwork, quickly find information and seamlessly collaborate across the organization.
 
-1. In the office365 portal from the  **App launcher**, inside the Apps options, select **SharePoint**, if SharePoint is not listed, then select **Explore all your Apps**, on the apps page search and select **SharePoint**.
+1. Open a new browser window and log in to the office365 center at https://www.office.com.
+
+1. When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example, Odl_User-<inject key="DeploymentID" enableCopy="false"/>.
+
+1. In the office365 portal from the  **App launcher** click on **All apps**. In the search bar search for **SharePoint**, from **Open context menu** click on **Open in new tab**. This will redirect you to the **SharePoint** web page. 
 
 1. From the top of the SharePoint page, click **+ Create site (1)**  option. A site creation wizard will appear on the right-hand side of the screen. Based on your requirement you can select **Team site** or **Communication site**. For now, select **Team site (2)**.
    
@@ -330,7 +404,11 @@ Microsoft SharePoint helps organizations share and manage content, knowledge, an
 
 List helps to track information and organize your work. With a list, one can track issues, assets, routines, contacts, inventory and more using customizable views and smart rules and alerts to keep everyone in sync.
 
-1. In the office365 portal from the  **App launcher**, inside the Apps options, select **Explore all your Apps**, on the apps page search and select **Lists**. 
+1. Open a new browser window and log in to the office365 center at https://www.office.com.
+
+1.When prompted enter the username and password of the user which you have created in the the Exercise 1 task 1. For example, Odl_User- <inject key="DeploymentID" enableCopy="false"/>. 
+
+1. In the office365 portal from the  **App launcher** click on **All apps** and in the search bar search for **List**, from **Open context menu** click on **Open in new tab**, this will redirect you to the **List** web page. 
 
 1. On the home page of **Lists** click on **+ New list**. 
 
@@ -354,7 +432,7 @@ List helps to track information and organize your work. With a list, one can tra
  
  1. To add a column, select **+ Add column**. In the dropdown, select the type of column you want.
  
-    ![](Images/MS-900-Mod-1-(sales).png)
+    ![](Images/img165.png)
  
  1. In the Create a column panel, in the **Name** field, enter a title or column heading. Enter any other required information. The number of fields will vary with the column type you choose. The above example is for a **Multiple lines of text** field.
  

@@ -45,6 +45,8 @@
 
 1. It show you the confirmation Message, Click on **Try Now**.
 
+   >**Note**: On information required pop-up, select **Continue**, it will redirect you to the new page, then go back.
+   
    ![](Images/Ms900-07.png)
 
 1. Will receive the order Receipt.
