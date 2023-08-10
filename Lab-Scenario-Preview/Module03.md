@@ -6,7 +6,7 @@
 
 In this walkthrough, we will create M365 groups, forms, plans and assign tasks using Planner, also visualized sample data using Power BI and explored through EndPoint Manager.
 
-## Objectives
+### Objectives
 
 After completing this lab, you will be able to:
 
@@ -16,7 +16,7 @@ After completing this lab, you will be able to:
 - Setup Basic PowerBI Report from a sample Excel.
 - Explore Microsoft EndPoint Manager.
 
-## Architecture Diagram
+### Architecture Diagram
 
 ![](media/MS-900-LSP-Mod-3.png)
 

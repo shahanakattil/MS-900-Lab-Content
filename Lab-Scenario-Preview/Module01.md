@@ -6,7 +6,7 @@
 
 In this walkthrough, we will be adding and removing users, changing licenses, and resetting passwords.
 
-## Objectives
+### Objectives
 
 After completing this lab, you will be able to:
 
@@ -15,7 +15,7 @@ After completing this lab, you will be able to:
 - Access other admin centers.
 - Explore Microsoft 365 Apps.
 
-## Architecture Diagram
+### Architecture Diagram
 
 ![](media/MS-900-LSP-Mod-1.png)
 

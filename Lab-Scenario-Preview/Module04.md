@@ -6,7 +6,7 @@
 
 In this walkthrough, we will create M365 groups, forms, plans and assign tasks using Planner, also visualized sample data using Power BI and explored through EndPoint Manager.
 
-## Objectives
+### Objectives
 
 After completing this lab, you will be able to:
 
@@ -19,7 +19,7 @@ After completing this lab, you will be able to:
 - Explore Compliance Manager.
 - Do Customer Lockbox.
 
-## Architecture Diagram
+### Architecture Diagram
 
 ![](media/MS-900-LSP-Mod-4.png)
 

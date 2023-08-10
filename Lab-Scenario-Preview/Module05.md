@@ -6,13 +6,13 @@
 
 In this walkthrough, we will browse through the licensing center and learn how to assign licenses to users from Microsoft 365 Admin center.
 
-## Objectives
+### Objectives
 
 After completing this lab, you will be able to:
 
 - Browse Licensing center in M365 Admin center
 
-## Architecture Diagram
+### Architecture Diagram
 
 ![](media/MS-900-LSP-Mod-5.png)
 

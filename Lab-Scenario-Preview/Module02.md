@@ -6,7 +6,7 @@
 
 In this walkthrough, we will be learning how to work with Teams policies and use Teams for collaboration.
 
-## Objectives
+### Objectives
 
 After completing this lab, you will be able to:
 
@@ -14,7 +14,7 @@ After completing this lab, you will be able to:
 - Schedule Teams meeting
 - Manage teams policies.
 
-## Architecture Diagram
+### Architecture Diagram
 
 ![](media/MS-900-LSP-Mod-2.png)
 
