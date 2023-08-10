@@ -4,14 +4,6 @@
 
 # Exercise 1: Browse Licensing center in M365 Admin center 
 
-1.  If you are not already signed into the admin center, sign into the admin center at https://admin.microsoft.com with the credentials.
-
-1. On **Sign into Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
-      * Email/Username: <inject key="AzureAdUserEmail"></inject>
-
-1. Now enter the following password and click on **Sign in**.
-      * Password: <inject key="AzureAdUserPassword"></inject>
-
 1. From the navigation menu scroll down to  **Billing (1)** and select **Licenses (2)**.
    
 1. On the **Subscriptions (3)** page you can see all Available licenses, Assigned licenses. Click on **any (4)** of the License to get detailed information.
