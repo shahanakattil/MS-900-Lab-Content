@@ -20,4 +20,4 @@ After completing this lab, you will be able to:
 
 ![](media/MS-900-LSP-Mod-3.png)
 
-Now that you know what the lab is going to be all about, you can launch next item **Hands-on Lab** which includes lab environment and lab guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/3a8522f3-2f12-46ca-a086-14e0cabba6df) if you want to go through detailed guide prior to launching lab environment.  
+Now that you know what the lab is going to be all about, you can launch next item **Hands-on Lab** which includes lab environment and lab guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/56192c94-61b7-48d1-8da8-c9e8743c645b) if you want to go through detailed guide prior to launching lab environment.  
