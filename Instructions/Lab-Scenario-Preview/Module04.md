@@ -6,7 +6,7 @@
 
 In this walkthrough, we will create M365 groups, forms, plans and assign tasks using Planner, also visualized sample data using Power BI and explored through EndPoint Manager.
 
-## Objectives
+### Objectives
 
 After completing this lab, you will be able to:
 
@@ -19,8 +19,8 @@ After completing this lab, you will be able to:
 - Explore Compliance Manager.
 - Do Customer Lockbox.
 
-## Architecture Diagram
+### Architecture Diagram
 
 ![](media/MS-900-LSP-Mod-4.png)
 
-Now that you know what the lab is going to be all about, you can launch next item **Hands-on Lab** which includes lab environment and lab guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/08e4ac19-130e-4bc9-8e2d-cdd15211dcfb) if you want to go through detailed guide prior to launching lab environment.  
+Once you understand the lab's content, you can start the Hands-on Lab by clicking the **Launch** button located in the top right corner. This will lead you to the lab environment and guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/08e4ac19-130e-4bc9-8e2d-cdd15211dcfb) if you want to go through detailed guide prior to launching lab environment.
