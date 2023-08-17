@@ -78,27 +78,29 @@
  
     ![](Images/M3E2T1Step601.png) 
   
-    ![](Images/MS-900-Mod-3-users.png)  
+    ![](Images/ms-900-ex-1-task-2-st-4(2).png)  
    
 14. Now in the **Members** page, select **Add members**, select ODL user, click on **Add**, and then click **Next**. (**Note:** you can join 20 member including owner) 
    
-    ![](Images/MS-900-Mod-3-users.png)
+    ![](Images/ms-900-ex-1-task-2-st-5.png)
 
 15. Now in the **Settings** page, type a unique email address for the group, choose a privacy option based on your requirement, and whether you want to add Microsoft Teams for the group, and then click **Next**.
 
-16. Review your settings and make any changes if needed, select **Create group**, and then **close**.
+    ![](Images/ms-900-ex-1-task-2-st-6.png)
+
+17. Review your settings and make any changes if needed, select **Create group**, and then **close**.
 
     ![](Images/MS-900-Mod-3-finish.png)
 
-17. In the admin center, select the name of the group that you want to add members to. Refresh the page if you are not able to see the newly created group.
+18. In the admin center, select the name of the group that you want to add members to. Refresh the page if you are not able to see the newly created group.
 
-18. To add members to the group, navigate to the **Membership tab (1)** and select **Members (2)**.
+19. To add members to the group, navigate to the **Membership tab (1)** and select **Members (2)**.
 
     ![](Images/MS-900-Mod-3-salesdemo.png)
    
-19. Click on **+ Add members**, select the users you want to add, and then click on **Save**.
+20. Click on **+ Add members**, select the users you want to add, and then click on **Save**.
    
-20. To learn more about groups refer to https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups.
+21. To learn more about groups refer to https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups.
 
 # Exercise 2: Explore Microsoft Planner 
 
