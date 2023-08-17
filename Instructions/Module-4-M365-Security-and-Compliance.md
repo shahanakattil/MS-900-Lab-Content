@@ -139,12 +139,11 @@ Privileged Identity Management (PIM) is a service in Azure Active Directory (Azu
    
 1. You can learn more about Privileged identity management by referring to https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure.
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > 
-   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 
 # Exercise 2: Threat Protection 
@@ -597,4 +596,17 @@ In this task, you will learn how to work with Customer Lockbox.
 
  In this module, you learned to use Microsoft Security and Compliance features to secure your organization's data, information, and applications.
 
-      
+## Review
+
+In this lab, you have:
+
+- Enabled MFA in AAD using Conditional Access Policy.
+- Explored Azure AD PIM.
+- Explored MS Threat Protection Portal.
+- Explored Microsoft Secure Score.
+- Discovered Apps with Microsoft Defender for Cloud Apps.
+- Setup Data sensitivity label and policy.
+- Explored Compliance Manager.
+- Explored Customer Lockbox.
+
+## You have successfully completed the lab   

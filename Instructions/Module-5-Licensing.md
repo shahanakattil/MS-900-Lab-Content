@@ -1,6 +1,6 @@
 # Module 5: Licensing 
 
-  In this module, you will browse through the licensing center and learn how to assign licenses to users from Microsoft 365 Admin center.
+In this module, you will browse through the licensing center and learn how to assign licenses to users from Microsoft 365 Admin center.
 
 # Exercise 1: Browse Licensing center in M365 Admin center 
 
@@ -24,13 +24,6 @@
 
 1. When you are finished, select **Assign**, then select Close.
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > 
-   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
 1. You can export the list of all users assigned with this license by clicking on **Export users**.
 
    ![](Images/ms900L5I3.png)
@@ -46,3 +39,17 @@
     ![](Images/License2.png)
 
 1. To learn more about licenses refer to  https://docs.microsoft.com/en-us/microsoft-365/commerce/licenses
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+## Review
+
+In this lab, you have:
+
+- Browsed Licensing center in M365 Admin center.
+
+## You have successfully completed the lab
