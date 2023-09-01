@@ -2,6 +2,8 @@
 
   This module helps you to understand various features that contribute to overall organization security.
 
+### Estimated Timing: 90 minutes
+
 # Exercise 1: Azure AD Security 
 
   In this exercise, you will understand how to enable MFA in Azure Active Directory. Then Configure and manage access to important resources using Azure AD PIM.
