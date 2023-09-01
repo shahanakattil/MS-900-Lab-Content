@@ -15,6 +15,8 @@
    
    - **Security groups**: They can be used for granting access to resources such as SharePoint sites. They can make administration easier because you need to only administer the group rather than adding users to each resource individually.
    
+### Estimated Timing: 90 minutes
+
 # Exercise 1: Create M365 Groups
 
   In this exercise, you will learn how to create groups and add members to it from the admin center.
