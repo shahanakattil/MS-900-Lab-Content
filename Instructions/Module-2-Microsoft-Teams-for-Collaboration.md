@@ -8,6 +8,8 @@
    * See likes, @mentions, and replies with just a single tap.
    * Customize it by adding notes, web sites, and apps. 
 
+### Estimated Timing: 90 minutes
+
 ## Exercise 1: End User Experience 
 
 In this exercise, you will learn various activities carried out in Teams such as having a Teams chat and scheduling Teams meetings.
