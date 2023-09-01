@@ -2,6 +2,8 @@
 
 In this module, you will browse through the licensing center and learn how to assign licenses to users from Microsoft 365 Admin center.
 
+### Estimated Timing: 90 minutes
+
 # Exercise 1: Browse Licensing center in M365 Admin center 
 
 1. From the navigation menu scroll down to  **Billing (1)** and select **Licenses (2)**.
