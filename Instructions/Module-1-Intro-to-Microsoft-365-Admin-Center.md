@@ -24,7 +24,7 @@ The Microsoft 365 admin center is where you manage your business in the cloud. Y
    
    - **Admin centers**: Open separate admin centers for Exchange, Skype for Business, SharePoint, Yammer, and Azure AD. Each admin center includes all available settings for that service.
 
-### Estimated Timing: 120 minutes
+### Estimated Timing: 90 minutes
 
 ## Exercise 1: Admin Experience for User Management
 
