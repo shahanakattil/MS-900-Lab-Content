@@ -179,17 +179,17 @@ OneDrive gives you one place to store, share, and sync your work or school files
    
     ![](Images/lab1-E2t2-img2.png)
 
-1. Now we will try to create a folder and upload files to it. On the OneDrive page click on **New** and select the **Folder** option, when prompted provide a name **Demo** for your folder and click on **Create**.
+1. Now we will try to create a folder and upload files to it. On the OneDrive page click on **+Add New** and select the **Folder** option, when prompted provide a name **Demo** for your folder and click on **Create**.
   
-    ![](Images/lab1-E2t2-img3.png)
+    ![](Images/ms-900.lab1.a.png)
    
     ![](Images/MS-900-Mod-1(demo).png)
    
     > **Note**: if you are not able to see your folder refresh the page.
 
-1. Now select the newly created folder. From the top navigation bar select, **Upload** and select **Files**, when prompted choose the file(s) that you want to upload.
+1. Now select the newly created folder. From the top navigation bar select, **+Add New** and select **Files upload**, when prompted choose the file(s) that you want to upload.
 
-    ![](Images/lab1-E2t2-img5.png)
+    ![](Images/ms-900.lab1.1.png)
    
 1. Select the new file that you have uploaded, click on the **Show actions** icon. This will display the list of actions that can be performed.
 
