@@ -60,7 +60,7 @@ In this lab, you will perform:
 
 ## Review
 
-In this lab, you have:
+In this lab, you have Completed:
 
 - Browsed Licensing center in M365 Admin center.
 
