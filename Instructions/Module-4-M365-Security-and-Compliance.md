@@ -1,14 +1,28 @@
-# Module 4: M365 Security and Compliance 
+# Module 04: M365 Security and Compliance 
 
-  This module helps you to understand various features that contribute to overall organization security.
+## Lab Scenario
+This module helps you to understand various features that contribute to overall organization security.
 
-### Estimated Timing: 90 minutes
+## Lab objectives
 
-# Exercise 1: Azure AD Security 
+In this lab, you will perform:
 
-  In this exercise, you will understand how to enable MFA in Azure Active Directory. Then Configure and manage access to important resources using Azure AD PIM.
++ Exercise 1: Azure AD Security 
++ Exercise 2: Threat Protection
++ Exercise 3: Microsoft Defender for Cloud Apps
++ Exercise 4 : Information Protection
++ Exercise 5: Compliance Manager
+
+## Estimated Timing: 90 minutes
+
+## Architecture diagram
+![](../Instructions/Lab-Scenario-Preview/media/MS-900-LSP-Mod-4.png)
+
+### Exercise 1: Azure AD Security 
+
+In this exercise, you will understand how to enable MFA in Azure Active Directory. Then Configure and manage access to important resources using Azure AD PIM.
   
-### Task 1: Enable MFA in AAD using Conditional Access Policy 
+#### Task 1: Enable MFA in AAD using Conditional Access Policy 
 
 In this task, you will enable MFA in Azure Active Directory using Conditional Access Policy and verify the policy.
 
@@ -76,7 +90,7 @@ In this task, you will enable MFA in Azure Active Directory using Conditional Ac
    
 1. To learn more about conditional access and policies refer to https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview.
 
-### Task 2 : Azure AD PIM                                                                                                                                                                               
+#### Task 2 : Azure AD PIM                                                                                                                                             
 Privileged Identity Management (PIM) is a service in Azure Active Directory (Azure AD) that enables you to manage, control, and monitor access to important resources in your organization. These resources include resources in Azure AD, Azure, and other Microsoft Online Services such as Microsoft 365 or Microsoft Intune.
 
 1. From the navigation menu scroll down to **Admin centers** and select **Azure Active Directory**, the Azure Active Directory overview page will appear.
@@ -147,12 +161,11 @@ Privileged Identity Management (PIM) is a service in Azure Active Directory (Azu
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-
-# Exercise 2: Threat Protection 
+### Exercise 2: Threat Protection 
 
 In this exercise, you will explore through Microsoft threat protection portal and Microsoft Secure Score.
 
-### Task 1: Explore MS Threat Protection Portal [Read-Only]
+#### Task 1: Explore MS Threat Protection Portal [Read-Only]
 
 Microsoft Threat Protection is a unified pre- and post-breach enterprise defense suite that natively coordinates detection, prevention, investigation, and response across endpoints, identities, email, and applications to provide integrated protection against sophisticated attacks.
 
@@ -184,7 +197,7 @@ In this task, you will explore Microsoft Threat Protection Portal.
    
 1. To learn more about Threat Protection refer to https://docs.microsoft.com/en-us/microsoft-365/security/mtp.
 
-### Task 2: Microsoft Secure Score 
+#### Task 2: Microsoft Secure Score 
 
 Microsoft Secure Score is a measurement of an organization's security posture, with a higher number indicating more improvement actions taken. Following the Secure Score recommendations can protect your organization from threats. From a centralized dashboard in the Microsoft 365 security center, organizations can monitor and work on the security of their Microsoft 365 identities, data, apps, devices, and infrastructure.
 
@@ -222,11 +235,11 @@ In this task, you will learn about Microsoft Secure Score.
  
 1. To learn more about secure score refer to https://docs.microsoft.com/en-us/microsoft-365/security/mtp/microsoft-secure-score?view=o365-worldwide.
        
-# Exercise 3: Microsoft Defender for Cloud Apps
+### Exercise 3: Microsoft Defender for Cloud Apps
 
 In this exercise, you will use the Microsoft Defender for Cloud Apps portal to identify the sensitivity and criticality of data and apps owned by an organization and address them.
 
-### Task 1: Discover Apps with Microsoft Defender for Cloud Apps  
+#### Task 1: Discover Apps with Microsoft Defender for Cloud Apps  
 
 Microsoft Cloud App Security is a multi-mode Cloud Access Security Broker (CASB). It provides rich visibility, control over data travel, and sophisticated analytics to identify and combat cyber threats across all your cloud services.
 
@@ -354,7 +367,7 @@ Microsoft Cloud App Security is a multi-mode Cloud Access Security Broker (CASB)
 
 In this exercise, you will learn how to classify and protect your organization's data using a sensitivity label.
 
-### Task 1: Setup Data sensitivity label and policy 
+#### Task 1: Setup Data sensitivity label and policy 
 
 Sensitivity labels from the Microsoft Information Protection framework let you classify and protect your organization's data while making sure that user productivity and their ability to collaborate isn't hindered.
 
@@ -515,7 +528,7 @@ Sensitivity labels from the Microsoft Information Protection framework let you c
 
 This exercise will let you explore the features of the Compliance Manager and Customer LockBox.
 
-### Task 1 : Explore Compliance Manager 
+#### Task 1 : Explore Compliance Manager 
 
 Compliance Manager measures your progress in completing actions that help reduce risks around data protection and regulatory standards.
 
@@ -572,7 +585,7 @@ In this task, you will explore Microsoft Compliance Manager.
 
 1. To learn more about the Compliance manager refer https://docs.microsoft.com/en-us/microsoft-365/compliance/compliance-manager-setup?view=o365-worldwide.
 
-### Task 2 : Customer Lockbox 
+#### Task 2 : Customer Lockbox 
 
 Customer Lockbox ensures that Microsoft cannot access your content to perform a service operation without your explicit approval. Customer Lockbox brings you into the approval workflow for requests to access your content.
 
@@ -594,9 +607,7 @@ In this task, you will learn how to work with Customer Lockbox.
    
 1. To learn more about Customer LockBox refer to https://docs.microsoft.com/en-us/microsoft-365/compliance/customer-lockbox-requests?view=o365-worldwide.
 
-## Conclusion
-
- In this module, you learned to use Microsoft Security and Compliance features to secure your organization's data, information, and applications.
+>**Results**: In this module, you learned to use Microsoft Security and Compliance features to secure your organization's data, information, and applications.
 
 ## Review
 

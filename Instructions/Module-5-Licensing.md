@@ -1,10 +1,20 @@
 # Module 5: Licensing 
 
+## Lab Scenario
 In this module, you will browse through the licensing center and learn how to assign licenses to users from Microsoft 365 Admin center.
 
-### Estimated Timing: 90 minutes
+## Lab Objectives
 
-# Exercise 1: Browse Licensing center in M365 Admin center 
+In this lab, you will perform:
+
++ Exercise 1: Browse Licensing center in M365 Admin center 
+
+## Estimated Timing: 90 minutes
+
+## Architecture diagram
+![](../Instructions/Lab-Scenario-Preview/media/MS-900-LSP-Mod-5.png)
+
+### Exercise 1: Browse Licensing center in M365 Admin center 
 
 1. From the navigation menu scroll down to  **Billing (1)** and select **Licenses (2)**.
    

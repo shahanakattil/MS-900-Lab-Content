@@ -1,6 +1,7 @@
-# Module 2: Microsoft Teams for Collaboration  
+# Module 02: Microsoft Teams for Collaboration  
 
-  Microsoft Teams is a collaboration app that helps your team stay organized and have conversations — all in one place. With Microsoft Teams on your PC, Mac, or mobile device, you can:
+## Lab Scenario
+Microsoft Teams is a collaboration app that helps your team stay organized and have conversations — all in one place. With Microsoft Teams on your PC, Mac, or mobile device, you can:
   
    * Pull together a team.
    * Use chat instead of email.
@@ -8,13 +9,23 @@
    * See likes, @mentions, and replies with just a single tap.
    * Customize it by adding notes, web sites, and apps. 
 
-### Estimated Timing: 90 minutes
+## Lab objectives
 
-## Exercise 1: End User Experience 
+In this lab, you will perform:
+
++ Exercise 1: End User Experience
++ Exercise 2: Explore Teams admin center
+
+## Estimated Timing: 90 minutes
+
+## Architecture diagram
+![](../Instructions/Lab-Scenario-Preview/media/MS-900-LSP-Mod-2.png)
+
+### Exercise 1: End User Experience 
 
 In this exercise, you will learn various activities carried out in Teams such as having a Teams chat and scheduling Teams meetings.
 
-### Task 1: Exploring through Teams [Read-Only]
+#### Task 1: Exploring through Teams [Read-Only]
 
 In this task, we will explore the options available in Teams, learn how to create a team and add members to it.
 
@@ -109,7 +120,7 @@ In this task, we will explore the options available in Teams, learn how to creat
 
      ![](Images/teams.png)
 
-### Task 2: Scheduling Teams meeting
+#### Task 2: Scheduling Teams meeting
 
 In this task, we will learn how to schedule a meeting in Teams.
 
@@ -143,11 +154,11 @@ In this task, we will learn how to schedule a meeting in Teams.
 
 1. To learn more about teams refer to https://docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-quick-start.
    
-# Exercise 2: Explore Teams admin center 
+### Exercise 2: Explore Teams admin center 
 
 In this exercise you will learn how to configure Teams policies and apply them.
 
-### Task 1:  Manage teams policies 
+#### Task 1:  Manage teams policies 
 
 In this task, we will create and assign a messaging policy to the user from the admin center and verify the effect of the policy from the team's portal. Then we will learn how to create and assign App permission policies from the team's Admin center.
 
@@ -226,9 +237,17 @@ In this task, we will create and assign a messaging policy to the user from the 
 
 1. To learn more about teams policies refer to https://docs.microsoft.com/en-us/microsoftteams/assign-policies.
 
-## Conclusion
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-  In this module, you learned how to work with Teams policies and use Teams for collaboration.
+## Review
+
+In this module, you learned how to work with Teams policies and use Teams for collaboration.
+
+## You have successfully completed the lab
    
 
 

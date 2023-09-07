@@ -1,27 +1,41 @@
-# Module 3: M365 Business Management Capabilities 
+# Module 03: M365 Business Management Capabilities 
 
- In this module, you will learn to work with M365 groups, Microsoft Planner, Forms, Power BI. You will also explore through Microsoft Endpoint Manager.
+## Lab Scenario
+In this module, you will learn to work with M365 groups, Microsoft Planner, Forms, Power BI. You will also explore through Microsoft Endpoint Manager.
 
-#  Types of Groups in M365 
+- Types of Groups in M365
 
 1. In the Groups section of the Microsoft 365 admin center, you can create and manage different types of groups:
 
-   - **Microsoft 365 group**:  Microsoft 365 groups are used for collaboration between users, both inside and outside your company. With each Microsoft 365 group, members get a group email and shared workspace for conversations, files, and calendar events, and a Planner.
+- **Microsoft 365 group**:  Microsoft 365 groups are used for collaboration between users, both inside and outside your company. With each Microsoft 365 group, members get a group email and shared workspace for conversations, files, and calendar events, and a Planner.
    
-   - **Distribution**: Distribution groups are used for sending notifications to a group of people. They can receive an external email if enabled by the administrator.
+- **Distribution**: Distribution groups are used for sending notifications to a group of people. They can receive an external email if enabled by the administrator.
    Distribution groups are best for situations where you need to broadcast information to a set group of people.
    
-   - **mail-enabled security**: These groups are used for granting access to resources such as SharePoint, and emailing notifications to those users.
+- **mail-enabled security**: These groups are used for granting access to resources such as SharePoint, and emailing notifications to those users.
    
-   - **Security groups**: They can be used for granting access to resources such as SharePoint sites. They can make administration easier because you need to only administer the group rather than adding users to each resource individually.
-   
-### Estimated Timing: 90 minutes
+- **Security groups**: They can be used for granting access to resources such as SharePoint sites. They can make administration easier because you need to only administer the group rather than adding users to each resource individually.
 
-# Exercise 1: Create M365 Groups
+## Lab objectives
+
+In this lab, you will perform:
+
++ Exercise 1: Create M365 Groups
++ Exercise 2: Explore Microsoft Planner
++ Exercise 3: Setup Microsoft Forms
++ Exercise 4 : Setup Basic PowerBI Report from a sample Excel 
++ Exercise 5: Explore Microsoft EndPoint Manager
+   
+## Estimated Timing: 90 minutes
+
+## Architecture diagram
+![](../Instructions/Lab-Scenario-Preview/media/MS-900-LSP-Mod-3.png)
+
+### Exercise 1: Create M365 Groups
 
   In this exercise, you will learn how to create groups and add members to it from the admin center.
 
-### Task 1: Create Office 365 Users [Read-Only]
+#### Task 1: Create Office 365 Users [Read-Only]
 
 1. Open a new browser window and log in to the admin center at https://admin.microsoft.com.
 
@@ -61,8 +75,7 @@
    
 9. Verify that the user has been created successfully. In the Microsoft 365 admin center, in the left navigation pane, select **Users** and select **Active users**. The new user should be listed, along with their assigned license.
 
-
-### Task 2: Create Office 365 Groups
+#### Task 2: Create Office 365 Groups
 
 1. Open a new browser window and log in to the admin center at https://admin.microsoft.com.
 
@@ -104,7 +117,7 @@
    
 21. To learn more about groups refer to https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups.
 
-# Exercise 2: Explore Microsoft Planner 
+### Exercise 2: Explore Microsoft Planner 
 
 Microsoft Planner provides a hub for team members to create plans, organize, and assign tasks to different users, and to check updates on progress through dashboards. It also provides a centralized place where files can be shared and give visibility to the whole team.
 
@@ -184,11 +197,17 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
 
 1. To learn more about planner refer to https://support.microsoft.com/en-us/planner.
 
-# Exercise 3 : Setup Microsoft Forms 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+### Exercise 3 : Setup Microsoft Forms 
 
 This exercise explains how to create and work with Microsoft Forms.
  
-### Task 1 : Creating a new Form
+#### Task 1 : Creating a new Form
 
 With Microsoft Forms, you can create surveys, quizzes, and polls, and easily see results as they come in.
 
@@ -234,7 +253,7 @@ In this task, you will learn how to create a Form using Microsoft Forms.
 
     ![](Images/MS-900-Mod-3-responses.png)
 
-### Task 2 : Change a form Style and Sharing forms
+#### Task 2 : Change a form Style and Sharing forms
 
 In this task, you will learn how to customize the theme of your newly created form and the means to share it.
 
@@ -250,11 +269,11 @@ In this task, you will learn how to customize the theme of your newly created fo
    
 1. To know more about forms refer to https://support.microsoft.com/en-us/forms.
 
-# Exercise 4 : Setup Basic PowerBI Report from a sample Excel 
+### Exercise 4 : Setup Basic PowerBI Report from a sample Excel 
 
 In this exercise, you will learn how to create a Power BI report from sample data and visualize it.
 
-### Task 1: Import data to PowerBI
+#### Task 1: Import data to PowerBI
 
 In this task, you will import sample financial data to PowerBI. 
 
@@ -277,7 +296,7 @@ In this task, you will import sample financial data to PowerBI.
 1. Browse to where you saved the Financial Sample data file, and click on **Open**.
 
 
-### Task 2 : Visualize data
+#### Task 2 : Visualize data
 
 In this task, you will visualize the data which you had imported in the previous task by using various visualization options available in PowerBI.
 
@@ -331,7 +350,13 @@ In this task, you will visualize the data which you had imported in the previous
 
 1. To learn more about **Power BI** refer to https://docs.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview.
 
-# Exercise 5 : Explore Microsoft EndPoint Manager 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+### Exercise 5 : Explore Microsoft EndPoint Manager 
 
 Microsoft Endpoint Manager helps deliver the modern workplace and modern management to keep your data secure, in the cloud and on-premises. Endpoint Manager includes the services and tools you use to manage and monitor mobile devices, desktop computers, virtual machines, embedded devices, and servers. Endpoint Manager combines services like Microsoft Intune, Configuration Manager, Desktop Analytics, co-management, and Windows Autopilot.
 
@@ -411,6 +436,8 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
      
 1. To learn more about Endpoint Manager refer to https://docs.microsoft.com/en-us/mem/intune/fundamentals.
 
-## Conclusion
+## Review
 
 With the help of this module, you learned how to create M365 groups, forms, plans and assign tasks using Planner, also visualized sample data using Power BI and explored through EndPoint Manager
+
+## You have successfully completed the lab

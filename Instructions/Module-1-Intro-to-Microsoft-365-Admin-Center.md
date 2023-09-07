@@ -1,4 +1,4 @@
-# Module 1: Introduction to Microsoft 365 Admin Center
+# Module 01: Introduction to Microsoft 365 Admin Center
 
 ## Lab Scenario
 The Microsoft 365 admin center is where you manage your business in the cloud. You can complete tasks such as adding and removing users, changing licenses, and resetting passwords. Here are the features and settings you'll find in the left-hand navigation of the admin center.
@@ -26,18 +26,22 @@ The Microsoft 365 admin center is where you manage your business in the cloud. Y
    - **Admin centers**: Open separate admin centers for Exchange, Skype for Business, SharePoint, Yammer, and Azure AD. Each admin center includes all available settings for that service.
 
 ## Lab objectives
+
 In this lab, you will perform:
 
 + Exercise 1: Admin Experience for User Management
 + Exercise 2: Explore Microsoft 365 Apps
 
-### Estimated Timing: 90 minutes
+## Estimated Timing: 90 minutes
 
-## Exercise 1: Admin Experience for User Management
+## Architecture diagram
+![](../Instructions/Lab-Scenario-Preview/media/MS-900-LSP-Mod-1.png)
+
+### Exercise 1: Admin Experience for User Management
 
 In this exercise, you will learn how to create users, assign a license to the users, verify custom domains in the tenant, and see how to access other admin centers.
   
-### Task 1: Admin Experience for User Management [Read-Only]
+#### Task 1: Admin Experience for User Management [Read-Only]
 
 In this task, you will learn how to create and manage users from Microsoft Admin Center.
 
@@ -83,7 +87,7 @@ In this task, you will learn how to create and manage users from Microsoft Admin
    
 1. Verify that the user has been created successfully. In the Microsoft 365 admin center, in the left navigation pane, select **Users** and select **Active users**. The new user should be listed, along with their assigned license.
 
-### Task 2: Access other admin centers
+#### Task 2: Access other admin centers
 
 In this task, you will learn how to access other admin centers from Microsoft Admin Center.
 
@@ -121,11 +125,11 @@ In this task, you will learn how to access other admin centers from Microsoft Ad
 
 1. In the same way you can access and explore through all other admin centers available.
    
-## Exercise 2: Explore Microsoft 365 Apps
+### Exercise 2: Explore Microsoft 365 Apps
 
 In the previous exercise, you learn how to create a user and how to assign an office 365 E3 license. In this exercise, you will explore Office 365 apps.
 
-### Task 1: Explore Outlook
+#### Task 1: Explore Outlook
 
 Microsoft Outlook is an application that is used mainly to send and receive emails. It can also be used to manage various types of personal data including calendar appointments and similar entries, tasks, contacts, and notes.
 
@@ -158,8 +162,14 @@ Microsoft Outlook is an application that is used mainly to send and receive emai
     ![](Images/lab1-E2t1-img5.png)
     
   1. From the left-hand menu you can explore all other options available. 
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
    
-### Task 2: Explore OneDrive
+#### Task 2: Explore OneDrive
 
 OneDrive gives you one place to store, share, and sync your work or school files. As part of your organization's Microsoft 365 subscription, you can save your files in OneDrive and then work with them from almost any device, share files with others, give others permission to edit files and work on them at the same time.
 
@@ -213,7 +223,7 @@ OneDrive gives you one place to store, share, and sync your work or school files
   
 1. You can explore through other options available in the **OneDrive**. 
 
-### Task 3: Explore yammer.
+#### Task 3: Explore yammer.
 
 With yammer people can openly connect and engage across the organization, from here we can discuss ideas, share and collaborate with others.
 
@@ -253,7 +263,7 @@ With yammer people can openly connect and engage across the organization, from h
 
 1. Explore through other options available in yammer.
 
-### Task 4: Explore Microsoft Stream
+#### Task 4: Explore Microsoft Stream
 
 Microsoft Stream is an Enterprise Video service where people in your organization can upload, view, and share videos securely. You can share recordings of classes, meetings, presentations, training sessions, or other videos that aid your team's collaboration.
 
@@ -283,7 +293,7 @@ Microsoft Stream is an Enterprise Video service where people in your organizatio
 
 1. To learn more about Microsoft Stream refer to https://docs.microsoft.com/en-us/stream/overview.
 
-### Task 5: Explore SharePoint
+#### Task 5: Explore SharePoint
 
 Microsoft SharePoint helps organizations share and manage content, knowledge, and applications to Empower teamwork, quickly find information and seamlessly collaborate across the organization.
 
@@ -335,7 +345,7 @@ Microsoft SharePoint helps organizations share and manage content, knowledge, an
 
 1. To learn more about SharePoint refer to https://docs.microsoft.com/en-us/sharepoint/introduction.
 
-### Task 6: Explore Lists
+#### Task 6: Explore Lists
 
 List helps to track information and organize your work. With a list, one can track issues, assets, routines, contacts, inventory and more using customizable views and smart rules and alerts to keep everyone in sync.
 
@@ -407,8 +417,9 @@ List helps to track information and organize your work. With a list, one can tra
 
 1. You can explore other options available in Microsoft List.
 
-
-## Conclusion
+## Review
 
 In this module, you have learned how to create users and assign licenses to the users from the Microsoft 365 admin center. You have also learned how to add domains and the process to access other admin centers and explored through various office365 apps.
+
+## You have successfully completed the lab
 
