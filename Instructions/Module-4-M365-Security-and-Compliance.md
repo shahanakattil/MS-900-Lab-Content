@@ -622,4 +622,4 @@ In this lab, you have:
 - Explored Compliance Manager.
 - Explored Customer Lockbox.
 
-## You have successfully completed the lab   
+## You have successfully completed the lab.

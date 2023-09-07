@@ -247,7 +247,7 @@ In this task, we will create and assign a messaging policy to the user from the 
 
 In this module, you learned how to work with Teams policies and use Teams for collaboration.
 
-## You have successfully completed the lab
+## You have successfully completed the lab.
    
 
 

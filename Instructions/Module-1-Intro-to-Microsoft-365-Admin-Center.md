@@ -421,5 +421,5 @@ List helps to track information and organize your work. With a list, one can tra
 
 In this module, you have learned how to create users and assign licenses to the users from the Microsoft 365 admin center. You have also learned how to add domains and the process to access other admin centers and explored through various office365 apps.
 
-## You have successfully completed the lab
+## You have successfully completed the lab.
 

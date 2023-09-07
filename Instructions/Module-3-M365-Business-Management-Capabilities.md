@@ -440,4 +440,4 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
 
 With the help of this module, you learned how to create M365 groups, forms, plans and assign tasks using Planner, also visualized sample data using Power BI and explored through EndPoint Manager
 
-## You have successfully completed the lab
+## You have successfully completed the lab.

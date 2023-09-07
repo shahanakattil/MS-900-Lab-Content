@@ -64,4 +64,4 @@ In this lab, you have:
 
 - Browsed Licensing center in M365 Admin center.
 
-## You have successfully completed the lab
+## You have successfully completed the lab.
