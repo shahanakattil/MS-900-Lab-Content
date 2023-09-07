@@ -1,5 +1,6 @@
 # Module 1: Introduction to Microsoft 365 Admin Center
 
+## Lab Scenario
 The Microsoft 365 admin center is where you manage your business in the cloud. You can complete tasks such as adding and removing users, changing licenses, and resetting passwords. Here are the features and settings you'll find in the left-hand navigation of the admin center.
   
    - **Home**: This is the landing page in the admin center. Here you will see where to manage users, billing, service health, and reports.
@@ -23,6 +24,12 @@ The Microsoft 365 admin center is where you manage your business in the cloud. Y
    - **Health**: View the service health at a glance. You can also check out more details and the service health history.
    
    - **Admin centers**: Open separate admin centers for Exchange, Skype for Business, SharePoint, Yammer, and Azure AD. Each admin center includes all available settings for that service.
+
+## Lab objectives
+In this lab, you will perform:
+
++ Exercise 1: Admin Experience for User Management
++ Exercise 2: Explore Microsoft 365 Apps
 
 ### Estimated Timing: 90 minutes
 
