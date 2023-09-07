@@ -611,7 +611,7 @@ In this task, you will learn how to work with Customer Lockbox.
 
 ## Review
 
-In this lab, you have:
+In this lab, you have Completed:
 
 - Enabled MFA in AAD using Conditional Access Policy.
 - Explored Azure AD PIM.
