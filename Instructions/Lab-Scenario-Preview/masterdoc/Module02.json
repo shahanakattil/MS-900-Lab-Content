@@ -2,9 +2,10 @@
     {
      "Name": "Lab Scenario Preview - MS-900: Microsoft Teams for Collaboration",
      "Language": "English",
+     "BaseURL": "https://github.com/CloudLabs-MOC/MS-900-Lab-Content/tree/self-paced",
      "Files": [
          {
-           "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-900-Lab-Content/self-paced/Lab-Scenario-Preview/Module02.md",
+           "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-900-Lab-Content/self-paced/Instructions/Lab-Scenario-Preview/Module02.md",
            "Order": 1
          }
       ]  
