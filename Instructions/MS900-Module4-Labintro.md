@@ -1,4 +1,4 @@
-# Module4- LabIntro: Getting Started
+# Module 04- LabIntro: Getting Started
 
 1. Use the azure credentials provided in the **Environment Details** tab to log in to the **Office 365 Admin Portal**.
    
