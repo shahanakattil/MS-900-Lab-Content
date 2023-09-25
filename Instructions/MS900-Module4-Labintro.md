@@ -1,7 +1,8 @@
-# Module 04- LabIntro: Getting Started
+# LabIntro: Getting Started
 
 1. Use the azure credentials provided in the **Environment Details** tab to log in to the **Office 365 Admin Portal**.
    
+
     ![](Images/envdetails.png)
 
 # Sign up for Office 365 E5 free trial
