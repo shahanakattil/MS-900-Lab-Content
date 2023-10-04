@@ -5,7 +5,7 @@ This module helps you to understand various features that contribute to overall 
 
 ## Lab objectives
 
-In this lab, you will perform:
+In this lab, you will complete the following tasks:
 
 + Exercise 1: Microsoft Entra ID Security 
 + Exercise 2: Threat Protection
