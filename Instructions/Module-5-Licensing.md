@@ -5,7 +5,7 @@ In this module, you will browse through the licensing center and learn how to as
 
 ## Lab Objectives
 
-In this lab, you will perform:
+In this lab, you will complete the following tasks:
 
 + Exercise 1: Browse Licensing center in M365 Admin center 
 
