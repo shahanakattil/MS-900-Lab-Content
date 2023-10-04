@@ -27,7 +27,7 @@ The Microsoft 365 admin center is where you manage your business in the cloud. Y
 
 ## Lab objectives
 
-In this lab, you will perform:
+In this lab, you will complete the following tasks:
 
 + Exercise 1: Admin Experience for User Management
 + Exercise 2: Explore Microsoft 365 Apps
