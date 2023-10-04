@@ -18,7 +18,7 @@ In this module, you will learn to work with M365 groups, Microsoft Planner, Form
 
 ## Lab objectives
 
-In this lab, you will perform:
+In this lab, you will complete the following tasks:
 
 + Exercise 1: Create M365 Groups
 + Exercise 2: Explore Microsoft Planner
