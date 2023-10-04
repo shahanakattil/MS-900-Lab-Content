@@ -11,7 +11,7 @@ Microsoft Teams is a collaboration app that helps your team stay organized and h
 
 ## Lab objectives
 
-In this lab, you will perform:
+In this lab, you will complete the following tasks:
 
 + Exercise 1: End User Experience
 + Exercise 2: Explore Teams admin center
