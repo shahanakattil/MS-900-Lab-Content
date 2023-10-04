@@ -23,7 +23,7 @@ The Microsoft 365 admin center is where you manage your business in the cloud. Y
    
    - **Health**: View the service health at a glance. You can also check out more details and the service health history.
    
-   - **Admin centers**: Open separate admin centers for Exchange, Skype for Business, SharePoint, Yammer, and Azure AD. Each admin center includes all available settings for that service.
+   - **Admin centers**: Open separate admin centers for Exchange, Skype for Business, SharePoint, engage, and Microsoft Entra ID. Each admin center includes all available settings for that service.
 
 ## Lab objectives
 
@@ -51,9 +51,7 @@ In this task, you will learn how to create and manage users from Microsoft Admin
 
 1. From the navigation menu, click on the **Teams & Groups** icon and click on **Active teams & groups**. This will display a list of all the groups that are created.
 
-    ![](Images/ms-900-lab1-img02.png)
-
-1. Now to create a new user, from the navigation menu click on **Users icon** and click on **Active users**, and then select **Add a user** icon.
+1. Now to create a new user, from the navigation menu click on **Users** and click on **Active users**, and then select **Add a user** icon.
 
     ![](Images/ms900-lab1-3-img3.png)
 
@@ -91,7 +89,7 @@ In this task, you will learn how to create and manage users from Microsoft Admin
 
 In this task, you will learn how to access other admin centers from Microsoft Admin Center.
 
-1. Open [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339), to access other admin centers, from the navigation pane select **Show all**, under **Admin centers** choose **All Admin centers**. Opens a page with a full list of Office 365 admin centers, including admin centers for OneDrive, Yammer Enterprise, Dynamics 365, Power Apps, Skype for business, and other services.
+1. Open [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339), to access other admin centers, from the navigation pane select **Show all**, under **Admin centers** choose **All Admin centers**. Opens a page with a full list of Office 365 admin centers, including admin centers for OneDrive, Viva Engage, Dynamics 365, Power Apps, Skype for business, and other services.
 
     ![](Images/MS-900-Mod-1-(admin).png)
    
@@ -127,27 +125,19 @@ In this task, you will learn how to access other admin centers from Microsoft Ad
    
 ### Exercise 2: Explore Microsoft 365 Apps
 
-In the previous exercise, you learn how to create a user and how to assign an office 365 E3 license. In this exercise, you will explore Office 365 apps.
+In the previous exercise, you learn how to create a user and how to assign an office 365 E5 license. In this exercise, you will explore Office 365 apps.
 
 #### Task 1: Explore Outlook
 
 Microsoft Outlook is an application that is used mainly to send and receive emails. It can also be used to manage various types of personal data including calendar appointments and similar entries, tasks, contacts, and notes.
 
-1. Switch back to the office365 user account portal and from App launcher under Apps, select **Outlook**.
+1. Switch back to the Microsoft 365 admin center page and from App launcher under Apps, select **Outlook**.
 
-1. When prompted enter the username and password of the ODL user.
+    ![](Images/MS-900-img-1.png)
 
-1. From the top left corner click on **App launcher**.
-
-    ![](Images/MS-900-applauncher.png)
-
-1. Under **Apps**, select **Outlook**.
+1. When prompted enter the username odl_user_<inject key="DeploymentID" enableCopy="false"/>yourtenant.onmicrosoft.com (where yourtenant is the tenant prefix provided by your lab hosting provider) and password:- <inject key="AzureAdUserPassword"></inject>.
    
-    ![](Images/lab1-E2t1-img1.png)
-   
-1. On the outlook page, choose **New Mail**  to send a new mail. Enter a name or email address in the To, Cc, or Bcc field. In Subject, type the subject of the email message.  Place the cursor in the body of the email message, and then start typing.  After typing your message, choose Send.
-
-    ![](Images/lab1-E2t1-img2.png)
+1. On the outlook page, select **New Mail**  to send a new mail. Enter a name or email address in the To, Bcc, and Cc field. In Subject, type the subject of the email message. Place the cursor in the body of the email message, and then start typing.  After typing your message, choose Send.
     
     ![](Images/MS-900-Mod-1-(outlooksend).png)
     
@@ -173,35 +163,33 @@ Microsoft Outlook is an application that is used mainly to send and receive emai
 
 OneDrive gives you one place to store, share, and sync your work or school files. As part of your organization's Microsoft 365 subscription, you can save your files in OneDrive and then work with them from almost any device, share files with others, give others permission to edit files and work on them at the same time.
 
-1. Switch back to the office365 user account portal and from App launcher under Apps, select **OneDrive**, from here you can manage all your **files**, click on **Your OneDrive is ready**.
+1. Now from App launcher under Apps, select **OneDrive**, from here you can manage all your **files**.
    
-    ![](Images/lab1-E2t2-img1.png)
-   
-    ![](Images/lab1-E2t2-img2.png)
+    ![](Images/MS-900-img-2.png)
 
-1. Now we will try to create a folder and upload files to it. On the OneDrive page click on **+Add New** and select the **Folder** option, when prompted provide a name **Demo** for your folder and click on **Create**.
+1. Now we will try to create a folder and upload files to it. On the OneDrive page click on **+ Add New** and select the **Folder** option, when prompted provide a name **Demo** for your folder, you can also choose the folder color and click on **Create**.
   
     ![](Images/ms-900.lab1.a.png)
    
-    ![](Images/MS-900-Mod-1(demo).png)
-   
-    > **Note**: if you are not able to see your folder refresh the page.
+    > **Note**: Select **My Files**, if you are not able to see your folder refresh the page.
 
-1. Now select the newly created folder. From the top navigation bar select, **+Add New** and select **Files upload**, when prompted choose the file(s) that you want to upload.
+    > **Note:** Before proceeding to the next step, download any png or mp4 files from the browser inside the C-drive.
+
+1. From the top navigation bar select, **+ Add New** and select **Files upload**, when prompted choose the file(s) that you want to upload.
 
     ![](Images/ms-900.lab1.1.png)
    
 1. Select the new file that you have uploaded, click on the **Show actions** icon. This will display the list of actions that can be performed.
 
-    ![](Images/lab1-E2t2-img6.png)
+    ![](Images/MS-900-preview.png)
    
-1. On the **OneDrive** page select the file or folder you want to share by selecting the circle in the upper corner of the item. Select Share at the top of the page.
+1. On the **OneDrive** page select the file or folder you want to share by selecting the items. Select Share at the top of the page.
 
-    ![](Images/lab1-E2t2-img7.png)
+    ![](Images/MS-900-share.png)
 
 1. Select **Anyone with the link can edit to customize the link** option. Set the options you want on your link, then select Apply when you are done.
 
-    ![](Images/lab1-E2t2-img8.png)
+    ![](Images/MS-900-send.png)
 
       - **Anyone**: Gives access to anyone who receives this link, whether they receive it directly from you or forwarded from someone else. This may include people outside of your organization.
       
@@ -223,17 +211,19 @@ OneDrive gives you one place to store, share, and sync your work or school files
   
 1. You can explore through other options available in the **OneDrive**. 
 
-#### Task 3: Explore yammer.
+#### Task 3: Explore engage.
 
-With yammer people can openly connect and engage across the organization, from here we can discuss ideas, share and collaborate with others.
+With engage people can openly connect across the organization, from here we can discuss ideas, share and collaborate with others.
 
-1. Switch back to the office365 user account portal and from  **App launcher** under **Apps**, select **Yammer**.
+1. Select **App launcher**, under **Apps** select **engage**.
 
-    >**Note**: inside the Apps options, if Yammer is not listed, then select **Explore all your Apps**, on the apps page search and select **Yammer**.
+    >**Note:** inside the Apps options, if engage is not listed, then select **Explore all your Apps**, on the apps page search and select **engage**.
+
+    >**Note:** If Welcome to the new Viva Engage! pop-up appears, select **Close**.
  
-    ![](Images/MS-900-Mod-1(homeyammer).png)
+    ![](Images/MS-900-engage.png)
 
-1. From the left-hand pane, select **communities**, click on **+ Create a community**, enter a name **Management** for your community. In **Members** search and select the users you want to add. Based on your requirement choose **Public** or **Private** access by click on **Edit**, after this click on **Create**.
+1. From the left-hand pane, select **Communities**, click on **+ Create a community**, enter a name **Management** for your community. In **Members** search and select the users you want to add. Based on your requirement choose **Public** or **Private** access by click on **Edit**, after this click on **Create**.
 
     ![](Images/M1E2T3Step2.101.png)  
    
@@ -245,47 +235,47 @@ With yammer people can openly connect and engage across the organization, from h
   
     ![](Images/MS-900-discussion.png)
    
-1. Switch back to the yammer account of the user whom you added to the group and verify if the user is added to the newly created group and if the posts are visible.
+1. Switch back to the engage account of the user whom you added to the group and verify if the user is added to the newly created group and if the posts are visible.
   
-1. We can also send a private message to Yammer.
+1. We can also send a private message to engage.
    
-1. In the yammer dashboard click on the **Inbox** icon and select  **New Private Messages**. 
+1. In the engage dashboard click on the **Inbox** icon and select  **New Private Messages**. 
    
-    ![](Images/MS-900-Mod-1(management).png)
+    ![](Images/MS-900-inbox.png)
 
 1. In the **Add People** field, search or type the person's username. A drop-down menu of usernames that matches will appear.
 
 1. Select the person's name that you want the message to be sent to, enter the message you want to send and then click on **Post**.
 
-    ![](Images/img160.png)
+    ![](Images/MS-900-post.png)
 
 1. The recipient of the message will receive a notification about the received private message.
 
-1. Explore through other options available in yammer.
+1. Explore through other options available in engage.
 
 #### Task 4: Explore Microsoft Stream
 
 Microsoft Stream is an Enterprise Video service where people in your organization can upload, view, and share videos securely. You can share recordings of classes, meetings, presentations, training sessions, or other videos that aid your team's collaboration.
 
-1. In the office365 portal from the  **App launcher**, inside the Apps options, if stream is not listed, then select **Explore all your Apps**, on the apps page search and select **Stream**.
+1. Select **App launcher**, inside the Apps options, select **Explore all your Apps**, on the apps page search and select **Stream**.
 
-1. In the Stream page, select the **upload** button, and open **File Explorer > Windows (C:) > AllFiles**  and select the video.
+1. In the Stream page, select the **upload** button, and open **File Explorer > Windows (C:) > AllFiles**  and select the video. Select **Upload** on **Upload to** pop-up.
    
     ![](Images/MS-900-upload.png)
     
     > **Note**: if you are not able to see your video keep refreshing the page.
 
-1. Select the video, by clicking on the video, it will redirect you to the new-browser
+1. It will show you the **Upload complete** pop-up, select **Open**. It will redirect you to the new-browser.
 
 1. Now, click on **Share** button.
 
     ![](Images/MS-900-share1.png)
  
- 1. Select **Anyone with the link can edit >**, now select **People you choose** and click on **Apply**, then enter the Username, click on **Send**.
+ 1. Select **Anyone with the link can edit.**, now select **People you choose** and click on **Apply**, then enter the Username, click on **Send**.
 
     ![](Images/MS-900people.png)
    
-1. Open a new browser window and log in to the outlook https://outlook.office.com/mail with the username in which you have sent the email, now check you have received an email after that click **open** it will open the video that you have shared it from the user you created.
+1. Open a New InPrivate window and log in to the outlook https://outlook.office.com/mail with the username in which you have sent the email, now check you have received an email after that click **open** it will open the video that you have shared it from the user you created.
 
     ![](Images/MS-900-email.png)
 
@@ -297,13 +287,17 @@ Microsoft Stream is an Enterprise Video service where people in your organizatio
 
 Microsoft SharePoint helps organizations share and manage content, knowledge, and applications to Empower teamwork, quickly find information and seamlessly collaborate across the organization.
 
-1. In the office365 portal from the  **App launcher**, inside the Apps options, select **SharePoint**, if SharePoint is not listed, then select **Explore all your Apps**, on the apps page search and select **SharePoint**.
+1. Select **App launcher**, inside the Apps options, select **SharePoint**.
+
+    >**Note:** If SharePoint is not listed, then select **Explore all your Apps**, on the apps page search and select **SharePoint**.
+
+    >**Note:** On the **News from sites** page, select **Close**.
 
 1. From the top of the SharePoint page, click **+ Create site (1)**  option. A site creation wizard will appear on the right-hand side of the screen. Based on your requirement you can select **Team site** or **Communication site**. For now, select **Team site (2)**.
    
     ![](Images/img36.png)
    
-    - Provide a name for your site
+    - Provide a name for your site:- **Sales-Demo**
     
     - In the Privacy settings section, choose either **Public - anyone in the organization can access this site** or **Private - only members can access this site** to control who has access to your site.
 
@@ -311,35 +305,35 @@ Microsoft SharePoint helps organizations share and manage content, knowledge, an
     
      ![](Images/img37.png)
     
-    -  In **Add group members** pane, under **Add additional owners box** add the names or email addresses of others whom you would want to allow to manage this site. In **Add members box**, add the name or email address of users you want to be a member of your site and then click **Finish**.  
+    -  In **Add site owners and members** pane, under **Add members** box, add the name or email address of users you want to be a member of your site and then click **Finish**.  
+
+        >**Note:** Close **Next steps** pop-up.
     
 1. Now let us add and publish a page on the newly created site.
 
 1. On the home page of the site click on **New**, and then select **Page**.
 
-    ![](Images/img48.png)
+    ![](Images/MS-900-sharepoint.png)
 
-1. Choose a page template to start with. For now, you can select **Blank** template and click on **Create page**.
+    >**Note:** if the **Welcome!** page appears, select **Close**.
 
-    ![](Images/img49.png)
+1. Choose a page template to start with. For now, you can select **Blank (1)** template and click on **Create page (2)**.
+
+    ![](Images/ms-900-blank.png)
 
 1. Add a page name in the title area. You can customize the title area with an image, a choice of four layouts, text above the title, the ability to change the displayed author, and you can show or hide the published date.
 
 1. Select **Edit web part** icon from here you can select the layout of your choice, Set alignment, Add text above the title.
   
-    ![](Images/img50.png)
+    ![](Images/ms-900-sales.png)
 
-1. To add an image click on **Add image** button in the toolbar on the left. 
+1. To add an image click on **Browse image** button in the toolbar on the left. 
 
-    ![](Images/img51.png)
+    ![](Images/Ms-900-browseimage.png)
 
 1. Choose a recent image or get an image from a web search, your site, your computer, or a link. If your organization has specified a set of approved images, you'll be able to choose from that set under Your organization. 
 
-    ![](Images/img52.png)
-
-1. In **text box** you can add the content. Click on **+** to add content like text, documents, video and more. 
-
-    ![](Images/img162.png)
+1. You can also add a new section, by clicking on **+** to add content.
 
 1. When done, click **Publish**. This will publish a page on your site.
 
@@ -349,31 +343,31 @@ Microsoft SharePoint helps organizations share and manage content, knowledge, an
 
 List helps to track information and organize your work. With a list, one can track issues, assets, routines, contacts, inventory and more using customizable views and smart rules and alerts to keep everyone in sync.
 
-1. In the office365 portal from the  **App launcher**, inside the Apps options, select **Explore all your Apps**, on the apps page search and select **Lists**. 
+1. From the  **App launcher**, inside the Apps options, select **Explore all your Apps**, on the apps page search and select **Lists**, On **Welcome to Lists** page, select **Close** it. 
 
 1. On the home page of **Lists** click on **+ New list**. 
 
-    ![](Images/img38.png)
+    ![](Images/MS-900-lists.png)
 
 1. From the Create a list page, select **+ Blank list**. 
  
-    - Provide a name for your list and if needed provide a description.
+    - Provide a name **Assets** for your list and if needed provide a description.
     
     - Choose a colour and icon for your list.
     
     - In **Save to** select a location where you want your list to be saved. Click on **Create**
    
-     ![](Images/img39.png)
+     ![](Images/MS-900-lists-1.png)
     
  1. When your list opens, to add an item to your list, select **+ New**. 
    
-     ![](Images/img167.png)
+     ![](Images/MS-900-new.png)
  
  1. Under **Title** provide a name for your new item, if needed you can also add attachments. Once done click on **Save**.
  
- 1. To add a column, select **+ Add column**. In the dropdown, select the type of column you want.
+ 1. To add a column, select **+ Add column**. In the dropdown, select the type of column you want, and select **Next**.
  
-    ![](Images/MS-900-Mod-1-(sales).png)
+    ![](Images/MS-900-next.png)
  
  1. In the Create a column panel, in the **Name** field, enter a title or column heading. Enter any other required information. The number of fields will vary with the column type you choose. The above example is for a **Multiple lines of text** field.
  
@@ -399,19 +393,21 @@ List helps to track information and organize your work. With a list, one can tra
 
     ![](Images/M1E2T6Step12.png)
 
-1. In the Alert Title section, change the title for the alert if you want. Within the **Send Alerts To section**, enter the usernames or email addresses of people you want alerts to be sent to.
+1. Select the ellipse (...) icon, select **Manage my alerts**.
 
     ![](Images/img01.png)
    
     ![](Images/img02.png)
-   
+
+1. Select **Add Alert**.
+
     ![](Images/img03.png)
-   
+
+1. On **My Alerts on this Site > New Alert** , select your document.
+    
     ![](Images/img04.png)
 
 1. Select a delivery method, choose the types of changes that you want to be notified about, how frequently you want to receive the alert. Once done select **Ok**.
-
-    ![](Images/img174.png)
 
 1. Depending on how your site and servers are set up, whenever changes are made the person you created an alert for will be notified.
 

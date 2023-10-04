@@ -132,21 +132,21 @@ In this task, we will learn how to schedule a meeting in Teams.
 
 1. Select **calendar** from the left-hand menu of the team's pane. 
 
+     >**Note:** Close the Bring your team together pop-up.
+
 1. Now click on  **+ New Meeting**. 
   
     ![](Images/M2E1T2Step201.png)
    
    - **Add Title:** Provide a name for the meeting.
    
-   - **Add required attendees:** Search and select the odl user.
+   - **Add required attendees:** Search and select the ODL user.
    
    - Select the date and time as per the requirements.
    
    - If it's a recurring meeting, open the dropdown menu next to **Does not repeat** (just below the date). Choose how often you want it to occur from the default options or select Custom to create your own cadence.
    
    - If you want to have your meeting in a channel, select the appropriate channel. If you’d rather not, skip it. When you have a meeting in a channel, everyone in the team will be able to see it and join in on that channel.
-   
-      ![](Images/img42.png)
    
 1. Microsoft Teams also has a **Scheduling Assistant** which you can use to find a time that works for everyone. 
 
@@ -178,8 +178,6 @@ In this task, we will create and assign a messaging policy to the user from the 
 
     * Name: **Services-Team**
     * Privacy: **Private**
-
-      ![](Images/MS-900-Mod-2-addateam.png)
 
 1. Click on your newly created team. From here you can add or remove **Members**, **channels** to the team and manage them.
 

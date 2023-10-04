@@ -10,8 +10,8 @@ In this walkthrough, we will create M365 groups, forms, plans and assign tasks u
 
 After completing this lab, you will be able to:
 
-- Enable MFA in AAD using Conditional Access Policy.
-- Do Azure AD PIM
+- Enable MFA in Microsoft Entra ID using Conditional Access Policy.
+- Do Privileged Identity Management.
 - Explore MS Threat Protection Portal.
 - Use Microsoft Secure Score.
 - Discover Apps with Microsoft Defender for Cloud Apps.
