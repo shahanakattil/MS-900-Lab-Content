@@ -16,15 +16,15 @@ In this lab, you will perform:
 
 ### Exercise 1: Browse Licensing center in M365 Admin center 
 
-1. From the navigation menu scroll down to  **Billing (1)** and select **Licenses (2)**.
-   
-1. On the **Subscriptions (3)** page you can see all Available licenses, Assigned licenses. Click on **any (4)** of the License to get detailed information.
+1. Open an Edge browser, paste this URL **https://admin.microsoft.com/Adminportal/Home#/homepage** to open, Microsoft 365 admin center.
 
-   ![](Images/ms-900lab5.a.png)
+1. On **Microsoft 365 admin centre** page, from the left-hand navigation menu scroll down to  **Billing (1)** and select **Licenses (2)**.
+   
+1. On the **Subscriptions (3)** page you can see all Available licenses, Assigned licenses. Click on any (4) of the License to get detailed information.
 
 1. This displays the list of users to whom the selected license is assigned. From here you can assign the license to users.
 
-1. Click on **Assign licenses**.
+1. Click on **+ Assign licenses**.
 
    ![](Images/ms900L5I2.png)
 

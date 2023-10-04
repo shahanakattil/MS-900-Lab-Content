@@ -85,17 +85,17 @@ In this lab, you will perform:
 
     ![](Images/MS-900-Mod-3-(m365).png)
 
-12. On the Basics page, type a name for the group as **Sales-demo** and a description(optional). Click **Next**.
+12. On the Basics page, type a name for the group as **Sales-demo** and a description (optional). Click **Next**.
 
     ![](Images/MS-900-Mod-3-basics.png)   
 
-13. On the **Owners** page, choose the name of ODL user who will be designated to manage the group, then select **Add**. Anyone who is a group owner can add or remove members and have unique permissions like the ability to delete conversations from the shared inbox or change different settings about the group. Click **Next**.
+13. On the **Owners** page, ,select **+ Assign owners**, choose the name of ODL user who will be designated to manage the group, then select **Add**. Anyone who is a group owner can add or remove members and have unique permissions like the ability to delete conversations from the shared inbox or change different settings about the group. Click **Next**.
  
     ![](Images/M3E2T1Step601.png) 
   
     ![](Images/ms-900-ex-1-task-2-st-4(2).png)  
    
-14. Now in the **Members** page, select **Add members**, select ODL user, click on **Add**, and then click **Next**. (**Note:** you can join 20 member including owner) 
+14. Now in the **Members** page, select **+ Add members**, select ODL user, click on **Add**, and then click **Next**. (**Note:** you can join 20 member including owner) 
    
     ![](Images/ms-900-ex-1-task-2-st-5.png)
 
@@ -109,7 +109,7 @@ In this lab, you will perform:
 
 18. In the admin center, select the name of the group that you want to add members to. Refresh the page if you are not able to see the newly created group.
 
-19. To add members to the group, navigate to the **Membership tab (1)** and select **Members (2)**.
+19. To add members to the group, navigate to the **Membership (1)** tab and select **Members (2)**.
 
     ![](Images/MS-900-Mod-3-salesdemo.png)
    
@@ -123,7 +123,7 @@ Microsoft Planner provides a hub for team members to create plans, organize, and
 
 In this exercise, you will learn how to create a new plan in Microsoft Planner and add members to it, create buckets, add tasks to the bucket and assign the tasks to the user.
 
-1. In the Office365 portal click on the **App launcher** at the top left corner.
+1. In the Microsoft 365 admin center page click on the **App launcher** at the top left corner.
  
 1. click on **Explore all your apps** and in the search bar search for **Planner**, this will redirect you to the **Planner** web page.
     
@@ -148,8 +148,8 @@ In this exercise, you will learn how to create a new plan in Microsoft Planner a
     - Enter a name for the plan as **Demo-plan**.
     
     - Make the plan public if you want it to be visible to the rest of your organization and in search results or make it private if you want only plan members to see it.
-    
-    - Click on **Add to an existing Microsoft 365 Group** to create your plan in an existing group ( i.e. **Sales-demo**) or if needed you can create a new group.
+
+    - Click on **Add to an existing group** to create your plan in an existing group ( i.e. **Sales-demo**) or if needed you can create a new group.
     
     - Select **Create**.
     
@@ -215,11 +215,11 @@ In this task, you will learn how to create a Form using Microsoft Forms.
 
 1. Open a browser where admin center page is opened.
 
-1. In the office365 portal from the **App launcher** click on **Explore all your apps** and in the search bar search for **Forms**, this will redirect you to the **Forms** web page.
+1. In the Microsoft 365 admin center page from the **App launcher** click on **Explore all your apps** and in the search bar search for **Forms**, this will redirect you to the **Forms** web page.
 
-1. Select **+ New Form** to begin creating your form.
+1. Select **New Form** to begin creating your form.
 
-    ![](Images/form.png)
+    ![](Images/MS-900-forms.png)
 
 1. Enter a name **Demo** for your form, you can also enter a description if needed.
 
@@ -231,11 +231,11 @@ In this task, you will learn how to create a Form using Microsoft Forms.
 
     ![](Images/img67.png)
 
-1. For now select **Choice**. Enter the text you want to display for the question and each of the choices. Click **+ Add Option** to add more choices than the default two choices.
+1. For now select **Choice**. Enter the text you want to display for the question and each of the choices. Select **+ Add Option** to add more choices than the default two choices.
 
-1. Click **+ Add New** to add more questions to your form. Now select **Text**.
+1. Select **+ Add New** to add more questions to your form. Now select **Text**.
 
-1. For text questions, select the **Long Answer** option if you want a larger text box displayed on the form.
+1. For text questions, select the **Long Answer** toggle, if you want a larger text box displayed on the form.
 
 1. Text questions also allow you to set restrictions when you need to have numbers as the answer. For this click on **More options** button, and then select **Restrictions**.
     
@@ -245,13 +245,11 @@ In this task, you will learn how to create a Form using Microsoft Forms.
   
 1. Now from the drop-down select **Between** and enter the number. You can choose to restrict the numbers by selecting from the various options such as Greater than, Less than, Between, and many others.
    
-    ![](Images/img70.png)
+    ![](Images/MS-900-selectnew.png)
 
-1. Click Preview at the top of the design window to see how your form will look on a computer. Now to test your form, enter answers for the questions in preview mode and then click on **Submit**.
+1. Select **Preview** at the top of the design window to see how your form will look on a computer. Now to test your form, enter answers for the questions in preview mode and then click on **Submit**.
 
 1. Now click on **Back** and select the **Responses tab**. From here you can see summary information data about your form, such as the number of responses and the average time it took for respondents to complete your form.
-
-    ![](Images/MS-900-Mod-3-responses.png)
 
 #### Task 2 : Change a form Style and Sharing forms
 
@@ -277,11 +275,11 @@ In this exercise, you will learn how to create a Power BI report from sample dat
 
 In this task, you will import sample financial data to PowerBI. 
 
-1. Open a browser where admin center page is opened.
+1. Navigate to the browser where admin center page is opened.
 
-1. In office365 portal from the **App launcher** click on **Explore all your apps** and in the search bar search for **Power BI**, this will redirect you to the **Power BI** web page.
+1. From the **App launcher** click on **Explore all your apps** and in the search bar search for **Power BI**, this will redirect you to the **Power BI** web page.
 
-1. Download sample data from https://docs.microsoft.com/en-us/power-bi/create-reports/sample-financial-download
+1. Open a new browser, copy-paste this URL "https://docs.microsoft.com/en-us/power-bi/create-reports/sample-financial-download". Now, select **Financial Sample Excel workbook**, it will re-direct you to an Excel sheet, and select **Download file** to download the sample data. 
 
      ![](Images/MS-900-Mod-1-directly.png)
    
@@ -300,7 +298,8 @@ In this task, you will import sample financial data to PowerBI.
 
 In this task, you will visualize the data which you had imported in the previous task by using various visualization options available in PowerBI.
 
-1. Go to setting in power Bi, click on Admin Portal, further search for map and enable the **Use Azure Maps visual** Apply.
+1. Go to setting in power Bi, click on Admin Portal, further search for map and enable the **Use Azure Maps visual**, and select **Apply**.
+    ![](Images/MS-900-admin.png)
 
     ![](Images/MS-900-13.1.png)
     
@@ -324,7 +323,7 @@ In this task, you will visualize the data which you had imported in the previous
 
    ![](Images/selectexcel.png)
             
-1. Go to My workspace and click on **Financial Sample** dataset. From the dropdown of **+Create a report (1)**, click on **Start from scratch (2)**.
+1. Go to My workspace and click on **Financial Sample** dataset. From the dropdown of **+ Create a report (1)**, click on **Start from scratch (2)**.
 
     ![](Images/fromscrach.png)
 
@@ -332,7 +331,7 @@ In this task, you will visualize the data which you had imported in the previous
 
     ![](Images/FVD.png)
 
-1. Now let us create visualizations (1) by selecting **Clustered column chart (2)**. Let's say your manager wants to see profit over time. To do this, From Data (3) pane, select **Date (4)**. Power BI updates the column chart to show profit by date, in the Dataf pane select **Profit (5)**. Power BI displays a column chart with one column.
+1. Now let us create **Visualizations (1)** by selecting **Clustered column chart (2)**. Let's say your manager wants to see profit over time. To do this, From **Data (3)** pane, select **Date (4)**. Power BI updates the column chart to show profit by date, in the Data pane select **Profit (5)**. Power BI displays a column chart with one column.
 
     ![](Images/graph.png)
   
@@ -356,13 +355,13 @@ In this task, you will visualize the data which you had imported in the previous
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-### Exercise 5 : Explore Microsoft EndPoint Manager 
+### Exercise 5 : Explore Microsoft EndPoint Manager [Read-Only]
 
 Microsoft Endpoint Manager helps deliver the modern workplace and modern management to keep your data secure, in the cloud and on-premises. Endpoint Manager includes the services and tools you use to manage and monitor mobile devices, desktop computers, virtual machines, embedded devices, and servers. Endpoint Manager combines services like Microsoft Intune, Configuration Manager, Desktop Analytics, co-management, and Windows Autopilot.
 
 In this exercise, you will explore various available options in Microsoft EndPoint Manager.
 
-Before we explore the Microsoft EndPoint Manager, we need to activate the **Enterprise Mobility + Security e5** license in order to view the **Endpoint Manager**.
+Before we explore the Microsoft EndPoint Manager, we need to activate the **Enterprise Mobility + Security E5** license in order to view the **Endpoint Manager**.
 
 1. Open a browser where admin center is opened.
 
@@ -398,23 +397,19 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
       
       ![](Images/img198.png)
 
-1. From the Devices **Overview** pane, select **Compliance policies**  to display details about compliance policies for devices managed by Intune. Compliance requirements are essentially rules, such as requiring a device PIN or requiring device encryption. Device compliance policies define the rules and settings that a device must follow to be considered compliant.
+1. Under **Policy** section, select **Compliance policies**, to display details about compliance policies for devices managed by Intune. Compliance requirements are essentially rules, such as requiring a device PIN or requiring device encryption. Device compliance policies define the rules and settings that a device must follow to be considered compliant.
 
-    ![](Images/img200.png)
+1. Navigate back to the Devices, select **Conditional Access** under **Policy**, and select **+ Create new policy** to see all the options available. Now select **X** to exit.
 
-1. From the Devices Overview pane, select **Conditional Access**, and select **+ Create New Policy** to see all the options available. Now select **X** to exit out of **New -Conditional Access policy** pop up.
-
-   Conditional Access refers to ways you can control the devices and apps that are allowed to connect to your email and company resources.
+   >**Note:** Conditional Access refers to ways you can control the devices and apps that are allowed to connect to your email and company resources.
 
     ![](Images/ca.png)
 
 1. From the navigation pane, select Devices and select **Configuration profiles** to display details about device profiles in Intune(**Reference**). 
 
-    ![](Images/img201.png)
-
 1. From here you can configure device restriction settings like Allow or block the device camera, control access to Google Play, app stores, viewing documents, and gaming, and much more.
 
-1. In the  **Devices** page select **All devices** to display details about your Intune tenant's enrolled devices. This list of devices show key details about compliance, OS version, and last check-in date. 
+1. In the  **Devices** page, select **All devices** to display details about your Intune tenant's enrolled devices. This list of devices show key details about compliance, OS version, and last check-in date. 
 
     ![](Images/img202.png)
   
@@ -430,7 +425,7 @@ Before we explore the Microsoft EndPoint Manager, we need to activate the **Ente
     
     >**Note:** You will have different list of users in your environment.
 
-1. From the navigation pane, select **Groups** to display details about the Azure Active Directory (Azure AD) groups included in Intune. As an Intune admin, you use groups to manage devices and users.
+1. From the navigation pane, select **Groups** to display details about the Microsoft Entra ID groups included in Intune. As an Intune admin, you use groups to manage devices and users.
 
     >**Note:** You will have different list of groups in your environment.
      
