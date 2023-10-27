@@ -2,21 +2,25 @@
 
 1. Once the environment is provisioned, a virtual machine and lab guide will get loaded into your browser. Use this virtual machine throughout the workshop to perform the lab.
 
-    ![](../images/start2.png)
+    ![](Images/start2.png)
 
 1. To get the lab environment details, you can select the **Environment** tab.
 
-    ![](../images/env.png)
+    ![](Images/env.png)
 
 1. You can also open the Lab Guide on a separate full window by selecting the **Split Window** button on the top right corner.
 
-    ![](../images/splitw.png)
+    ![](Images/splitw.png)
 
 1. To hide the lab guide, click on **>** symbol and to expose the lab guide, click on **<** symbol.   
 
 1. Also, you can **start, stop and restart** the virtual machines from the **Resources** tab.
 
-    ![](../images/res.png)
+    ![](Images/res.png)
+
+1. Click on **Next** from the bottom right and follow the instructions to perform the lab.
+
+    ![](Images/Instr4.png)  
 
 # Sign up for Office 365 E5 free trial
 
