@@ -65,40 +65,40 @@ Now you're all set to explore the powerful world of technology. Feel free to rea
 
 ![](Images/Ms900-01.png)
 
-1. Then on the next screen, in that enter following **Email (1)** and then click on **Next (2)**.
+2. Then on the next screen, in that enter following **Email (1)** and then click on **Next (2)**.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject> 
 
 ![](Images/Ms900-03.png)
 
-1. Click on **Sign in**.
+3. Click on **Sign in**.
 
 ![](Images/ms900-2.png)
    
-1. Now enter the following **Password** and click on **Sign in**.
+4. Now enter the following **Password** and click on **Sign in**.
 
    * Password: <inject key="AzureAdUserPassword"></inject>
    
 ![](Images/pass.png)
 
-1. If you see the pop-up **Action Required**, click **Ask Later**.
+5. If you see the pop-up **Action Required**, click **Ask Later**.
 
 ![](Images/asklater.png)
    
-1. If for **Stay signed in** Pops up, Check **Do't show this again (1)** box and click on **yes (2)**.   
+6. If for **Stay signed in** Pops up, Check **Do't show this again (1)** box and click on **yes (2)**.   
 
 ![](Images/stayin.png)
 
-1. Enter the **Phone Number**, and click on *Text Me* then it will ask you to enter a **verification code** which you have received as a SMS to the provided number and click on **Start your free trail**.
+7. Enter the **Phone Number**, and click on *Text Me* then it will ask you to enter a **verification code** which you have received as a SMS to the provided number and click on **Start your free trail**.
    >**Note**: Make sure to provide a valid mobile number and choose the country code properly.
 
 ![](Images/Ms900-06.png)
 
-1. It show you the confirmation Message, Click on **Try Now**.
+8. It show you the confirmation Message, Click on **Try Now**.
 
 ![](Images/Ms900-07.png)
 
-1. Will receive the order Receipt and click on **Continue**.
+9. Will receive the order Receipt and click on **Continue**.
 
 ![](Images/Ms900-08.png)
    
@@ -108,22 +108,22 @@ Now you're all set to explore the powerful world of technology. Feel free to rea
 
 ![](Images/ms900-1.png)   
    
-1. Now enter the following **Password** and click on **Sign in**.
+2. Now enter the following **Password** and click on **Sign in**.
 
    * Password: <inject key="AzureAdUserPassword"></inject>
    
 ![](Images/pass.png)
    
-1. If you see the pop-up **Action Required**, click **Ask Later**.
+3. If you see the pop-up **Action Required**, click **Ask Later**.
 
 ![](Images/asklater.png)
    
-1. It show you the confirmation Message, Click on **Try Now**.  
+4. It show you the confirmation Message, Click on **Try Now**.  
 
 ![](Images/ms900Etrynow.png)
 
-1. Will receive the order Receipt and click on **Continue**.
+5. Will receive the order Receipt and click on **Continue**.
 
 ![](Images/Ms900-E.png)
    
-1. On the Next Page, Learn about how to create users, assign a license to the users, verify custom domains in the tenant, and see how to access other admin centers.
+6. On the Next Page, Learn about how to create users, assign a license to the users, verify custom domains in the tenant, and see how to access other admin centers.
