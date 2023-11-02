@@ -59,7 +59,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
 
-# Sign up for Office 365 E5 free trial
+## Sign up for Office 365 E5 free trial
 
 1. Open a new browser window, click on the [Sign up for Office 365 E5 free trial](https://www.microsoft.com/en-us/microsoft-365/enterprise/office-365-e5) and click on **Free trial**.
 
@@ -102,7 +102,7 @@ Now you're all set to explore the powerful world of technology. Feel free to rea
 
    ![](Images/Ms900-08.png)
    
-# Sign up for Enterprise Mobility + Security E5 Trial
+## Sign up for Enterprise Mobility + Security E5 Trial
 
 1. Open a new browser window, click on the [Sign up for Enterprise Mobility + Security E5 Trial](https://go.microsoft.com/fwlink/p/?LinkID=2188847&clcid=0x409&culture=en-us&country=US) and click on **Continue**.
 
