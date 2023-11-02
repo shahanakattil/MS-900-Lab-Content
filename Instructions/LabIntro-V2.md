@@ -60,7 +60,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
 
 
-# Sign up for Office 365 E5 free trial
+## Sign up for Office 365 E5 free trial
 
 1. Open a new browser window, click on the [Sign up for Office 365 E5 free trial](https://www.microsoft.com/en-us/microsoft-365/enterprise/office-365-e5) and click on **Free trial**.
 
