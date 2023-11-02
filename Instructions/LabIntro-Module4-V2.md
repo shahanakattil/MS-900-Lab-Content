@@ -34,20 +34,20 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
 1. On your virtual machine, click on the Azure Portal icon as shown below:
  
-    ![Launch Azure Portal](Images/sc900-image(1).png)
+![Launch Azure Portal](Images/sc900-image(1).png)
 
  
 2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
-    ![Enter Your Username](Images/sc900-image-1.png)
+![Enter Your Username](Images/sc900-image-1.png)
  
 3. Next, provide your password:
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-   ![Enter Your Password](Images/sc900-image-2.png)
+![Enter Your Password](Images/sc900-image-2.png)
  
 4. If prompted to stay signed in, you can click "No."
  
@@ -55,7 +55,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
 6. Click "Next" from the bottom right corner to embark on your Lab journey!
  
-     ![Start Your Azure Journey](Images/sc900-image(3).png)
+![Start Your Azure Journey](Images/sc900-image(3).png)
  
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
 
@@ -63,67 +63,67 @@ Now you're all set to explore the powerful world of technology. Feel free to rea
 
 1. Open a new browser window, click on the [Sign up for Office 365 E5 free trial](https://www.microsoft.com/en-us/microsoft-365/enterprise/office-365-e5) and click on **Free trial**.
 
-   ![](Images/Ms900-01.png)
+![](Images/Ms900-01.png)
 
 1. Then on the next screen, in that enter following **Email (1)** and then click on **Next (2)**.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject> 
 
-   ![](Images/Ms900-03.png)
+![](Images/Ms900-03.png)
 
 1. Click on **Sign in**.
 
-   ![](Images/ms900-2.png)
+![](Images/ms900-2.png)
    
 1. Now enter the following **Password** and click on **Sign in**.
 
    * Password: <inject key="AzureAdUserPassword"></inject>
    
-   ![](Images/pass.png)
+![](Images/pass.png)
 
 1. If you see the pop-up **Action Required**, click **Ask Later**.
 
-   ![](Images/asklater.png)
+![](Images/asklater.png)
    
 1. If for **Stay signed in** Pops up, Check **Do't show this again (1)** box and click on **yes (2)**.   
 
-    ![](Images/stayin.png)
+![](Images/stayin.png)
 
 1. Enter the **Phone Number**, and click on *Text Me* then it will ask you to enter a **verification code** which you have received as a SMS to the provided number and click on **Start your free trail**.
    >**Note**: Make sure to provide a valid mobile number and choose the country code properly.
 
-   ![](Images/Ms900-06.png)
+![](Images/Ms900-06.png)
 
 1. It show you the confirmation Message, Click on **Try Now**.
 
-   ![](Images/Ms900-07.png)
+![](Images/Ms900-07.png)
 
 1. Will receive the order Receipt and click on **Continue**.
 
-   ![](Images/Ms900-08.png)
+![](Images/Ms900-08.png)
    
 ## Sign up for Enterprise Mobility + Security E5 Trial
 
 1. Open a new browser window, click on the [Sign up for Enterprise Mobility + Security E5 Trial](https://go.microsoft.com/fwlink/p/?LinkID=2188847&clcid=0x409&culture=en-us&country=US) and click on **Continue**.
 
-   ![](Images/ms900-1.png)   
+![](Images/ms900-1.png)   
    
 1. Now enter the following **Password** and click on **Sign in**.
 
    * Password: <inject key="AzureAdUserPassword"></inject>
    
-   ![](Images/pass.png)
+![](Images/pass.png)
    
 1. If you see the pop-up **Action Required**, click **Ask Later**.
 
-   ![](Images/asklater.png)
+![](Images/asklater.png)
    
 1. It show you the confirmation Message, Click on **Try Now**.  
 
-   ![](Images/ms900Etrynow.png)
+![](Images/ms900Etrynow.png)
 
 1. Will receive the order Receipt and click on **Continue**.
 
-   ![](Images/Ms900-E.png)
+![](Images/Ms900-E.png)
    
 1. On the Next Page, Learn about how to create users, assign a license to the users, verify custom domains in the tenant, and see how to access other admin centers.
